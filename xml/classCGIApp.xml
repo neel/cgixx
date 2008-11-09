@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classCGIApp" kind="class" prot="public">
+    <compoundname>CGIApp</compoundname>
+    <includes refid="cgiapp_8h" local="no">cgiapp.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classCGIApp_1415ef96deba764d9353ae05548f0163d" prot="public" static="no">
+        <type>void(CGIApp::*</type>
+        <definition>typedef void(CGIApp::* CGIApp::callback)(void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCGIApp_19c25b08bb6ee94f975242bc4acf1ae5d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CGIApp::mSegment</definition>
+        <argsstring></argsstring>
+        <name>mSegment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="49" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGIApp_149d029886ad20e0793aa04d5806115c5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CGIApp::segmentCount</definition>
+        <argsstring></argsstring>
+        <name>segmentCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="50" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGIApp_1f7ff7224f4b7571b1e2370e3ec3db849" prot="private" static="no" mutable="no">
+        <type>callbackMap</type>
+        <definition>callbackMap CGIApp::clbk</definition>
+        <argsstring></argsstring>
+        <name>clbk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="52" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classCGIApp_1ea9874942a00dad0159a4ace1b06e37f" prot="private" static="no">
+        <type>map&lt; std::string, callback &gt;</type>
+        <definition>typedef map&lt;std::string, callback&gt; CGIApp::callbackMap</definition>
+        <argsstring></argsstring>
+        <name>callbackMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="51" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCGIApp_1a0557786630070e8d5f6e52a41eb8c3d" prot="public" static="no" mutable="no">
+        <type><ref refid="classSession" kindref="compound">Session</ref></type>
+        <definition>Session CGIApp::session</definition>
+        <argsstring></argsstring>
+        <name>session</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="63" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGIApp_19236be29e3ee77ce8e3abe1099bc1b08" prot="public" static="no" mutable="no">
+        <type><ref refid="classRequest" kindref="compound">Request</ref></type>
+        <definition>Request CGIApp::request</definition>
+        <argsstring></argsstring>
+        <name>request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="64" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGIApp_19967505c639f07b5f122a3831a7a8c0d" prot="public" static="no" mutable="no">
+        <type><ref refid="classHttpHeader" kindref="compound">HttpHeader</ref></type>
+        <definition>HttpHeader CGIApp::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="65" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGIApp_1af939e485f16fb76dc6afda69c0219c9" prot="public" static="no" mutable="no">
+        <type>auto_ptr&lt; <ref refid="classCGILayout" kindref="compound">CGILayout</ref> &gt;</type>
+        <definition>auto_ptr&lt;CGILayout&gt; CGIApp::layout</definition>
+        <argsstring></argsstring>
+        <name>layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="79" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classCGIApp_14a8d9bb9b6b1fb94d023b29b2ac869ca" prot="protected" static="no" mutable="yes">
+        <type>stringstream</type>
+        <definition>stringstream CGIApp::res</definition>
+        <argsstring></argsstring>
+        <name>res</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="67" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCGIApp_1c55aa3b6261d78713936889d6ac0b1d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CGIApp::callRoute</definition>
+        <argsstring>(const string &amp;urlPath)</argsstring>
+        <name>callRoute</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>urlPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="158" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1793863dd291caad8ad02001434a9b0ff" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string CGIApp::detectRoute</definition>
+        <argsstring>() const </argsstring>
+        <name>detectRoute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads the url entered by the user and returns appropiate segment key which is callbck map&apos;s key. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="54" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="171" bodyend="179"/>
+        <references refid="classCGIApp_1997ed3bd9e2be736e1ba16e24f48e5f5" compoundref="cgiapp_8cpp" startline="40" endline="42">getSegmentCount</references>
+        <references refid="classCGIApp_1da3364dd58834ffe4a1cb431c692ab22" compoundref="cgiapp_8cpp" startline="143" endline="147">routeExists</references>
+        <references refid="classCGIApp_1d42378733ebb1e1d95bcce3ff69b8a1c" compoundref="cgiapp_8cpp" startline="202" endline="232">segment</references>
+        <references refid="classVar_15ceac5f71482331f8d76135e94b7236b" compoundref="var_8cpp" startline="44" endline="46">Var::toString</references>
+        <referencedby refid="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" compoundref="cgiapp_8cpp" startline="84" endline="117">exec</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCGIApp_1997ed3bd9e2be736e1ba16e24f48e5f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CGIApp::getSegmentCount</definition>
+        <argsstring>() const </argsstring>
+        <name>getSegmentCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the total number of segments. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="56" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="40" bodyend="42"/>
+        <referencedby refid="classCGIApp_1793863dd291caad8ad02001434a9b0ff" compoundref="cgiapp_8cpp" startline="171" endline="179">detectRoute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1cade0baf4a1463d6c162d782211fca57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGIApp::setRoute</definition>
+        <argsstring>(const string &amp;urlpath, callback fn)</argsstring>
+        <name>setRoute</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>urlpath</declname>
+        </param>
+        <param>
+          <type>callback</type>
+          <declname>fn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="58" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="139" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1da3364dd58834ffe4a1cb431c692ab22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CGIApp::routeExists</definition>
+        <argsstring>(const string &amp;urlPath) const </argsstring>
+        <name>routeExists</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>urlPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><xrefsect id="todo_1_todo000002"><xreftitle>Todo</xreftitle><xrefdescription><para>testing </para></xrefdescription></xrefsect></para>        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="59" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="143" bodyend="147"/>
+        <referencedby refid="classCGIApp_1793863dd291caad8ad02001434a9b0ff" compoundref="cgiapp_8cpp" startline="171" endline="179">detectRoute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1302c39463ab050d38816e084b18c2e1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CGIApp::removeRoute</definition>
+        <argsstring>(const string &amp;urlPath)</argsstring>
+        <name>removeRoute</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>urlPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="60" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="149" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1d42378733ebb1e1d95bcce3ff69b8a1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var CGIApp::segment</definition>
+        <argsstring>(unsigned int n, bool concat=false, bool fromRoot=false) const </argsstring>
+        <name>segment</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>concat</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fromRoot</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an url segment. e.g. if my url is <computeroutput><ulink url="http://localhost/bin/myapp.bin/x/y/z/m/n/o/p">http://localhost/bin/myapp.bin/x/y/z/m/n/o/p</ulink></computeroutput> the following code will produce. <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j=0;j&lt;<ref refid="classCGIApp_1997ed3bd9e2be736e1ba16e24f48e5f5" kindref="member">getSegmentCount</ref>()+1;j++){</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res&lt;&lt;j&lt;&lt;</highlight><highlight class="stringliteral">&quot;<sp/>|<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<ref refid="classCGIApp_1d42378733ebb1e1d95bcce3ff69b8a1c" kindref="member">segment</ref>(j)&lt;&lt;</highlight><highlight class="stringliteral">&quot;<sp/>|<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<ref refid="classCGIApp_1d42378733ebb1e1d95bcce3ff69b8a1c" kindref="member">segment</ref>(j,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)&lt;&lt;</highlight><highlight class="stringliteral">&quot;<sp/>|<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<ref refid="classCGIApp_1d42378733ebb1e1d95bcce3ff69b8a1c" kindref="member">segment</ref>(j,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)&lt;&lt;</highlight><highlight class="stringliteral">&quot;<sp/>|<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<ref refid="classCGIApp_1d42378733ebb1e1d95bcce3ff69b8a1c" kindref="member">segment</ref>(j,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)&lt;&lt;endl&lt;&lt;</highlight><highlight class="stringliteral">&quot;&lt;br<sp/>/&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+</programlisting> the following Output <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/>|<sp/>z<sp/>|<sp/>/z<sp/>|<sp/>/x/y/z<sp/>|<sp/>/x/y/z</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>|<sp/>m<sp/>|<sp/>/z/m<sp/>|<sp/>/x/y/z/m<sp/>|<sp/>/x/y/z/m</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2<sp/>|<sp/>n<sp/>|<sp/>/z/m/n<sp/>|<sp/>/x/y/z/m/n<sp/>|<sp/>/x/y/z/m/n</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3<sp/>|<sp/>o<sp/>|<sp/>/z/m/n/o<sp/>|<sp/>/x/y/z/m/n/o<sp/>|<sp/>/x/y/z/m/n/o</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4<sp/>|<sp/>p<sp/>|<sp/>/z/m/n/o/p<sp/>|<sp/>/x/y/z/m/n/o/p<sp/>|<sp/>/x/y/z/m/n/o/p</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/>|<sp/><sp/><sp/>|<sp/>/z/m/n/o/p<sp/>|<sp/>/x/y/z/m/n/o/p<sp/>|<sp/>/x/y/z/m/n/o/p</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6<sp/>|<sp/><sp/><sp/>|<sp/>/z/m/n/o/p<sp/>|<sp/>/x/y/z/m/n/o/p<sp/>|<sp/>/x/y/z/m/n/o/p</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7<sp/>|<sp/><sp/><sp/>|<sp/>/z/m/n/o/p<sp/>|<sp/>/x/y/z/m/n/o/p<sp/>|<sp/>/x/y/z/m/n/o/p</highlight></codeline>
+</programlisting> <simplesect kind="attention"><para>when you use segment(j, false, true) its automatically converted to segment(j, true, true) cause segment(j, false, true) has no sense </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="61" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="202" bodyend="232"/>
+        <references refid="classRequest_12258f75b55fcea9dc1a0d5dc35e7131b" compoundref="apprequest_8h" startline="67">Request::pathInfo</references>
+        <referencedby refid="classCGIApp_1793863dd291caad8ad02001434a9b0ff" compoundref="cgiapp_8cpp" startline="171" endline="179">detectRoute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_17be0b33ce05adbcb57aa4415f55e8241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGIApp::CGIApp</definition>
+        <argsstring>()</argsstring>
+        <name>CGIApp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="69" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_16cbff2dc921e226e7bae002e0e9bbf7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGIApp::CGIApp</definition>
+        <argsstring>(CGILayout *l)</argsstring>
+        <name>CGIApp</name>
+        <param>
+          <type><ref refid="classCGILayout" kindref="compound">CGILayout</ref> *</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="70" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_12aea644ab7f90c71c77f12cd3a924118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGIApp::~CGIApp</definition>
+        <argsstring>()</argsstring>
+        <name>~CGIApp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="71" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1d94e9010ba20af8e820783749e8f7cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGIApp::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start method. System&apos;s own initialization method.You can&apos;t override <ref refid="classCGIApp_1d94e9010ba20af8e820783749e8f7cc8" kindref="member">start()</ref> method. it will get automatically called to initialize <ref refid="classCGIApp" kindref="compound">CGIApp</ref> System. e.g. make request, header, session member variable(s). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="72" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="51" bodyend="54"/>
+        <references refid="classHttpHeader_13fcbac375fff89e1a32fadf19f0e5bdf" compoundref="httpheader_8cpp" startline="31" endline="33">HttpHeader::addHeader</references>
+        <references refid="classSession_147baf956cead0046fcbac45c572c70d3" compoundref="session_8cpp" startline="84" endline="94">Session::start</references>
+        <referencedby refid="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" compoundref="cgiapp_8cpp" startline="84" endline="117">exec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1b795cf55e9a7cfc91a53343f776da218" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CGIApp::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Option Initialization method. If you have this method on your own sub Class init method of that one will be invoked. The default <ref refid="classCGIApp_1b795cf55e9a7cfc91a53343f776da218" kindref="member">init()</ref> method provided by base class <ref refid="classCGIApp_1b795cf55e9a7cfc91a53343f776da218" kindref="member">CGIApp::init()</ref> does nothing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="73" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="125" bodyend="127"/>
+        <referencedby refid="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" compoundref="cgiapp_8cpp" startline="84" endline="117">exec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1cf296ca22725ff695c3dfea628fa3803" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CGIApp::subMain</definition>
+        <argsstring>()=0</argsstring>
+        <name>subMain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_155dde1c3f93ad6654a4c236e0d3129b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CGIApp::destroy</definition>
+        <argsstring>()</argsstring>
+        <name>destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optional onDestroy Method. If you have a <ref refid="classCGIApp_155dde1c3f93ad6654a4c236e0d3129b7" kindref="member">destroy()</ref> method on your own sub class that method will be invoked. the default <ref refid="classCGIApp_155dde1c3f93ad6654a4c236e0d3129b7" kindref="member">destroy()</ref> method <ref refid="classCGIApp_155dde1c3f93ad6654a4c236e0d3129b7" kindref="member">CGIApp::destroy()</ref> does nothing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="75" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="135" bodyend="137"/>
+        <referencedby refid="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" compoundref="cgiapp_8cpp" startline="84" endline="117">exec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_19d7d937724bafb58dfb455411c8b5e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGIApp::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stop method. System&apos;s own stop method.You can&apos;t override <ref refid="classCGIApp_19d7d937724bafb58dfb455411c8b5e86" kindref="member">stop()</ref> method. it will get automatically called to when your subMain() finishes. it Commits all session Data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="76" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="64" bodyend="66"/>
+        <references refid="classSession_1513ec9f06c9774e5095a0ceb0f20bd7a" compoundref="session_8cpp" startline="107" endline="109">Session::commit</references>
+        <referencedby refid="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" compoundref="cgiapp_8cpp" startline="84" endline="117">exec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CGIApp::exec</definition>
+        <argsstring>()</argsstring>
+        <name>exec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>meant to be called from Main. <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">myApp:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classCGIApp" kindref="compound">CGIApp</ref>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>subMain();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>......</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv){</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>myApp<sp/>app(argc,<sp/>argv);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>app.exec();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="77" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="84" bodyend="117"/>
+        <references refid="classHttpHeader_1772318e75967f72837d37ccc285669ce" compoundref="httpheader_8cpp" startline="34" endline="43">HttpHeader::commit</references>
+        <references refid="classCGIApp_155dde1c3f93ad6654a4c236e0d3129b7" compoundref="cgiapp_8cpp" startline="135" endline="137">destroy</references>
+        <references refid="classCGIApp_1793863dd291caad8ad02001434a9b0ff" compoundref="cgiapp_8cpp" startline="171" endline="179">detectRoute</references>
+        <references refid="classCGIApp_1b795cf55e9a7cfc91a53343f776da218" compoundref="cgiapp_8cpp" startline="125" endline="127">init</references>
+        <references refid="classHttpHeader_126efee956ff58117816c234424bb269f" compoundref="httpheader_8cpp" startline="44" endline="46">HttpHeader::isCommited</references>
+        <references refid="classCGIApp_1d94e9010ba20af8e820783749e8f7cc8" compoundref="cgiapp_8cpp" startline="51" endline="54">start</references>
+        <references refid="classCGIApp_19d7d937724bafb58dfb455411c8b5e86" compoundref="cgiapp_8cpp" startline="64" endline="66">stop</references>
+      </memberdef>
+      <memberdef kind="function" id="classCGIApp_1df70bb53c6547674c1cf5f137bac33b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGIApp::setLayout</definition>
+        <argsstring>(CGILayout *l)</argsstring>
+        <name>setLayout</name>
+        <param>
+          <type><ref refid="classCGILayout" kindref="compound">CGILayout</ref> *</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="81" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.cpp" bodystart="234" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="36">
+        <label>stringstream</label>
+      </node>
+      <node id="48">
+        <label>auto_ptr&lt; CGILayout &gt;</label>
+      </node>
+      <node id="35">
+        <label>CGIApp</label>
+        <link refid="classCGIApp"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>res</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>mSegment</edgelabel>
+        </childnode>
+        <childnode refid="41" relation="usage">
+          <edgelabel>request</edgelabel>
+        </childnode>
+        <childnode refid="46" relation="usage">
+          <edgelabel>session</edgelabel>
+        </childnode>
+        <childnode refid="48" relation="usage">
+          <edgelabel>layout</edgelabel>
+        </childnode>
+      </node>
+      <node id="40">
+        <label>string</label>
+      </node>
+      <node id="39">
+        <label>std::vector&lt; string &gt;</label>
+      </node>
+      <node id="37">
+        <label>HttpHeader</label>
+        <link refid="classHttpHeader"/>
+        <childnode refid="38" relation="usage">
+          <edgelabel>headersList</edgelabel>
+        </childnode>
+      </node>
+      <node id="38">
+        <label>StringList</label>
+        <link refid="classStringList"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>ParamsMap</label>
+        <link refid="classParamsMap"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>ParamsMapCore&lt; string, Var &gt;</label>
+        <link refid="classParamsMapCore"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>sessionCookieParams</label>
+        <link refid="classsessionCookieParams"/>
+        <childnode refid="40" relation="usage">
+          <edgelabel>domain
+path</edgelabel>
+        </childnode>
+      </node>
+      <node id="41">
+        <label>Request</label>
+        <link refid="classRequest"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+        <childnode refid="43" relation="usage">
+          <edgelabel>post
+cookie
+get</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>headerRef</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>pathInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="42">
+        <label>RawRequest</label>
+        <link refid="classRawRequest"/>
+      </node>
+      <node id="46">
+        <label>Session</label>
+        <link refid="classSession"/>
+        <childnode refid="47" relation="usage">
+          <edgelabel>cookieParams</edgelabel>
+        </childnode>
+        <childnode refid="43" relation="usage">
+          <edgelabel>item</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>sessPath
+id
+name
+sessFileName</edgelabel>
+        </childnode>
+        <childnode refid="41" relation="usage">
+          <edgelabel>requestRef</edgelabel>
+        </childnode>
+      </node>
+      <node id="45">
+        <label>std::map&lt;string , Var &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" line="45" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiapp.h" bodystart="45" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classCGIApp_1415ef96deba764d9353ae05548f0163d" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>callback</name></member>
+      <member refid="classCGIApp_1ea9874942a00dad0159a4ace1b06e37f" prot="private" virt="non-virtual"><scope>CGIApp</scope><name>callbackMap</name></member>
+      <member refid="classCGIApp_1c55aa3b6261d78713936889d6ac0b1d5" prot="private" virt="non-virtual"><scope>CGIApp</scope><name>callRoute</name></member>
+      <member refid="classCGIApp_17be0b33ce05adbcb57aa4415f55e8241" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>CGIApp</name></member>
+      <member refid="classCGIApp_16cbff2dc921e226e7bae002e0e9bbf7d" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>CGIApp</name></member>
+      <member refid="classCGIApp_1f7ff7224f4b7571b1e2370e3ec3db849" prot="private" virt="non-virtual"><scope>CGIApp</scope><name>clbk</name></member>
+      <member refid="classCGIApp_155dde1c3f93ad6654a4c236e0d3129b7" prot="public" virt="virtual"><scope>CGIApp</scope><name>destroy</name></member>
+      <member refid="classCGIApp_1793863dd291caad8ad02001434a9b0ff" prot="private" virt="non-virtual"><scope>CGIApp</scope><name>detectRoute</name></member>
+      <member refid="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>exec</name></member>
+      <member refid="classCGIApp_1997ed3bd9e2be736e1ba16e24f48e5f5" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>getSegmentCount</name></member>
+      <member refid="classCGIApp_19967505c639f07b5f122a3831a7a8c0d" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>header</name></member>
+      <member refid="classCGIApp_1b795cf55e9a7cfc91a53343f776da218" prot="public" virt="virtual"><scope>CGIApp</scope><name>init</name></member>
+      <member refid="classCGIApp_1af939e485f16fb76dc6afda69c0219c9" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>layout</name></member>
+      <member refid="classCGIApp_19c25b08bb6ee94f975242bc4acf1ae5d" prot="private" virt="non-virtual"><scope>CGIApp</scope><name>mSegment</name></member>
+      <member refid="classCGIApp_1302c39463ab050d38816e084b18c2e1b" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>removeRoute</name></member>
+      <member refid="classCGIApp_19236be29e3ee77ce8e3abe1099bc1b08" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>request</name></member>
+      <member refid="classCGIApp_14a8d9bb9b6b1fb94d023b29b2ac869ca" prot="protected" virt="non-virtual"><scope>CGIApp</scope><name>res</name></member>
+      <member refid="classCGIApp_1da3364dd58834ffe4a1cb431c692ab22" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>routeExists</name></member>
+      <member refid="classCGIApp_1d42378733ebb1e1d95bcce3ff69b8a1c" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>segment</name></member>
+      <member refid="classCGIApp_149d029886ad20e0793aa04d5806115c5" prot="private" virt="non-virtual"><scope>CGIApp</scope><name>segmentCount</name></member>
+      <member refid="classCGIApp_1a0557786630070e8d5f6e52a41eb8c3d" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>session</name></member>
+      <member refid="classCGIApp_1df70bb53c6547674c1cf5f137bac33b1" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>setLayout</name></member>
+      <member refid="classCGIApp_1cade0baf4a1463d6c162d782211fca57" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>setRoute</name></member>
+      <member refid="classCGIApp_1d94e9010ba20af8e820783749e8f7cc8" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>start</name></member>
+      <member refid="classCGIApp_19d7d937724bafb58dfb455411c8b5e86" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>stop</name></member>
+      <member refid="classCGIApp_1cf296ca22725ff695c3dfea628fa3803" prot="public" virt="pure-virtual"><scope>CGIApp</scope><name>subMain</name></member>
+      <member refid="classCGIApp_12aea644ab7f90c71c77f12cd3a924118" prot="public" virt="non-virtual"><scope>CGIApp</scope><name>~CGIApp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="config_8h" kind="file">
+    <compoundname>config.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="config_8h_10ee1617ff2f6885ef384a3dd46f9b9d7" prot="public" static="no">
+        <name>HAVE_DLFCN_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="5" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1b90a030ff2790ebdc176660a6dd2a478" prot="public" static="no">
+        <name>HAVE_INTTYPES_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="8" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1e93a78f9d076138897af441c9f86f285" prot="public" static="no">
+        <name>HAVE_MEMORY_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="11" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1b6cd6d1c63c1e26ea2d4537b77148354" prot="public" static="no">
+        <name>HAVE_STDINT_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="14" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_19e0e434ec1a6ddbd97db12b5a32905e0" prot="public" static="no">
+        <name>HAVE_STDLIB_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="17" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1405d10d46190bcb0320524c54eafc850" prot="public" static="no">
+        <name>HAVE_STRINGS_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="20" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1d4c234dd1625255dc626a15886306e7d" prot="public" static="no">
+        <name>HAVE_STRING_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="23" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1ce156430ba007d19b4348a950d0c692b" prot="public" static="no">
+        <name>HAVE_SYS_STAT_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="26" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_169dc70bea5d1f8bd2be9740e974fa666" prot="public" static="no">
+        <name>HAVE_SYS_TYPES_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="29" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1219b06937831d0da94d801ab13987639" prot="public" static="no">
+        <name>HAVE_UNISTD_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="32" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1ca8570fb706c81df371b7f9bc454ae03" prot="public" static="no">
+        <name>PACKAGE</name>
+        <initializer>&quot;cgixx&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="35" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_11d1d2d7f8d2f95b376954d649ab03233" prot="public" static="no">
+        <name>PACKAGE_BUGREPORT</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="38" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_11c0439e4355794c09b64274849eb0279" prot="public" static="no">
+        <name>PACKAGE_NAME</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="41" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1c73e6f903c16eca7710f92e36e1c6fbf" prot="public" static="no">
+        <name>PACKAGE_STRING</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="44" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1f415af6bfede0e8d5453708afe68651c" prot="public" static="no">
+        <name>PACKAGE_TARNAME</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="47" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a326a05d5e30f9e9a4bb0b4469d5d0c0" prot="public" static="no">
+        <name>PACKAGE_VERSION</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="50" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1550e5c272cc3cf3814651721167dcd23" prot="public" static="no">
+        <name>STDC_HEADERS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_11c6d5de492ac61ad29aec7aa9a436bbf" prot="public" static="no">
+        <name>VERSION</name>
+        <initializer>&quot;0.1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/debug/config.h" line="56" bodyfile="/home/neel/dev/c++/cgixx/debug/config.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>config.h.<sp/><sp/>Generated<sp/>from<sp/>config.h.in<sp/>by<sp/>configure.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>config.h.in.<sp/><sp/>Generated<sp/>from<sp/>configure.in<sp/>by<sp/>autoheader.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;dlfcn.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_DLFCN_H<sp/>1</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;inttypes.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_INTTYPES_H<sp/>1</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;memory.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_MEMORY_H<sp/>1</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;stdint.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_STDINT_H<sp/>1</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;stdlib.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_STDLIB_H<sp/>1</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;strings.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_STRINGS_H<sp/>1</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;string.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_STRING_H<sp/>1</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;sys/stat.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_SYS_STAT_H<sp/>1</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;sys/types.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_SYS_TYPES_H<sp/>1</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;unistd.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_UNISTD_H<sp/>1</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Name<sp/>of<sp/>package<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE<sp/>&quot;cgixx&quot;</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>address<sp/>where<sp/>bug<sp/>reports<sp/>for<sp/>this<sp/>package<sp/>should<sp/>be<sp/>sent.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_BUGREPORT<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>full<sp/>name<sp/>of<sp/>this<sp/>package.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_NAME<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>full<sp/>name<sp/>and<sp/>version<sp/>of<sp/>this<sp/>package.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_STRING<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>one<sp/>symbol<sp/>short<sp/>name<sp/>of<sp/>this<sp/>package.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_TARNAME<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>version<sp/>of<sp/>this<sp/>package.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_VERSION<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>ANSI<sp/>C<sp/>header<sp/>files.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STDC_HEADERS<sp/>1</highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Version<sp/>number<sp/>of<sp/>package<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSION<sp/>&quot;0.1&quot;</highlight></codeline>
+    </programlisting>
+    <location file="/home/neel/dev/c++/cgixx/debug/config.h"/>
+  </compounddef>
+</doxygen>

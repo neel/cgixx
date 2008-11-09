@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classCGILayout" kind="class" prot="public">
+    <compoundname>CGILayout</compoundname>
+    <includes refid="cgilayout_8h" local="no">cgilayout.h</includes>
+      <sectiondef kind="protected-type">
+      <memberdef kind="typedef" id="classCGILayout_1a8e4c0ba8f2d4ffd61d23113d79ac10e" prot="protected" static="no">
+        <type>multimap&lt; string, string &gt;</type>
+        <definition>typedef multimap&lt;string, string&gt; CGILayout::layoutParamsMap</definition>
+        <argsstring></argsstring>
+        <name>layoutParamsMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="43" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classCGILayout_106a766aacec0eab649552bf3c56957b9" prot="protected" static="no" mutable="no">
+        <type>stringstream</type>
+        <definition>stringstream CGILayout::mBody</definition>
+        <argsstring></argsstring>
+        <name>mBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="44" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGILayout_1ba13cd890ab3133f2c4c97a714cc3be0" prot="protected" static="no" mutable="yes">
+        <type>stringstream</type>
+        <definition>stringstream CGILayout::res</definition>
+        <argsstring></argsstring>
+        <name>res</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="45" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGILayout_19584075749fd10732c6b6175161bc0f5" prot="protected" static="no" mutable="no">
+        <type>layoutParamsMap</type>
+        <definition>layoutParamsMap CGILayout::mParams</definition>
+        <argsstring></argsstring>
+        <name>mParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="46" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCGILayout_1033c41fe758e78d0f185f398f9ba48af" prot="public" static="no" mutable="no">
+        <type>stringstream</type>
+        <definition>stringstream CGILayout::js</definition>
+        <argsstring></argsstring>
+        <name>js</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="48" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGILayout_1c6b8de6c57be3dc52e1689d5828430fb" prot="public" static="no" mutable="no">
+        <type>stringstream</type>
+        <definition>stringstream CGILayout::css</definition>
+        <argsstring></argsstring>
+        <name>css</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="49" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCGILayout_153ee20645aa48b21f0bbeb90422a6e07" prot="public" static="no" mutable="no">
+        <type><ref refid="classCSSBuilder" kindref="compound">CSSBuilder</ref></type>
+        <definition>CSSBuilder CGILayout::cssBldr</definition>
+        <argsstring></argsstring>
+        <name>cssBldr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="51" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCGILayout_1c5bd73276fedd502cf3867b8151cade9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCGILayout" kindref="compound">CGILayout</ref> &amp;</type>
+        <definition>CGILayout &amp; CGILayout::operator=</definition>
+        <argsstring>(const CGILayout &amp;l)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classCGILayout" kindref="compound">CGILayout</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_1f145bcb3587a7655ec72136c8ab580b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGILayout::CGILayout</definition>
+        <argsstring>()</argsstring>
+        <name>CGILayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="55" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_1b059968bd99bd649d2ac56d73a959119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGILayout::CGILayout</definition>
+        <argsstring>(const CGILayout &amp;l)</argsstring>
+        <name>CGILayout</name>
+        <param>
+          <type>const <ref refid="classCGILayout" kindref="compound">CGILayout</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="56" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_1f211716b753d557a0e3342c20412d5e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGILayout::~CGILayout</definition>
+        <argsstring>()</argsstring>
+        <name>~CGILayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="57" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_16ad5855339cd0b5d11c2529e098d9318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::addParam</definition>
+        <argsstring>(const string &amp;key, const string &amp;val)</argsstring>
+        <name>addParam</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="58" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_19cf8e286bb4192ef383f3c64f5689f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::setParam</definition>
+        <argsstring>(const string &amp;key, const string &amp;val)</argsstring>
+        <name>setParam</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="59" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_1e7403053e136c59c254a9f3378955073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::removeParams</definition>
+        <argsstring>(const string &amp;key)</argsstring>
+        <name>removeParams</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="60" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_175332461392d86dea747caa244da583c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::setTitle</definition>
+        <argsstring>(const string &amp;title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="61" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_118ae9f151e6e6c5603a24af24d2d9bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::setBody</definition>
+        <argsstring>(const stringstream &amp;content)</argsstring>
+        <name>setBody</name>
+        <param>
+          <type>const stringstream &amp;</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><xrefsect id="todo_1_todo000003"><xreftitle>Todo</xreftitle><xrefdescription><para>Testing </para></xrefdescription></xrefsect></para>        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="62" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_1a00ddbb5c9f0a1bdfa7ef2dcd0b02f5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::addJavaScript</definition>
+        <argsstring>(const string &amp;jsFileName)</argsstring>
+        <name>addJavaScript</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>jsFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="63" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_1c6439bbf4dff84cd53d8f64af72f9c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::addStyleSheet</definition>
+        <argsstring>(const string &amp;cssFileName)</argsstring>
+        <name>addStyleSheet</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>cssFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="64" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_15bb0e152e9bdba636bf45c279646f1fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::addMeta</definition>
+        <argsstring>(const string &amp;metaData)</argsstring>
+        <name>addMeta</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>metaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="65" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_11715d991cc1d1bc3fe997fd63df9ea2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CGILayout::layout</definition>
+        <argsstring>() const </argsstring>
+        <name>layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="67" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="138" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_1ceefb16d8a21fda1ea88463d4f19a081" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string CGILayout::getTitle</definition>
+        <argsstring>() const </argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="73" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_16b074c717d707283cec5b38e59ba3be1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const stringstream &amp;</type>
+        <definition>const stringstream &amp; CGILayout::getObStream</definition>
+        <argsstring>() const </argsstring>
+        <name>getObStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="74" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="172" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classCGILayout_17a29bfc1454394426d336a36dbc793f3" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::printMeta</definition>
+        <argsstring>() const </argsstring>
+        <name>printMeta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="69" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="102" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_1845949a079eb1d4edaa73e1cef2f437f" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::printJs</definition>
+        <argsstring>() const </argsstring>
+        <name>printJs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="70" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="111" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classCGILayout_182fa8c3fbf3e07779780dcb522fb6da8" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGILayout::printCss</definition>
+        <argsstring>() const </argsstring>
+        <name>printCss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="71" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.cpp" bodystart="120" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="63">
+        <label>stringstream</label>
+      </node>
+      <node id="60">
+        <label>CGILayout</label>
+        <link refid="classCGILayout"/>
+        <childnode refid="61" relation="usage">
+          <edgelabel>mParams</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>cssBldr</edgelabel>
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>mBody
+js
+res
+css</edgelabel>
+        </childnode>
+      </node>
+      <node id="62">
+        <label>CSSBuilder</label>
+        <link refid="classCSSBuilder"/>
+        <childnode refid="63" relation="usage">
+          <edgelabel>css</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>ruleSetHolder</edgelabel>
+        </childnode>
+      </node>
+      <node id="61">
+        <label>multimap&lt; string, string &gt;</label>
+      </node>
+      <node id="64">
+        <label>map&lt; string, string &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" line="41" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgilayout.h" bodystart="41" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classCGILayout_1a00ddbb5c9f0a1bdfa7ef2dcd0b02f5a" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>addJavaScript</name></member>
+      <member refid="classCGILayout_15bb0e152e9bdba636bf45c279646f1fe" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>addMeta</name></member>
+      <member refid="classCGILayout_16ad5855339cd0b5d11c2529e098d9318" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>addParam</name></member>
+      <member refid="classCGILayout_1c6439bbf4dff84cd53d8f64af72f9c60" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>addStyleSheet</name></member>
+      <member refid="classCGILayout_1f145bcb3587a7655ec72136c8ab580b0" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>CGILayout</name></member>
+      <member refid="classCGILayout_1b059968bd99bd649d2ac56d73a959119" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>CGILayout</name></member>
+      <member refid="classCGILayout_1c6b8de6c57be3dc52e1689d5828430fb" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>css</name></member>
+      <member refid="classCGILayout_153ee20645aa48b21f0bbeb90422a6e07" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>cssBldr</name></member>
+      <member refid="classCGILayout_16b074c717d707283cec5b38e59ba3be1" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>getObStream</name></member>
+      <member refid="classCGILayout_1ceefb16d8a21fda1ea88463d4f19a081" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>getTitle</name></member>
+      <member refid="classCGILayout_1033c41fe758e78d0f185f398f9ba48af" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>js</name></member>
+      <member refid="classCGILayout_11715d991cc1d1bc3fe997fd63df9ea2d" prot="public" virt="virtual"><scope>CGILayout</scope><name>layout</name></member>
+      <member refid="classCGILayout_1a8e4c0ba8f2d4ffd61d23113d79ac10e" prot="protected" virt="non-virtual"><scope>CGILayout</scope><name>layoutParamsMap</name></member>
+      <member refid="classCGILayout_106a766aacec0eab649552bf3c56957b9" prot="protected" virt="non-virtual"><scope>CGILayout</scope><name>mBody</name></member>
+      <member refid="classCGILayout_19584075749fd10732c6b6175161bc0f5" prot="protected" virt="non-virtual"><scope>CGILayout</scope><name>mParams</name></member>
+      <member refid="classCGILayout_1c5bd73276fedd502cf3867b8151cade9" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>operator=</name></member>
+      <member refid="classCGILayout_182fa8c3fbf3e07779780dcb522fb6da8" prot="protected" virt="non-virtual"><scope>CGILayout</scope><name>printCss</name></member>
+      <member refid="classCGILayout_1845949a079eb1d4edaa73e1cef2f437f" prot="protected" virt="non-virtual"><scope>CGILayout</scope><name>printJs</name></member>
+      <member refid="classCGILayout_17a29bfc1454394426d336a36dbc793f3" prot="protected" virt="non-virtual"><scope>CGILayout</scope><name>printMeta</name></member>
+      <member refid="classCGILayout_1e7403053e136c59c254a9f3378955073" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>removeParams</name></member>
+      <member refid="classCGILayout_1ba13cd890ab3133f2c4c97a714cc3be0" prot="protected" virt="non-virtual"><scope>CGILayout</scope><name>res</name></member>
+      <member refid="classCGILayout_118ae9f151e6e6c5603a24af24d2d9bea" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>setBody</name></member>
+      <member refid="classCGILayout_19cf8e286bb4192ef383f3c64f5689f0e" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>setParam</name></member>
+      <member refid="classCGILayout_175332461392d86dea747caa244da583c" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>setTitle</name></member>
+      <member refid="classCGILayout_1f211716b753d557a0e3342c20412d5e0" prot="public" virt="non-virtual"><scope>CGILayout</scope><name>~CGILayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

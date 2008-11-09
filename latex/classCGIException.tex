@@ -1,0 +1,41 @@
+\section{CGIException Class Reference}
+\label{classCGIException}\index{CGIException@{CGIException}}
+{\tt \#include $<$cgiexception.h$>$}
+
+Inherited by FileNotReadableException, and FileNotWritableException.
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\textbf{CGIException} (const string \&errMsg)\label{classCGIException_f53d72a8212748d248149d52e0bdce37}
+
+\item 
+\textbf{CGIException} (const string \&from, const string \&errStr)\label{classCGIException_cb06b9baf52d90d4af08ebe9f45a89eb}
+
+\item 
+const string \& \textbf{getMsg} () const \label{classCGIException_a23e3d6c37bdb51e61ef3a0a9f37a96f}
+
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+string \textbf{mErrMsg}\label{classCGIException_140051f4ca5601941ec7be922da06d1c}
+
+\end{CompactItemize}
+\subsection*{Friends}
+\begin{CompactItemize}
+\item 
+ostream \& \textbf{operator$<$$<$} (ostream \&o, {\bf CGIException} \&ex)\label{classCGIException_83dbc37442acdd6c18caa70a82be95e1}
+
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{Desc}
+\item[Author:]Neel Basu $<$neel$>$ \end{Desc}
+
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+cgiexception.h\item 
+cgiexception.cpp\end{CompactItemize}

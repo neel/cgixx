@@ -1,0 +1,110 @@
+\section{CGILayout Class Reference}
+\label{classCGILayout}\index{CGILayout@{CGILayout}}
+{\tt \#include $<$cgilayout.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf CGILayout} \& \textbf{operator=} (const {\bf CGILayout} \&l)\label{classCGILayout_c5bd73276fedd502cf3867b8151cade9}
+
+\item 
+\textbf{CGILayout} (const {\bf CGILayout} \&l)\label{classCGILayout_b059968bd99bd649d2ac56d73a959119}
+
+\item 
+void \textbf{addParam} (const string \&key, const string \&val)\label{classCGILayout_6ad5855339cd0b5d11c2529e098d9318}
+
+\item 
+void \textbf{setParam} (const string \&key, const string \&val)\label{classCGILayout_9cf8e286bb4192ef383f3c64f5689f0e}
+
+\item 
+void \textbf{removeParams} (const string \&key)\label{classCGILayout_e7403053e136c59c254a9f3378955073}
+
+\item 
+void \textbf{setTitle} (const string \&title)\label{classCGILayout_75332461392d86dea747caa244da583c}
+
+\item 
+void {\bf setBody} (const stringstream \&content)
+\item 
+void \textbf{addJavaScript} (const string \&jsFileName)\label{classCGILayout_a00ddbb5c9f0a1bdfa7ef2dcd0b02f5a}
+
+\item 
+void \textbf{addStyleSheet} (const string \&cssFileName)\label{classCGILayout_c6439bbf4dff84cd53d8f64af72f9c60}
+
+\item 
+void \textbf{addMeta} (const string \&metaData)\label{classCGILayout_5bb0e152e9bdba636bf45c279646f1fe}
+
+\item 
+virtual void \textbf{layout} () const \label{classCGILayout_1715d991cc1d1bc3fe997fd63df9ea2d}
+
+\item 
+string \textbf{getTitle} () const \label{classCGILayout_ceefb16d8a21fda1ea88463d4f19a081}
+
+\item 
+const stringstream \& \textbf{getObStream} () const \label{classCGILayout_6b074c717d707283cec5b38e59ba3be1}
+
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+stringstream \textbf{js}\label{classCGILayout_033c41fe758e78d0f185f398f9ba48af}
+
+\item 
+stringstream \textbf{css}\label{classCGILayout_c6b8de6c57be3dc52e1689d5828430fb}
+
+\item 
+{\bf CSSBuilder} \textbf{cssBldr}\label{classCGILayout_53ee20645aa48b21f0bbeb90422a6e07}
+
+\end{CompactItemize}
+\subsection*{Protected Types}
+\begin{CompactItemize}
+\item 
+typedef multimap$<$ string, string $>$ \textbf{layoutParamsMap}\label{classCGILayout_a8e4c0ba8f2d4ffd61d23113d79ac10e}
+
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+void \textbf{printMeta} () const \label{classCGILayout_7a29bfc1454394426d336a36dbc793f3}
+
+\item 
+void \textbf{printJs} () const \label{classCGILayout_845949a079eb1d4edaa73e1cef2f437f}
+
+\item 
+void \textbf{printCss} () const \label{classCGILayout_82fa8c3fbf3e07779780dcb522fb6da8}
+
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+stringstream \textbf{mBody}\label{classCGILayout_06a766aacec0eab649552bf3c56957b9}
+
+\item 
+stringstream \textbf{res}\label{classCGILayout_ba13cd890ab3133f2c4c97a714cc3be0}
+
+\item 
+layoutParamsMap \textbf{mParams}\label{classCGILayout_9584075749fd10732c6b6175161bc0f5}
+
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{Desc}
+\item[Author:]Neel Basu $<$neel$>$ \end{Desc}
+
+
+\subsection{Member Function Documentation}
+\index{CGILayout@{CGILayout}!setBody@{setBody}}
+\index{setBody@{setBody}!CGILayout@{CGILayout}}
+\subsubsection[setBody]{\setlength{\rightskip}{0pt plus 5cm}void CGILayout::setBody (const stringstream \& {\em content})}\label{classCGILayout_18ae9f151e6e6c5603a24af24d2d9bea}
+
+
+
+
+\begin{Desc}
+\item[{\bf Todo}]Testing \end{Desc}
+
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+cgilayout.h\item 
+cgilayout.cpp\end{CompactItemize}

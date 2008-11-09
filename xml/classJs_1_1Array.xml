@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classJs_1_1Array" kind="class" prot="public">
+    <compoundname>Js::Array</compoundname>
+    <basecompoundref refid="classJs_1_1JVar" prot="public" virt="non-virtual">Js::JVar</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">std::vector&lt; Js::JVar * &gt;</basecompoundref>
+    <includes refid="array_8h" local="no">array.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classJs_1_1Array_12a6194845d9a1181f9c16e972f25b3c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Js::Array::Array</definition>
+        <argsstring>()</argsstring>
+        <name>Array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/jsutil/array.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/jsutil/array.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classJs_1_1Array_1281e8fb0cb8374dd44d579be07b30bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Js::Array::~Array</definition>
+        <argsstring>()</argsstring>
+        <name>~Array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/jsutil/array.h" line="37" bodyfile="/home/neel/dev/c++/cgixx/cgi++/jsutil/array.cpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>std::vector&lt; Js::JVar * &gt;</label>
+      </node>
+      <node id="8">
+        <label>Js::Array</label>
+        <link refid="classJs_1_1Array"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Js::JVar</label>
+        <link refid="classJs_1_1JVar"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>std::vector&lt; Js::JVar * &gt;</label>
+      </node>
+      <node id="11">
+        <label>Js::Array</label>
+        <link refid="classJs_1_1Array"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Js::JVar</label>
+        <link refid="classJs_1_1JVar"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/jsutil/array.h" line="34" bodyfile="/home/neel/dev/c++/cgixx/cgi++/jsutil/array.h" bodystart="34" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classJs_1_1Array_12a6194845d9a1181f9c16e972f25b3c5" prot="public" virt="non-virtual"><scope>Js::Array</scope><name>Array</name></member>
+      <member refid="classJs_1_1JVar_1d2bc695a45a004f6abb9e32b054673e2" prot="public" virt="non-virtual"><scope>Js::Array</scope><name>JVar</name></member>
+      <member refid="classJs_1_1Array_1281e8fb0cb8374dd44d579be07b30bc7" prot="public" virt="non-virtual"><scope>Js::Array</scope><name>~Array</name></member>
+      <member refid="classJs_1_1JVar_15c0e98a646d1506f7773d339b40d786f" prot="public" virt="virtual"><scope>Js::Array</scope><name>~JVar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

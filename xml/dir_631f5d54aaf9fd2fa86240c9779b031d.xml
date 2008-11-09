@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="dir_631f5d54aaf9fd2fa86240c9779b031d" kind="dir">
+    <compoundname>dev/c++/cgixx/cgi++/jsutil/</compoundname>
+    <innerfile refid="array_8cpp">array.cpp</innerfile>
+    <innerfile refid="array_8h">array.h</innerfile>
+    <innerfile refid="bool_8cpp">bool.cpp</innerfile>
+    <innerfile refid="bool_8h">bool.h</innerfile>
+    <innerfile refid="function_8cpp">function.cpp</innerfile>
+    <innerfile refid="function_8h">function.h</innerfile>
+    <innerfile refid="jvar_8cpp">jvar.cpp</innerfile>
+    <innerfile refid="jvar_8h">jvar.h</innerfile>
+    <innerfile refid="number_8cpp">number.cpp</innerfile>
+    <innerfile refid="number_8h">number.h</innerfile>
+    <innerfile refid="object_8cpp">object.cpp</innerfile>
+    <innerfile refid="object_8h">object.h</innerfile>
+    <innerfile refid="string_8cpp">string.cpp</innerfile>
+    <innerfile refid="string_8h">string.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/jsutil/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classRawRequest" kind="class" prot="public">
+    <compoundname>RawRequest</compoundname>
+    <derivedcompoundref refid="classRequest" prot="public" virt="non-virtual">Request</derivedcompoundref>
+    <includes refid="request_8h" local="no">request.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classRawRequest_15882cca487fab9ea9e5a5080615a91fe" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::serverSoftware</definition>
+        <argsstring></argsstring>
+        <name>serverSoftware</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="28" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1400bcd9ca74ca19a6099dbe44485c0ec" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::serverName</definition>
+        <argsstring></argsstring>
+        <name>serverName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="29" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_10b078d2100685a1eff636bf451108475" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::gatewayInterface</definition>
+        <argsstring></argsstring>
+        <name>gatewayInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="30" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1101587a4e16537c759874c02cfb835ce" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::serverProtocol</definition>
+        <argsstring></argsstring>
+        <name>serverProtocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="31" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1a76c2bcb5ed1ea9340a3c4f467434b3a" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::serverPort</definition>
+        <argsstring></argsstring>
+        <name>serverPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="32" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1381657a90598626b650d299435ccc2fe" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::requestMethod</definition>
+        <argsstring></argsstring>
+        <name>requestMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="33" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1fcee8dfa43a28b2fda1aad9793391349" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::pathInfo</definition>
+        <argsstring></argsstring>
+        <name>pathInfo</name>
+        <reimplementedby refid="classRequest_12258f75b55fcea9dc1a0d5dc35e7131b">pathInfo</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="34" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1d88d08f7041b4b4667f7173fa30f89ce" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::pathTranslated</definition>
+        <argsstring></argsstring>
+        <name>pathTranslated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="35" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_18b3b50077361fe8038857941b4c60941" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::scriptName</definition>
+        <argsstring></argsstring>
+        <name>scriptName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1be27f24c3f50f2bfa5b2501f5c7bbc3e" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::queryString</definition>
+        <argsstring></argsstring>
+        <name>queryString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="37" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1652bc46690f5eaf659d3dfbe718261a6" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::remoteHost</definition>
+        <argsstring></argsstring>
+        <name>remoteHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="38" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1409dd05e1aaf7542c07a5e72713cbc2b" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::remoteAddr</definition>
+        <argsstring></argsstring>
+        <name>remoteAddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="39" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_119b3418081262722d3dc88eba8ea88b9" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::authType</definition>
+        <argsstring></argsstring>
+        <name>authType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="40" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_190c2ae337f995ccf05b40e937ba7ed70" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::remoteUser</definition>
+        <argsstring></argsstring>
+        <name>remoteUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="41" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_17387ab901307383a5751aa9cfa09322f" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::remoteIdent</definition>
+        <argsstring></argsstring>
+        <name>remoteIdent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="42" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1eef499890cd154a6c75196c66ebfc2d1" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::contentType</definition>
+        <argsstring></argsstring>
+        <name>contentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="43" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_13e554bfa7db98bea230359f72cacc5b9" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::contentLength</definition>
+        <argsstring></argsstring>
+        <name>contentLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="44" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_1eeac196e4a474a89f92250b58cc612fa" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::httpAccept</definition>
+        <argsstring></argsstring>
+        <name>httpAccept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="45" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRawRequest_17bd2530ef32a095ad6c06f9e780636cf" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* RawRequest::httpUserAgent</definition>
+        <argsstring></argsstring>
+        <name>httpUserAgent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="46" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRawRequest_116b2828fb315c5ba2e9b9889d33857e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RawRequest::RawRequest</definition>
+        <argsstring>()</argsstring>
+        <name>RawRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="48" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.cpp" bodystart="22" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_10a49d696afa7b8959c4b9c8c1c6016b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RawRequest::~RawRequest</definition>
+        <argsstring>()</argsstring>
+        <name>~RawRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="49" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.cpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1611f7e574e9327a4b28e8eaa2b0768da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getGatewayInterface</definition>
+        <argsstring>()</argsstring>
+        <name>getGatewayInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="50" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_10fe73e3bf7f06c826f1ce0559acab613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getServerSoftware</definition>
+        <argsstring>()</argsstring>
+        <name>getServerSoftware</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1e52072dc0f3b002d789307baf7d5b5de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getServerName</definition>
+        <argsstring>()</argsstring>
+        <name>getServerName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="56" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_184419c69c2ba9f098ace6b3a7adf3bf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getServerProtocol</definition>
+        <argsstring>()</argsstring>
+        <name>getServerProtocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="59" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1d3b574a09ab3b6c1ae11ccf31400d2cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getRequestMethod</definition>
+        <argsstring>()</argsstring>
+        <name>getRequestMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="62" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_12749bff43870643ed3dd0ede00a5193f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getServerPort</definition>
+        <argsstring>()</argsstring>
+        <name>getServerPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="65" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1747a33e22cdbed6cee706dbf6f7428c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getPathInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getPathInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="68" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1a1ff10d2be5d983ffc02e55a62399512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getAuthType</definition>
+        <argsstring>()</argsstring>
+        <name>getAuthType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="71" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1f0e2412413f43d0f400c1b72911bcf37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getContentType</definition>
+        <argsstring>()</argsstring>
+        <name>getContentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="74" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1f49d8635875c59424a289f92a3d75086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getHttpAccept</definition>
+        <argsstring>()</argsstring>
+        <name>getHttpAccept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="77" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="77" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_15656142f10afd281f484b65daf5a56f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getHttpUserAgent</definition>
+        <argsstring>()</argsstring>
+        <name>getHttpUserAgent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="80" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1ad970a1212174aeccfc461aba3a2b245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getPathTranslated</definition>
+        <argsstring>()</argsstring>
+        <name>getPathTranslated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="83" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1ada8af8d0f00a35a55f8c30633b96af1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getQueryString</definition>
+        <argsstring>()</argsstring>
+        <name>getQueryString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="86" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1bd82dafc5a3efe788e268f54a379b6e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getRemoteAddr</definition>
+        <argsstring>()</argsstring>
+        <name>getRemoteAddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="89" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1fc6f560a044e651a4b3518173a395c06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getRemoteHost</definition>
+        <argsstring>()</argsstring>
+        <name>getRemoteHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="92" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_12d50d93b2537dd3997f51406eb95c630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getRemoteIdent</definition>
+        <argsstring>()</argsstring>
+        <name>getRemoteIdent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="95" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_1f40681cfa92a731ed3d4e99cf898484c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getRemoteUser</definition>
+        <argsstring>()</argsstring>
+        <name>getRemoteUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="98" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_11063865b22136eb84b9f50b49d6b58f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getScriptName</definition>
+        <argsstring>()</argsstring>
+        <name>getScriptName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="101" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classRawRequest_11e4033850288b7aae27da893e98c35ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RawRequest::getContentLength</definition>
+        <argsstring>()</argsstring>
+        <name>getContentLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="104" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="104" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="267">
+        <label>Request</label>
+        <link refid="classRequest"/>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="266">
+        <label>RawRequest</label>
+        <link refid="classRawRequest"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/request.h" line="26" bodyfile="/home/neel/dev/c++/cgixx/cgi++/request.h" bodystart="26" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classRawRequest_119b3418081262722d3dc88eba8ea88b9" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>authType</name></member>
+      <member refid="classRawRequest_13e554bfa7db98bea230359f72cacc5b9" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>contentLength</name></member>
+      <member refid="classRawRequest_1eef499890cd154a6c75196c66ebfc2d1" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>contentType</name></member>
+      <member refid="classRawRequest_10b078d2100685a1eff636bf451108475" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>gatewayInterface</name></member>
+      <member refid="classRawRequest_1a1ff10d2be5d983ffc02e55a62399512" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getAuthType</name></member>
+      <member refid="classRawRequest_11e4033850288b7aae27da893e98c35ff" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getContentLength</name></member>
+      <member refid="classRawRequest_1f0e2412413f43d0f400c1b72911bcf37" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getContentType</name></member>
+      <member refid="classRawRequest_1611f7e574e9327a4b28e8eaa2b0768da" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getGatewayInterface</name></member>
+      <member refid="classRawRequest_1f49d8635875c59424a289f92a3d75086" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getHttpAccept</name></member>
+      <member refid="classRawRequest_15656142f10afd281f484b65daf5a56f5" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getHttpUserAgent</name></member>
+      <member refid="classRawRequest_1747a33e22cdbed6cee706dbf6f7428c5" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getPathInfo</name></member>
+      <member refid="classRawRequest_1ad970a1212174aeccfc461aba3a2b245" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getPathTranslated</name></member>
+      <member refid="classRawRequest_1ada8af8d0f00a35a55f8c30633b96af1" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getQueryString</name></member>
+      <member refid="classRawRequest_1bd82dafc5a3efe788e268f54a379b6e5" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getRemoteAddr</name></member>
+      <member refid="classRawRequest_1fc6f560a044e651a4b3518173a395c06" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getRemoteHost</name></member>
+      <member refid="classRawRequest_12d50d93b2537dd3997f51406eb95c630" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getRemoteIdent</name></member>
+      <member refid="classRawRequest_1f40681cfa92a731ed3d4e99cf898484c" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getRemoteUser</name></member>
+      <member refid="classRawRequest_1d3b574a09ab3b6c1ae11ccf31400d2cd" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getRequestMethod</name></member>
+      <member refid="classRawRequest_11063865b22136eb84b9f50b49d6b58f0" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getScriptName</name></member>
+      <member refid="classRawRequest_1e52072dc0f3b002d789307baf7d5b5de" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getServerName</name></member>
+      <member refid="classRawRequest_12749bff43870643ed3dd0ede00a5193f" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getServerPort</name></member>
+      <member refid="classRawRequest_184419c69c2ba9f098ace6b3a7adf3bf7" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getServerProtocol</name></member>
+      <member refid="classRawRequest_10fe73e3bf7f06c826f1ce0559acab613" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>getServerSoftware</name></member>
+      <member refid="classRawRequest_1eeac196e4a474a89f92250b58cc612fa" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>httpAccept</name></member>
+      <member refid="classRawRequest_17bd2530ef32a095ad6c06f9e780636cf" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>httpUserAgent</name></member>
+      <member refid="classRawRequest_1fcee8dfa43a28b2fda1aad9793391349" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>pathInfo</name></member>
+      <member refid="classRawRequest_1d88d08f7041b4b4667f7173fa30f89ce" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>pathTranslated</name></member>
+      <member refid="classRawRequest_1be27f24c3f50f2bfa5b2501f5c7bbc3e" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>queryString</name></member>
+      <member refid="classRawRequest_116b2828fb315c5ba2e9b9889d33857e5" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>RawRequest</name></member>
+      <member refid="classRawRequest_1409dd05e1aaf7542c07a5e72713cbc2b" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>remoteAddr</name></member>
+      <member refid="classRawRequest_1652bc46690f5eaf659d3dfbe718261a6" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>remoteHost</name></member>
+      <member refid="classRawRequest_17387ab901307383a5751aa9cfa09322f" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>remoteIdent</name></member>
+      <member refid="classRawRequest_190c2ae337f995ccf05b40e937ba7ed70" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>remoteUser</name></member>
+      <member refid="classRawRequest_1381657a90598626b650d299435ccc2fe" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>requestMethod</name></member>
+      <member refid="classRawRequest_18b3b50077361fe8038857941b4c60941" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>scriptName</name></member>
+      <member refid="classRawRequest_1400bcd9ca74ca19a6099dbe44485c0ec" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>serverName</name></member>
+      <member refid="classRawRequest_1a76c2bcb5ed1ea9340a3c4f467434b3a" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>serverPort</name></member>
+      <member refid="classRawRequest_1101587a4e16537c759874c02cfb835ce" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>serverProtocol</name></member>
+      <member refid="classRawRequest_15882cca487fab9ea9e5a5080615a91fe" prot="protected" virt="non-virtual"><scope>RawRequest</scope><name>serverSoftware</name></member>
+      <member refid="classRawRequest_10a49d696afa7b8959c4b9c8c1c6016b5" prot="public" virt="non-virtual"><scope>RawRequest</scope><name>~RawRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

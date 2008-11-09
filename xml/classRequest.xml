@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classRequest" kind="class" prot="public">
+    <compoundname>Request</compoundname>
+    <basecompoundref refid="classRawRequest" prot="public" virt="non-virtual">RawRequest</basecompoundref>
+    <includes refid="apprequest_8h" local="no">apprequest.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRequest_16081c76174ca3233c917a1a62aa5dc80" prot="private" static="no" mutable="no">
+        <type><ref refid="classHttpHeader" kindref="compound">HttpHeader</ref> &amp;</type>
+        <definition>HttpHeader&amp; Request::headerRef</definition>
+        <argsstring></argsstring>
+        <name>headerRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a reference to global HTTP header Object initialized by Constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="57" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classRequest_14f58d62030fbe7a46d8251b9f2212820" compoundref="apprequest_8cpp" startline="115" endline="127">setCookie</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classRequest_14b1c07094632856edbb5c3d30b8e2486" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string Request::weekDays</definition>
+        <argsstring>[7]</argsstring>
+        <name>weekDays</name>
+        <initializer>{&quot;Sun&quot;, &quot;Mon&quot;, &quot;Tue&quot;, &quot;Wed&quot;, &quot;Thu&quot;, &quot;Fri&quot;, &quot;Sat&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="63" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classRequest_1493e8a734c6ac6c8074a89374f9009ea" prot="public" static="no" mutable="no">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Request::get</definition>
+        <argsstring></argsstring>
+        <name>get</name>
+        <briefdescription>
+<para>Weekdays in 3character First Caps Case format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="64" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRequest_1dcfec9fe88e053a1d550aa7df0d91e53" prot="public" static="no" mutable="no">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Request::post</definition>
+        <argsstring></argsstring>
+        <name>post</name>
+        <briefdescription>
+<para>Hold&apos;s GET request parameters key value pairs. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="65" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" bodystart="65" bodyend="-1"/>
+        <referencedby refid="classRequest_1d02e928da3f50e3cc6d61150642d7692" compoundref="apprequest_8cpp" startline="32" endline="44">Request</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRequest_18cff9a564cdba76ad265c796788317a8" prot="public" static="no" mutable="no">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Request::cookie</definition>
+        <argsstring></argsstring>
+        <name>cookie</name>
+        <briefdescription>
+<para>POST request parameters key value pairs. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="66" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classRequest_1d02e928da3f50e3cc6d61150642d7692" compoundref="apprequest_8cpp" startline="32" endline="44">Request</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRequest_12258f75b55fcea9dc1a0d5dc35e7131b" prot="public" static="no" mutable="no">
+        <type><ref refid="classStringList" kindref="compound">StringList</ref></type>
+        <definition>StringList Request::pathInfo</definition>
+        <argsstring></argsstring>
+        <name>pathInfo</name>
+        <reimplements refid="classRawRequest_1fcee8dfa43a28b2fda1aad9793391349">pathInfo</reimplements>
+        <briefdescription>
+<para>cookie&apos;s key value pairs </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="67" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" bodystart="67" bodyend="-1"/>
+        <referencedby refid="classRequest_1d02e928da3f50e3cc6d61150642d7692" compoundref="apprequest_8cpp" startline="32" endline="44">Request</referencedby>
+        <referencedby refid="classCGIApp_1d42378733ebb1e1d95bcce3ff69b8a1c" compoundref="cgiapp_8cpp" startline="202" endline="232">CGIApp::segment</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classRequest_19c8fea0e50e6be190992d025a75c9712" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Request::__params</definition>
+        <argsstring>(const char *rawQuery, char sep=&apos;&amp;&apos;)</argsstring>
+        <name>__params</name>
+        <param>
+          <type>const char *</type>
+          <declname>rawQuery</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>sep</declname>
+          <defval>&apos;&amp;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="58" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="63" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classRequest_174c904870bad1aced285f574eecc6a87" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Request::__getParams</definition>
+        <argsstring>()</argsstring>
+        <name>__getParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read&apos;s HTTP Request&apos;s GET directive and returns key Value pair&apos;s map. Its return value is stored into get member variable </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="59" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="80" bodyend="82"/>
+        <referencedby refid="classRequest_1d02e928da3f50e3cc6d61150642d7692" compoundref="apprequest_8cpp" startline="32" endline="44">Request</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRequest_13fbcb87b57b4b2dba9ae8b9e4b41c5b0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Request::__postParams</definition>
+        <argsstring>()</argsstring>
+        <name>__postParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read&apos;s HTTP Request&apos;s POST directive and returns key Value pair&apos;s map. Its return value is stored into post member variable </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="60" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="88" bodyend="100"/>
+        <referencedby refid="classRequest_1d02e928da3f50e3cc6d61150642d7692" compoundref="apprequest_8cpp" startline="32" endline="44">Request</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classRequest_1471dbd9037907b6292370caa2754cdb7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Request::__cookieParams</definition>
+        <argsstring>()</argsstring>
+        <name>__cookieParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read&apos;s HTTP Request&apos;s COOKIE directive and returns key Value pair&apos;s map. Its return value is stored into cookie member variable </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="61" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="106" bodyend="109"/>
+        <referencedby refid="classRequest_1d02e928da3f50e3cc6d61150642d7692" compoundref="apprequest_8cpp" startline="32" endline="44">Request</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRequest_1d02e928da3f50e3cc6d61150642d7692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Request::Request</definition>
+        <argsstring>(HttpHeader &amp;headerRefObj)</argsstring>
+        <name>Request</name>
+        <param>
+          <type><ref refid="classHttpHeader" kindref="compound">HttpHeader</ref> &amp;</type>
+          <declname>headerRefObj</declname>
+        </param>
+        <briefdescription>
+<para>Path Info from parent Class. </para>        </briefdescription>
+        <detaileddescription>
+<para>Initializes the HTTP Header Object initializes get, post, cookie member variables by invoking <ref refid="classRequest_174c904870bad1aced285f574eecc6a87" kindref="member">__getParams()</ref>, <ref refid="classRequest_13fbcb87b57b4b2dba9ae8b9e4b41c5b0" kindref="member">__postParams()</ref>, and <ref refid="classRequest_1471dbd9037907b6292370caa2754cdb7" kindref="member">__cookieParams()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="69" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="32" bodyend="44"/>
+        <references refid="classRequest_1471dbd9037907b6292370caa2754cdb7" compoundref="apprequest_8cpp" startline="106" endline="109">__cookieParams</references>
+        <references refid="classRequest_174c904870bad1aced285f574eecc6a87" compoundref="apprequest_8cpp" startline="80" endline="82">__getParams</references>
+        <references refid="classRequest_13fbcb87b57b4b2dba9ae8b9e4b41c5b0" compoundref="apprequest_8cpp" startline="88" endline="100">__postParams</references>
+        <references refid="classRequest_18cff9a564cdba76ad265c796788317a8" compoundref="apprequest_8h" startline="66">cookie</references>
+        <references refid="classRequest_12258f75b55fcea9dc1a0d5dc35e7131b" compoundref="apprequest_8h" startline="67">pathInfo</references>
+        <references refid="classRequest_1dcfec9fe88e053a1d550aa7df0d91e53" compoundref="apprequest_8h" startline="65">post</references>
+      </memberdef>
+      <memberdef kind="function" id="classRequest_14d57c725686701f773eb3630630a7ea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Request::~Request</definition>
+        <argsstring>()</argsstring>
+        <name>~Request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="70" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classRequest_1b3092df34b61f0cb2f5c171464fb152f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Request::isGet</definition>
+        <argsstring>()</argsstring>
+        <name>isGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="71" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classRequest_1c5ad4e6746d7b63753a3b0cf242d2939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Request::isPost</definition>
+        <argsstring>()</argsstring>
+        <name>isPost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="72" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classRequest_14f58d62030fbe7a46d8251b9f2212820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Request::setCookie</definition>
+        <argsstring>(const string &amp;key, const Var &amp;val, const string &amp;domain=&quot;&quot;, const string &amp;path=&quot;/&quot;, const time_t &amp;exp=0x0)</argsstring>
+        <name>setCookie</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>domain</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>path</declname>
+          <defval>&quot;/&quot;</defval>
+        </param>
+        <param>
+          <type>const time_t &amp;</type>
+          <declname>exp</declname>
+          <defval>0x0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set a Cookie. Created the cookie string and appends it to the cookie <ref refid="classParamsMap" kindref="compound">ParamsMap</ref> member variable </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="73" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.cpp" bodystart="115" bodyend="127"/>
+        <references refid="classHttpHeader_13fcbac375fff89e1a32fadf19f0e5bdf" compoundref="httpheader_8cpp" startline="31" endline="33">HttpHeader::addHeader</references>
+        <references refid="classRequest_16081c76174ca3233c917a1a62aa5dc80" compoundref="apprequest_8h" startline="57">headerRef</references>
+        <referencedby refid="classSession_147baf956cead0046fcbac45c572c70d3" compoundref="session_8cpp" startline="84" endline="94">Session::start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Global <ref refid="classRequest" kindref="compound">Request</ref> Object. Handles GET/POST/COOKIE Requests Holds a non-const referencs to the global HTTPHeader Object in headerRef private member variable</para><para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="269">
+        <label>Request</label>
+        <link refid="classRequest"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="270">
+        <label>RawRequest</label>
+        <link refid="classRawRequest"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="278">
+        <label>std::vector&lt; string &gt;</label>
+      </node>
+      <node id="276">
+        <label>HttpHeader</label>
+        <link refid="classHttpHeader"/>
+        <childnode refid="277" relation="usage">
+          <edgelabel>headersList</edgelabel>
+        </childnode>
+      </node>
+      <node id="277">
+        <label>StringList</label>
+        <link refid="classStringList"/>
+        <childnode refid="278" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>ParamsMap</label>
+        <link refid="classParamsMap"/>
+        <childnode refid="274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="274">
+        <label>ParamsMapCore&lt; string, Var &gt;</label>
+        <link refid="classParamsMapCore"/>
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="271">
+        <label>Request</label>
+        <link refid="classRequest"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+        <childnode refid="273" relation="usage">
+          <edgelabel>post
+cookie
+get</edgelabel>
+        </childnode>
+        <childnode refid="276" relation="usage">
+          <edgelabel>headerRef</edgelabel>
+        </childnode>
+        <childnode refid="277" relation="usage">
+          <edgelabel>pathInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="272">
+        <label>RawRequest</label>
+        <link refid="classRawRequest"/>
+      </node>
+      <node id="275">
+        <label>std::map&lt;string , Var &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" line="51" bodyfile="/home/neel/dev/c++/cgixx/cgi++/apprequest.h" bodystart="51" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classRequest_1471dbd9037907b6292370caa2754cdb7" prot="private" virt="non-virtual"><scope>Request</scope><name>__cookieParams</name></member>
+      <member refid="classRequest_174c904870bad1aced285f574eecc6a87" prot="private" virt="non-virtual"><scope>Request</scope><name>__getParams</name></member>
+      <member refid="classRequest_19c8fea0e50e6be190992d025a75c9712" prot="private" virt="non-virtual"><scope>Request</scope><name>__params</name></member>
+      <member refid="classRequest_13fbcb87b57b4b2dba9ae8b9e4b41c5b0" prot="private" virt="non-virtual"><scope>Request</scope><name>__postParams</name></member>
+      <member refid="classRawRequest_119b3418081262722d3dc88eba8ea88b9" prot="protected" virt="non-virtual"><scope>Request</scope><name>authType</name></member>
+      <member refid="classRawRequest_13e554bfa7db98bea230359f72cacc5b9" prot="protected" virt="non-virtual"><scope>Request</scope><name>contentLength</name></member>
+      <member refid="classRawRequest_1eef499890cd154a6c75196c66ebfc2d1" prot="protected" virt="non-virtual"><scope>Request</scope><name>contentType</name></member>
+      <member refid="classRequest_18cff9a564cdba76ad265c796788317a8" prot="public" virt="non-virtual"><scope>Request</scope><name>cookie</name></member>
+      <member refid="classRawRequest_10b078d2100685a1eff636bf451108475" prot="protected" virt="non-virtual"><scope>Request</scope><name>gatewayInterface</name></member>
+      <member refid="classRequest_1493e8a734c6ac6c8074a89374f9009ea" prot="public" virt="non-virtual"><scope>Request</scope><name>get</name></member>
+      <member refid="classRawRequest_1a1ff10d2be5d983ffc02e55a62399512" prot="public" virt="non-virtual"><scope>Request</scope><name>getAuthType</name></member>
+      <member refid="classRawRequest_11e4033850288b7aae27da893e98c35ff" prot="public" virt="non-virtual"><scope>Request</scope><name>getContentLength</name></member>
+      <member refid="classRawRequest_1f0e2412413f43d0f400c1b72911bcf37" prot="public" virt="non-virtual"><scope>Request</scope><name>getContentType</name></member>
+      <member refid="classRawRequest_1611f7e574e9327a4b28e8eaa2b0768da" prot="public" virt="non-virtual"><scope>Request</scope><name>getGatewayInterface</name></member>
+      <member refid="classRawRequest_1f49d8635875c59424a289f92a3d75086" prot="public" virt="non-virtual"><scope>Request</scope><name>getHttpAccept</name></member>
+      <member refid="classRawRequest_15656142f10afd281f484b65daf5a56f5" prot="public" virt="non-virtual"><scope>Request</scope><name>getHttpUserAgent</name></member>
+      <member refid="classRawRequest_1747a33e22cdbed6cee706dbf6f7428c5" prot="public" virt="non-virtual"><scope>Request</scope><name>getPathInfo</name></member>
+      <member refid="classRawRequest_1ad970a1212174aeccfc461aba3a2b245" prot="public" virt="non-virtual"><scope>Request</scope><name>getPathTranslated</name></member>
+      <member refid="classRawRequest_1ada8af8d0f00a35a55f8c30633b96af1" prot="public" virt="non-virtual"><scope>Request</scope><name>getQueryString</name></member>
+      <member refid="classRawRequest_1bd82dafc5a3efe788e268f54a379b6e5" prot="public" virt="non-virtual"><scope>Request</scope><name>getRemoteAddr</name></member>
+      <member refid="classRawRequest_1fc6f560a044e651a4b3518173a395c06" prot="public" virt="non-virtual"><scope>Request</scope><name>getRemoteHost</name></member>
+      <member refid="classRawRequest_12d50d93b2537dd3997f51406eb95c630" prot="public" virt="non-virtual"><scope>Request</scope><name>getRemoteIdent</name></member>
+      <member refid="classRawRequest_1f40681cfa92a731ed3d4e99cf898484c" prot="public" virt="non-virtual"><scope>Request</scope><name>getRemoteUser</name></member>
+      <member refid="classRawRequest_1d3b574a09ab3b6c1ae11ccf31400d2cd" prot="public" virt="non-virtual"><scope>Request</scope><name>getRequestMethod</name></member>
+      <member refid="classRawRequest_11063865b22136eb84b9f50b49d6b58f0" prot="public" virt="non-virtual"><scope>Request</scope><name>getScriptName</name></member>
+      <member refid="classRawRequest_1e52072dc0f3b002d789307baf7d5b5de" prot="public" virt="non-virtual"><scope>Request</scope><name>getServerName</name></member>
+      <member refid="classRawRequest_12749bff43870643ed3dd0ede00a5193f" prot="public" virt="non-virtual"><scope>Request</scope><name>getServerPort</name></member>
+      <member refid="classRawRequest_184419c69c2ba9f098ace6b3a7adf3bf7" prot="public" virt="non-virtual"><scope>Request</scope><name>getServerProtocol</name></member>
+      <member refid="classRawRequest_10fe73e3bf7f06c826f1ce0559acab613" prot="public" virt="non-virtual"><scope>Request</scope><name>getServerSoftware</name></member>
+      <member refid="classRequest_16081c76174ca3233c917a1a62aa5dc80" prot="private" virt="non-virtual"><scope>Request</scope><name>headerRef</name></member>
+      <member refid="classRawRequest_1eeac196e4a474a89f92250b58cc612fa" prot="protected" virt="non-virtual"><scope>Request</scope><name>httpAccept</name></member>
+      <member refid="classRawRequest_17bd2530ef32a095ad6c06f9e780636cf" prot="protected" virt="non-virtual"><scope>Request</scope><name>httpUserAgent</name></member>
+      <member refid="classRequest_1b3092df34b61f0cb2f5c171464fb152f" prot="public" virt="non-virtual"><scope>Request</scope><name>isGet</name></member>
+      <member refid="classRequest_1c5ad4e6746d7b63753a3b0cf242d2939" prot="public" virt="non-virtual"><scope>Request</scope><name>isPost</name></member>
+      <member refid="classRequest_12258f75b55fcea9dc1a0d5dc35e7131b" prot="public" virt="non-virtual"><scope>Request</scope><name>pathInfo</name></member>
+      <member refid="classRawRequest_1d88d08f7041b4b4667f7173fa30f89ce" prot="protected" virt="non-virtual"><scope>Request</scope><name>pathTranslated</name></member>
+      <member refid="classRequest_1dcfec9fe88e053a1d550aa7df0d91e53" prot="public" virt="non-virtual"><scope>Request</scope><name>post</name></member>
+      <member refid="classRawRequest_1be27f24c3f50f2bfa5b2501f5c7bbc3e" prot="protected" virt="non-virtual"><scope>Request</scope><name>queryString</name></member>
+      <member refid="classRawRequest_116b2828fb315c5ba2e9b9889d33857e5" prot="public" virt="non-virtual"><scope>Request</scope><name>RawRequest</name></member>
+      <member refid="classRawRequest_1409dd05e1aaf7542c07a5e72713cbc2b" prot="protected" virt="non-virtual"><scope>Request</scope><name>remoteAddr</name></member>
+      <member refid="classRawRequest_1652bc46690f5eaf659d3dfbe718261a6" prot="protected" virt="non-virtual"><scope>Request</scope><name>remoteHost</name></member>
+      <member refid="classRawRequest_17387ab901307383a5751aa9cfa09322f" prot="protected" virt="non-virtual"><scope>Request</scope><name>remoteIdent</name></member>
+      <member refid="classRawRequest_190c2ae337f995ccf05b40e937ba7ed70" prot="protected" virt="non-virtual"><scope>Request</scope><name>remoteUser</name></member>
+      <member refid="classRequest_1d02e928da3f50e3cc6d61150642d7692" prot="public" virt="non-virtual"><scope>Request</scope><name>Request</name></member>
+      <member refid="classRawRequest_1381657a90598626b650d299435ccc2fe" prot="protected" virt="non-virtual"><scope>Request</scope><name>requestMethod</name></member>
+      <member refid="classRawRequest_18b3b50077361fe8038857941b4c60941" prot="protected" virt="non-virtual"><scope>Request</scope><name>scriptName</name></member>
+      <member refid="classRawRequest_1400bcd9ca74ca19a6099dbe44485c0ec" prot="protected" virt="non-virtual"><scope>Request</scope><name>serverName</name></member>
+      <member refid="classRawRequest_1a76c2bcb5ed1ea9340a3c4f467434b3a" prot="protected" virt="non-virtual"><scope>Request</scope><name>serverPort</name></member>
+      <member refid="classRawRequest_1101587a4e16537c759874c02cfb835ce" prot="protected" virt="non-virtual"><scope>Request</scope><name>serverProtocol</name></member>
+      <member refid="classRawRequest_15882cca487fab9ea9e5a5080615a91fe" prot="protected" virt="non-virtual"><scope>Request</scope><name>serverSoftware</name></member>
+      <member refid="classRequest_14f58d62030fbe7a46d8251b9f2212820" prot="public" virt="non-virtual"><scope>Request</scope><name>setCookie</name></member>
+      <member refid="classRequest_14b1c07094632856edbb5c3d30b8e2486" prot="public" virt="non-virtual"><scope>Request</scope><name>weekDays</name></member>
+      <member refid="classRawRequest_10a49d696afa7b8959c4b9c8c1c6016b5" prot="public" virt="non-virtual"><scope>Request</scope><name>~RawRequest</name></member>
+      <member refid="classRequest_14d57c725686701f773eb3630630a7ea2" prot="public" virt="non-virtual"><scope>Request</scope><name>~Request</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

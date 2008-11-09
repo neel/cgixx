@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classParamsMapCore" kind="class" prot="public">
+    <compoundname>ParamsMapCore</compoundname>
+    <includes refid="paramsmapcore_8h" local="no">paramsmapcore.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>KeyType</declname>
+        <defname>KeyType</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>ValueType</declname>
+        <defname>ValueType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classParamsMapCore_1995c2a88b1b3ab8c40f0b66bb653550a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParamsMapCore&lt; KeyType, ValueType &gt;::ParamsMapCore</definition>
+        <argsstring>()</argsstring>
+        <name>ParamsMapCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="35" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="4" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_1480d4ecf4408b05a72f5b12b9f87090e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParamsMapCore&lt; KeyType, ValueType &gt;::~ParamsMapCore</definition>
+        <argsstring>()</argsstring>
+        <name>~ParamsMapCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_10fb2a382ee9842a5d55fdae04714d295" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParamsMapCore&lt; KeyType, ValueType &gt;::exists</definition>
+        <argsstring>(const KeyType &amp;key) const </argsstring>
+        <name>exists</name>
+        <param>
+          <type>const KeyType &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="38" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_16611cce745de15689e0581166dc4d77e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>ValueType</type>
+        <definition>ValueType ParamsMapCore&lt; KeyType, ValueType &gt;::get</definition>
+        <argsstring>(const KeyType &amp;key) const </argsstring>
+        <name>get</name>
+        <param>
+          <type>const KeyType &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="39" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_19d3efca80d0911e64239439f0a29c032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ParamsMapCore&lt; KeyType, ValueType &gt;::set</definition>
+        <argsstring>(const KeyType &amp;key, const ValueType &amp;val)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const KeyType &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const ValueType &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="40" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_1ced22fd45f927f69867de46cce5978d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParamsMapCore&lt; KeyType, ValueType &gt;::remove</definition>
+        <argsstring>(const KeyType &amp;key)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const KeyType &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="41" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_1e927ec4fa28082d6617cb8b4849790f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParamsMapCore&lt; KeyType, ValueType &gt;::removeAll</definition>
+        <argsstring>()</argsstring>
+        <name>removeAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="42" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_10d2ce1e37841651bda9d711dddbc48bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classParamsMapCore" kindref="compound">ParamsMapCore</ref>&lt; KeyType, ValueType &gt;::iterator</type>
+        <definition>ParamsMapCore&lt; KeyType, ValueType &gt;::iterator ParamsMapCore&lt; KeyType, ValueType &gt;::search</definition>
+        <argsstring>(const KeyType &amp;key)</argsstring>
+        <name>search</name>
+        <param>
+          <type>const KeyType &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="43" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_1f72633d4af39406e68a23baed7926b5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classParamsMapCore" kindref="compound">ParamsMapCore</ref>&lt; KeyType, ValueType &gt;::const_iterator</type>
+        <definition>ParamsMapCore&lt; KeyType, ValueType &gt;::const_iterator ParamsMapCore&lt; KeyType, ValueType &gt;::search</definition>
+        <argsstring>(const KeyType &amp;key) const </argsstring>
+        <name>search</name>
+        <param>
+          <type>const KeyType &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="44" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_1fb91da94a9a521a5d0a17aa6f273e3e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classParamsMapCore" kindref="compound">ParamsMapCore</ref>&lt; KeyType, ValueType &gt;::iterator</type>
+        <definition>ParamsMapCore&lt; KeyType, ValueType &gt;::iterator ParamsMapCore&lt; KeyType, ValueType &gt;::each</definition>
+        <argsstring>()</argsstring>
+        <name>each</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="45" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classParamsMapCore_193bfff73809d7ca5e1727637fd83fbff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classParamsMapCore" kindref="compound">ParamsMapCore</ref>&lt; KeyType, ValueType &gt;::const_iterator</type>
+        <definition>ParamsMapCore&lt; KeyType, ValueType &gt;::const_iterator ParamsMapCore&lt; KeyType, ValueType &gt;::each</definition>
+        <argsstring>() const </argsstring>
+        <name>each</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="46" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.hpp" bodystart="68" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="33" bodyfile="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" bodystart="33" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classParamsMapCore_1fb91da94a9a521a5d0a17aa6f273e3e7" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>each</name></member>
+      <member refid="classParamsMapCore_193bfff73809d7ca5e1727637fd83fbff" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>each</name></member>
+      <member refid="classParamsMapCore_10fb2a382ee9842a5d55fdae04714d295" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>exists</name></member>
+      <member refid="classParamsMapCore_16611cce745de15689e0581166dc4d77e" prot="public" virt="virtual"><scope>ParamsMapCore</scope><name>get</name></member>
+      <member refid="classParamsMapCore_1995c2a88b1b3ab8c40f0b66bb653550a" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>ParamsMapCore</name></member>
+      <member refid="classParamsMapCore_1ced22fd45f927f69867de46cce5978d2" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>remove</name></member>
+      <member refid="classParamsMapCore_1e927ec4fa28082d6617cb8b4849790f6" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>removeAll</name></member>
+      <member refid="classParamsMapCore_10d2ce1e37841651bda9d711dddbc48bf" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>search</name></member>
+      <member refid="classParamsMapCore_1f72633d4af39406e68a23baed7926b5d" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>search</name></member>
+      <member refid="classParamsMapCore_19d3efca80d0911e64239439f0a29c032" prot="public" virt="virtual"><scope>ParamsMapCore</scope><name>set</name></member>
+      <member refid="classParamsMapCore_1480d4ecf4408b05a72f5b12b9f87090e" prot="public" virt="non-virtual"><scope>ParamsMapCore</scope><name>~ParamsMapCore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

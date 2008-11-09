@@ -1,0 +1,101 @@
+\section{HttpHeader Class Reference}
+\label{classHttpHeader}\index{HttpHeader@{HttpHeader}}
+{\tt \#include $<$httpheader.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf HttpHeader} ()
+\item 
+void {\bf addHeader} (const string \&)
+\item 
+void {\bf addHeader} (const string \&, const string \&)
+\item 
+void {\bf commit} ()
+\item 
+bool {\bf isCommited} () const 
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+bool {\bf commited}
+\item 
+{\bf StringList} {\bf headersList}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+HTTP Header Container all headers are contained in \doxyref{HttpHeader::commited}{p.}{classHttpHeader_65e4eab55ae8507dbb3f51b3201e47a9} member variable and latter sent to the browser by invoking \doxyref{HttpHeader::commit()}{p.}{classHttpHeader_772318e75967f72837d37ccc285669ce} member function
+
+\begin{Desc}
+\item[Author:]Neel Basu $<$neel$>$ \end{Desc}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{HttpHeader@{HttpHeader}!HttpHeader@{HttpHeader}}
+\index{HttpHeader@{HttpHeader}!HttpHeader@{HttpHeader}}
+\subsubsection[HttpHeader]{\setlength{\rightskip}{0pt plus 5cm}HttpHeader::HttpHeader ()}\label{classHttpHeader_3b5ac8cf8cbf047d17a29bed9ad81c4d}
+
+
+Construct's the Class initializes \doxyref{HttpHeader::commited}{p.}{classHttpHeader_65e4eab55ae8507dbb3f51b3201e47a9} to {\tt false} 
+
+References commited.
+
+\subsection{Member Function Documentation}
+\index{HttpHeader@{HttpHeader}!addHeader@{addHeader}}
+\index{addHeader@{addHeader}!HttpHeader@{HttpHeader}}
+\subsubsection[addHeader]{\setlength{\rightskip}{0pt plus 5cm}void HttpHeader::addHeader (const string \& {\em keyVal})}\label{classHttpHeader_3fcbac375fff89e1a32fadf19f0e5bdf}
+
+
+Add's a Header while the header argument is passed as \char`\"{}key: value\char`\"{} format 
+
+References headersList.
+
+Referenced by Request::setCookie(), and CGIApp::start().\index{HttpHeader@{HttpHeader}!addHeader@{addHeader}}
+\index{addHeader@{addHeader}!HttpHeader@{HttpHeader}}
+\subsubsection[addHeader]{\setlength{\rightskip}{0pt plus 5cm}void HttpHeader::addHeader (const string \& {\em key}, \/  const string \& {\em val})}\label{classHttpHeader_f6bec0fb046bf58a54ae4dc2089e5e42}
+
+
+Add's a header while the header argument is passed as key, value format e.g. with two arguments they are concated with a ':' character and stored into headers Vector 
+
+References headersList.\index{HttpHeader@{HttpHeader}!commit@{commit}}
+\index{commit@{commit}!HttpHeader@{HttpHeader}}
+\subsubsection[commit]{\setlength{\rightskip}{0pt plus 5cm}void HttpHeader::commit ()}\label{classHttpHeader_772318e75967f72837d37ccc285669ce}
+
+
+Commit's HTTP Headers as headers are ultimately stored as \char`\"{}Key: Value\char`\"{} strign in the vector. it just implodes it by a $\backslash$n and prints it to cout 
+
+References commited, and headersList.
+
+Referenced by CGIApp::exec().\index{HttpHeader@{HttpHeader}!isCommited@{isCommited}}
+\index{isCommited@{isCommited}!HttpHeader@{HttpHeader}}
+\subsubsection[isCommited]{\setlength{\rightskip}{0pt plus 5cm}bool HttpHeader::isCommited () const}\label{classHttpHeader_26efee956ff58117816c234424bb269f}
+
+
+returns boolean value wheather the HTTP headers have been sent or not. 
+
+References commited.
+
+Referenced by CGIApp::exec().
+
+\subsection{Member Data Documentation}
+\index{HttpHeader@{HttpHeader}!commited@{commited}}
+\index{commited@{commited}!HttpHeader@{HttpHeader}}
+\subsubsection[commited]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf HttpHeader::commited}\hspace{0.3cm}{\tt  [private]}}\label{classHttpHeader_65e4eab55ae8507dbb3f51b3201e47a9}
+
+
+Holds boolean value wheather the HTTP headers have been sent or not. 
+
+Referenced by commit(), HttpHeader(), and isCommited().\index{HttpHeader@{HttpHeader}!headersList@{headersList}}
+\index{headersList@{headersList}!HttpHeader@{HttpHeader}}
+\subsubsection[headersList]{\setlength{\rightskip}{0pt plus 5cm}{\bf StringList} {\bf HttpHeader::headersList}\hspace{0.3cm}{\tt  [private]}}\label{classHttpHeader_0c50ab7e0e530e80c733cdf876050c60}
+
+
+a String vector that contains all HTTP Headers as string 
+
+Referenced by addHeader(), and commit().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+httpheader.h\item 
+httpheader.cpp\end{CompactItemize}

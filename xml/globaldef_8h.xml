@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="globaldef_8h" kind="file">
+    <compoundname>globaldef.h</compoundname>
+    <includedby refid="apprequest_8h" local="yes">apprequest.h</includedby>
+    <invincdepgraph>
+      <node id="292">
+        <label>apprequest.h</label>
+        <link refid="apprequest_8h-source"/>
+        <childnode refid="293" relation="include">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>cgiapp.h</label>
+        <link refid="cgiapp_8h-source"/>
+      </node>
+      <node id="291">
+        <label>globaldef.h</label>
+        <link refid="globaldef.h"/>
+        <childnode refid="292" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GLOBALDEF_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GLOBALDEF_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/globaldef.h"/>
+  </compounddef>
+</doxygen>

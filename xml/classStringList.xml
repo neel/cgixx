@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classStringList" kind="class" prot="public">
+    <compoundname>StringList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::vector&lt; string &gt;</basecompoundref>
+    <includes refid="stringlist_8h" local="no">stringlist.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classStringList_18b3f06efbfee49d884ed6a2907c03be0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StringList::StringList</definition>
+        <argsstring>()</argsstring>
+        <name>StringList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/stringlist.h" line="34" bodyfile="/home/neel/dev/c++/cgixx/cgi++/stringlist.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classStringList_1578ccde3ffad1066142964a8f63b609e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StringList::~StringList</definition>
+        <argsstring>()</argsstring>
+        <name>~StringList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/stringlist.h" line="35" bodyfile="/home/neel/dev/c++/cgixx/cgi++/stringlist.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classStringList_1efefd2584f7b22d9fe896f6aacb4c0d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringList::iterator</type>
+        <definition>StringList::iterator StringList::each</definition>
+        <argsstring>()</argsstring>
+        <name>each</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/stringlist.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/stringlist.cpp" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classStringList_13c607062896de566f918b3c5480dd8ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>StringList::const_iterator</type>
+        <definition>StringList::const_iterator StringList::each</definition>
+        <argsstring>() const </argsstring>
+        <name>each</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/stringlist.h" line="37" bodyfile="/home/neel/dev/c++/cgixx/cgi++/stringlist.cpp" bodystart="42" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="355">
+        <label>std::vector&lt; string &gt;</label>
+      </node>
+      <node id="354">
+        <label>StringList</label>
+        <link refid="classStringList"/>
+        <childnode refid="355" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="357">
+        <label>std::vector&lt; string &gt;</label>
+      </node>
+      <node id="356">
+        <label>StringList</label>
+        <link refid="classStringList"/>
+        <childnode refid="357" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/stringlist.h" line="32" bodyfile="/home/neel/dev/c++/cgixx/cgi++/stringlist.h" bodystart="32" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classStringList_1efefd2584f7b22d9fe896f6aacb4c0d4" prot="public" virt="non-virtual"><scope>StringList</scope><name>each</name></member>
+      <member refid="classStringList_13c607062896de566f918b3c5480dd8ac" prot="public" virt="non-virtual"><scope>StringList</scope><name>each</name></member>
+      <member refid="classStringList_18b3f06efbfee49d884ed6a2907c03be0" prot="public" virt="non-virtual"><scope>StringList</scope><name>StringList</name></member>
+      <member refid="classStringList_1578ccde3ffad1066142964a8f63b609e" prot="public" virt="non-virtual"><scope>StringList</scope><name>~StringList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

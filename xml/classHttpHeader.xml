@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classHttpHeader" kind="class" prot="public">
+    <compoundname>HttpHeader</compoundname>
+    <includes refid="httpheader_8h" local="no">httpheader.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHttpHeader_165e4eab55ae8507dbb3f51b3201e47a9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool HttpHeader::commited</definition>
+        <argsstring></argsstring>
+        <name>commited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Holds boolean value wheather the HTTP headers have been sent or not. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="77" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" bodystart="77" bodyend="-1"/>
+        <referencedby refid="classHttpHeader_1772318e75967f72837d37ccc285669ce" compoundref="httpheader_8cpp" startline="34" endline="43">commit</referencedby>
+        <referencedby refid="classHttpHeader_13b5ac8cf8cbf047d17a29bed9ad81c4d" compoundref="httpheader_8cpp" startline="22" endline="24">HttpHeader</referencedby>
+        <referencedby refid="classHttpHeader_126efee956ff58117816c234424bb269f" compoundref="httpheader_8cpp" startline="44" endline="46">isCommited</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHttpHeader_10c50ab7e0e530e80c733cdf876050c60" prot="private" static="no" mutable="no">
+        <type><ref refid="classStringList" kindref="compound">StringList</ref></type>
+        <definition>StringList HttpHeader::headersList</definition>
+        <argsstring></argsstring>
+        <name>headersList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a String vector that contains all HTTP Headers as string </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="81" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classHttpHeader_1f6bec0fb046bf58a54ae4dc2089e5e42" compoundref="httpheader_8cpp" startline="28" endline="30">addHeader</referencedby>
+        <referencedby refid="classHttpHeader_1772318e75967f72837d37ccc285669ce" compoundref="httpheader_8cpp" startline="34" endline="43">commit</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHttpHeader_13b5ac8cf8cbf047d17a29bed9ad81c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HttpHeader::HttpHeader</definition>
+        <argsstring>()</argsstring>
+        <name>HttpHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct&apos;s the Class initializes <ref refid="classHttpHeader_165e4eab55ae8507dbb3f51b3201e47a9" kindref="member">HttpHeader::commited</ref> to <computeroutput>false</computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="52" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.cpp" bodystart="22" bodyend="24"/>
+        <references refid="classHttpHeader_165e4eab55ae8507dbb3f51b3201e47a9" compoundref="httpheader_8h" startline="77">commited</references>
+      </memberdef>
+      <memberdef kind="function" id="classHttpHeader_190a563140460476947864f686b0f14dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HttpHeader::~HttpHeader</definition>
+        <argsstring>()</argsstring>
+        <name>~HttpHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.cpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classHttpHeader_13fcbac375fff89e1a32fadf19f0e5bdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HttpHeader::addHeader</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>addHeader</name>
+        <param>
+          <type>const string &amp;</type>
+          <defname>keyVal</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add&apos;s a Header while the header argument is passed as &quot;key: value&quot; format </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="57" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.cpp" bodystart="31" bodyend="33"/>
+        <references refid="classHttpHeader_10c50ab7e0e530e80c733cdf876050c60" compoundref="httpheader_8h" startline="81">headersList</references>
+        <referencedby refid="classRequest_14f58d62030fbe7a46d8251b9f2212820" compoundref="apprequest_8cpp" startline="115" endline="127">Request::setCookie</referencedby>
+        <referencedby refid="classCGIApp_1d94e9010ba20af8e820783749e8f7cc8" compoundref="cgiapp_8cpp" startline="51" endline="54">CGIApp::start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classHttpHeader_1f6bec0fb046bf58a54ae4dc2089e5e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HttpHeader::addHeader</definition>
+        <argsstring>(const string &amp;, const string &amp;)</argsstring>
+        <name>addHeader</name>
+        <param>
+          <type>const string &amp;</type>
+          <defname>key</defname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <defname>val</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add&apos;s a header while the header argument is passed as key, value format e.g. with two arguments they are concated with a &apos;:&apos; character and stored into headers Vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="62" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.cpp" bodystart="28" bodyend="30"/>
+        <references refid="classHttpHeader_10c50ab7e0e530e80c733cdf876050c60" compoundref="httpheader_8h" startline="81">headersList</references>
+      </memberdef>
+      <memberdef kind="function" id="classHttpHeader_1772318e75967f72837d37ccc285669ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HttpHeader::commit</definition>
+        <argsstring>()</argsstring>
+        <name>commit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Commit&apos;s HTTP Headers as headers are ultimately stored as &quot;Key: Value&quot; strign in the vector. it just implodes it by a \n and prints it to cout </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="68" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.cpp" bodystart="34" bodyend="43"/>
+        <references refid="classHttpHeader_165e4eab55ae8507dbb3f51b3201e47a9" compoundref="httpheader_8h" startline="77">commited</references>
+        <references refid="classHttpHeader_10c50ab7e0e530e80c733cdf876050c60" compoundref="httpheader_8h" startline="81">headersList</references>
+        <referencedby refid="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" compoundref="cgiapp_8cpp" startline="84" endline="117">CGIApp::exec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classHttpHeader_126efee956ff58117816c234424bb269f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HttpHeader::isCommited</definition>
+        <argsstring>() const </argsstring>
+        <name>isCommited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns boolean value wheather the HTTP headers have been sent or not. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="72" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.cpp" bodystart="44" bodyend="46"/>
+        <references refid="classHttpHeader_165e4eab55ae8507dbb3f51b3201e47a9" compoundref="httpheader_8h" startline="77">commited</references>
+        <referencedby refid="classCGIApp_15cfe98f6c3cb3534b96f7fd5159a05d1" compoundref="cgiapp_8cpp" startline="84" endline="117">CGIApp::exec</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>HTTP Header Container all headers are contained in <ref refid="classHttpHeader_165e4eab55ae8507dbb3f51b3201e47a9" kindref="member">HttpHeader::commited</ref> member variable and latter sent to the browser by invoking <ref refid="classHttpHeader_1772318e75967f72837d37ccc285669ce" kindref="member">HttpHeader::commit()</ref> member function</para><para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="175">
+        <label>std::vector&lt; string &gt;</label>
+      </node>
+      <node id="173">
+        <label>HttpHeader</label>
+        <link refid="classHttpHeader"/>
+        <childnode refid="174" relation="usage">
+          <edgelabel>headersList</edgelabel>
+        </childnode>
+      </node>
+      <node id="174">
+        <label>StringList</label>
+        <link refid="classStringList"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" line="46" bodyfile="/home/neel/dev/c++/cgixx/cgi++/httpheader.h" bodystart="46" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classHttpHeader_13fcbac375fff89e1a32fadf19f0e5bdf" prot="public" virt="non-virtual"><scope>HttpHeader</scope><name>addHeader</name></member>
+      <member refid="classHttpHeader_1f6bec0fb046bf58a54ae4dc2089e5e42" prot="public" virt="non-virtual"><scope>HttpHeader</scope><name>addHeader</name></member>
+      <member refid="classHttpHeader_1772318e75967f72837d37ccc285669ce" prot="public" virt="non-virtual"><scope>HttpHeader</scope><name>commit</name></member>
+      <member refid="classHttpHeader_165e4eab55ae8507dbb3f51b3201e47a9" prot="private" virt="non-virtual"><scope>HttpHeader</scope><name>commited</name></member>
+      <member refid="classHttpHeader_10c50ab7e0e530e80c733cdf876050c60" prot="private" virt="non-virtual"><scope>HttpHeader</scope><name>headersList</name></member>
+      <member refid="classHttpHeader_13b5ac8cf8cbf047d17a29bed9ad81c4d" prot="public" virt="non-virtual"><scope>HttpHeader</scope><name>HttpHeader</name></member>
+      <member refid="classHttpHeader_126efee956ff58117816c234424bb269f" prot="public" virt="non-virtual"><scope>HttpHeader</scope><name>isCommited</name></member>
+      <member refid="classHttpHeader_190a563140460476947864f686b0f14dc" prot="public" virt="non-virtual"><scope>HttpHeader</scope><name>~HttpHeader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

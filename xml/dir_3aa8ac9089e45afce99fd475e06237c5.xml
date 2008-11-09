@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="dir_3aa8ac9089e45afce99fd475e06237c5" kind="dir">
+    <compoundname>dev/c++/cgixx/</compoundname>
+    <innerdir refid="dir_e289bca861bb9a59ce9e4bdcc5fe9faa">dev/c++/cgixx/cgi++/</innerdir>
+    <innerdir refid="dir_cf2889fbe1192a898a95d7ad850d8aad">dev/c++/cgixx/debug/</innerdir>
+    <innerdir refid="dir_9baccb16b03fea1e4f8cb171d271cf10">dev/c++/cgixx/src/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/neel/dev/c++/cgixx/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="todo" kind="page">
+    <compoundname>todo</compoundname>
+    <title>Todo List</title>
+    <detaileddescription>
+<para><anchor id="todo_1_todo000002"/> <variablelist>
+<varlistentry><term>Member <ref refid="classCGIApp_1da3364dd58834ffe4a1cb431c692ab22" kindref="member">CGIApp::routeExists</ref> (const string &amp;urlPath) const  </term></varlistentry>
+<listitem><para>testing </para></listitem>
+</variablelist>
+</para><para><anchor id="todo_1_todo000003"/> <variablelist>
+<varlistentry><term>Member <ref refid="classCGILayout_118ae9f151e6e6c5603a24af24d2d9bea" kindref="member">CGILayout::setBody</ref> (const stringstream &amp;content) </term></varlistentry>
+<listitem><para>Testing </para></listitem>
+</variablelist>
+</para><para><anchor id="todo_1_todo000004"/> <variablelist>
+<varlistentry><term>Member <ref refid="classSession_19cee8692bb3f22d4ab1d97f424bbbf28" kindref="member">Session::get</ref> (const string &amp;) const  </term></varlistentry>
+<listitem><para>for Debug purpouse Only </para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classCSSBuilder" kind="class" prot="public">
+    <compoundname>CSSBuilder</compoundname>
+    <includes refid="cssbuilder_8h" local="no">cssbuilder.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classCSSBuilder_14ae6d912f49b0b2d89a83f6574d69a57" prot="private" static="no">
+        <type>map&lt; string, string &gt;</type>
+        <definition>typedef map&lt;string, string&gt; CSSBuilder::RuleSet</definition>
+        <argsstring></argsstring>
+        <name>RuleSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classCSSBuilder_1b89735abdf268ad33ca0200289093b50" prot="private" static="no">
+        <type>map&lt; string, RuleSet &gt;</type>
+        <definition>typedef map&lt;string, RuleSet&gt; CSSBuilder::CSSStruct</definition>
+        <argsstring></argsstring>
+        <name>CSSStruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="37" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCSSBuilder_16605aac415cdde64fdb9e5a31e461c41" prot="private" static="no" mutable="no">
+        <type>RuleSet</type>
+        <definition>RuleSet CSSBuilder::ruleSetHolder</definition>
+        <argsstring></argsstring>
+        <name>ruleSetHolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="38" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSBuilder_12ef417273221c02d7da1809c9f23d35d" prot="private" static="no" mutable="no">
+        <type>CSSStruct</type>
+        <definition>CSSStruct CSSBuilder::cssStruct</definition>
+        <argsstring></argsstring>
+        <name>cssStruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="39" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSBuilder_1dd9e1d740af527878f61460c81df0a6e" prot="private" static="no" mutable="yes">
+        <type>stringstream &amp;</type>
+        <definition>stringstream&amp; CSSBuilder::css</definition>
+        <argsstring></argsstring>
+        <name>css</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="40" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCSSBuilder_1e1fc8d817ebaad1fcfbf9f386fd305c9" prot="private" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool CSSBuilder::commited</definition>
+        <argsstring></argsstring>
+        <name>commited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="41" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCSSBuilder_12cae5b583d2836b807c99a14162a6e0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CSSBuilder::CSSBuilder</definition>
+        <argsstring>(stringstream &amp;cssStream)</argsstring>
+        <name>CSSBuilder</name>
+        <param>
+          <type>stringstream &amp;</type>
+          <declname>cssStream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="43" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1fcf871091bf6e135793b4637a712398a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CSSBuilder::~CSSBuilder</definition>
+        <argsstring>()</argsstring>
+        <name>~CSSBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="44" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_141e4f53240e3228d9a92624b741c7e80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSBuilder::commit</definition>
+        <argsstring>() const </argsstring>
+        <name>commit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="45" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="35" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_18eead6b9f540489779551e58c4fc7cfb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CSSBuilder::isCommited</definition>
+        <argsstring>() const </argsstring>
+        <name>isCommited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="46" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1e69c7317c5e156c0f7f24a16aa245c94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCSSBuilder" kindref="compound">CSSBuilder</ref> &amp;</type>
+        <definition>CSSBuilder &amp; CSSBuilder::makeSelector</definition>
+        <argsstring>(const string &amp;selectorName)</argsstring>
+        <name>makeSelector</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>selectorName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="48" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1fffd03b91b94967051e3e32c65acfa9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCSSBuilder" kindref="compound">CSSBuilder</ref> &amp;</type>
+        <definition>CSSBuilder &amp; CSSBuilder::copyFromSelector</definition>
+        <argsstring>(const string &amp;selectorName)</argsstring>
+        <name>copyFromSelector</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>selectorName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="49" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="77" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_135c3c052df6a056548b68a18a640d6f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCSSBuilder" kindref="compound">CSSBuilder</ref> &amp;</type>
+        <definition>CSSBuilder &amp; CSSBuilder::addToSelector</definition>
+        <argsstring>(const string &amp;selectorName)</argsstring>
+        <name>addToSelector</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>selectorName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="50" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1f071ef4291e8904e54dfa275030bceb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCSSBuilder" kindref="compound">CSSBuilder</ref> &amp;</type>
+        <definition>CSSBuilder &amp; CSSBuilder::getSelector</definition>
+        <argsstring>(const string &amp;selectorName)</argsstring>
+        <name>getSelector</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>selectorName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="51" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1715935f04ef19c2c4052cba8d3f1ad40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CSSBuilder::selectorExists</definition>
+        <argsstring>(const string &amp;selectorName) const </argsstring>
+        <name>selectorExists</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>selectorName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="52" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1767d82eea0738eb529235b4ff3c9fd1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCSSBuilder" kindref="compound">CSSBuilder</ref> &amp;</type>
+        <definition>CSSBuilder &amp; CSSBuilder::removeSelector</definition>
+        <argsstring>(const string &amp;selectorName)</argsstring>
+        <name>removeSelector</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>selectorName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="103" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_10e4ab0b778724c554fa85d367c74e720" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCSSBuilder" kindref="compound">CSSBuilder</ref> &amp;</type>
+        <definition>CSSBuilder &amp; CSSBuilder::addRule</definition>
+        <argsstring>(const string &amp;key, const string &amp;val)</argsstring>
+        <name>addRule</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="55" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_19958d563db840d93dff2669b55b364c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string CSSBuilder::getRule</definition>
+        <argsstring>(const string &amp;key) const </argsstring>
+        <name>getRule</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="56" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="124" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1a37966d8b5e4cb2c7312792dabd468b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CSSBuilder::ruleExists</definition>
+        <argsstring>(const string &amp;key) const </argsstring>
+        <name>ruleExists</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="57" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1b06a8ce4966ea4d43971753cf3a5e9dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCSSBuilder" kindref="compound">CSSBuilder</ref> &amp;</type>
+        <definition>CSSBuilder &amp; CSSBuilder::removeRule</definition>
+        <argsstring>(const string &amp;key)</argsstring>
+        <name>removeRule</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="58" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="136" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_154ba3e8cde28bd83cd826bb264501b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSBuilder::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="60" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="153" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classCSSBuilder_1cdd12d3ce197adf9354c52e0dfaae4d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CSSBuilder::operator++</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator++</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="61" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.cpp" bodystart="158" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="77">
+        <label>stringstream</label>
+      </node>
+      <node id="76">
+        <label>CSSBuilder</label>
+        <link refid="classCSSBuilder"/>
+        <childnode refid="77" relation="usage">
+          <edgelabel>css</edgelabel>
+        </childnode>
+        <childnode refid="78" relation="usage">
+          <edgelabel>ruleSetHolder</edgelabel>
+        </childnode>
+      </node>
+      <node id="78">
+        <label>map&lt; string, string &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" line="34" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cssbuilder.h" bodystart="34" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classCSSBuilder_10e4ab0b778724c554fa85d367c74e720" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>addRule</name></member>
+      <member refid="classCSSBuilder_135c3c052df6a056548b68a18a640d6f9" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>addToSelector</name></member>
+      <member refid="classCSSBuilder_141e4f53240e3228d9a92624b741c7e80" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>commit</name></member>
+      <member refid="classCSSBuilder_1e1fc8d817ebaad1fcfbf9f386fd305c9" prot="private" virt="non-virtual"><scope>CSSBuilder</scope><name>commited</name></member>
+      <member refid="classCSSBuilder_1fffd03b91b94967051e3e32c65acfa9e" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>copyFromSelector</name></member>
+      <member refid="classCSSBuilder_1dd9e1d740af527878f61460c81df0a6e" prot="private" virt="non-virtual"><scope>CSSBuilder</scope><name>css</name></member>
+      <member refid="classCSSBuilder_12cae5b583d2836b807c99a14162a6e0e" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>CSSBuilder</name></member>
+      <member refid="classCSSBuilder_1b89735abdf268ad33ca0200289093b50" prot="private" virt="non-virtual"><scope>CSSBuilder</scope><name>CSSStruct</name></member>
+      <member refid="classCSSBuilder_12ef417273221c02d7da1809c9f23d35d" prot="private" virt="non-virtual"><scope>CSSBuilder</scope><name>cssStruct</name></member>
+      <member refid="classCSSBuilder_154ba3e8cde28bd83cd826bb264501b87" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>end</name></member>
+      <member refid="classCSSBuilder_19958d563db840d93dff2669b55b364c0" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>getRule</name></member>
+      <member refid="classCSSBuilder_1f071ef4291e8904e54dfa275030bceb2" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>getSelector</name></member>
+      <member refid="classCSSBuilder_18eead6b9f540489779551e58c4fc7cfb" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>isCommited</name></member>
+      <member refid="classCSSBuilder_1e69c7317c5e156c0f7f24a16aa245c94" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>makeSelector</name></member>
+      <member refid="classCSSBuilder_1cdd12d3ce197adf9354c52e0dfaae4d3" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>operator++</name></member>
+      <member refid="classCSSBuilder_1b06a8ce4966ea4d43971753cf3a5e9dd" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>removeRule</name></member>
+      <member refid="classCSSBuilder_1767d82eea0738eb529235b4ff3c9fd1e" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>removeSelector</name></member>
+      <member refid="classCSSBuilder_1a37966d8b5e4cb2c7312792dabd468b3" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>ruleExists</name></member>
+      <member refid="classCSSBuilder_14ae6d912f49b0b2d89a83f6574d69a57" prot="private" virt="non-virtual"><scope>CSSBuilder</scope><name>RuleSet</name></member>
+      <member refid="classCSSBuilder_16605aac415cdde64fdb9e5a31e461c41" prot="private" virt="non-virtual"><scope>CSSBuilder</scope><name>ruleSetHolder</name></member>
+      <member refid="classCSSBuilder_1715935f04ef19c2c4052cba8d3f1ad40" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>selectorExists</name></member>
+      <member refid="classCSSBuilder_1fcf871091bf6e135793b4637a712398a" prot="public" virt="non-virtual"><scope>CSSBuilder</scope><name>~CSSBuilder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

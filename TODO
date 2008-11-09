@@ -1,0 +1,48 @@
+apprequest.h
+		#include "httpheader.h"
+		#include "request.h"
+		#include "httputil.h"
+		#include "var.h"
+		#include "session.h"
+		#include "sessionconfig.h"
+		#include "paramsmap.h"
+		#include "stringlist.h"
+cgiapp.h
+
+cgilayout.h
+
+cssbuilder.h
+
+htmltag.h
+
+httputil.h
+
+paramsmapcore.h
+
+request.h
+
+sessioncookieparams.h
+
+stringlist.h
+
+base64.h
+
+cgiexception.h
+
+commontags.h
+
+file.h
+
+htmltagautocompleter.h
+
+httpheader.h
+
+md5.h
+
+paramsmap.h
+
+sessionconfig.h
+
+session.h
+
+var.h

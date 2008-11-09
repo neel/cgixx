@@ -1,0 +1,17 @@
+cgixx
+	|-- cgi++        .---> libcgixx.la   <----.
+	|   `-- jsutil   |-->  libcgixx-js.la ----'
+	'-- src     ----'
+
+libcgixx is the independant one and doesn't need any other libs to be compiled but libcgixx-js requirs libcgixx
+for compilation. But the codes written in src directory requires both of them.
+
+as after this is made I'll defenitely use make install and then these both will be separate librery.
+and I want headers to be accessible as <cgi++/header.h> and jsutil headers as <cgi++/jsutil/header.h>
+Its not possible to make jsutil on the top level.
+
+Now how to tune the make system.
+
+actually what I want is.
+libcgixx-jsutil will be a static librery which will be linked with libcgixx.la and libcgixx.la/so will be a dynamically loadable librery.
+But libcgixx-jsutil have dependancy for libcgixx.

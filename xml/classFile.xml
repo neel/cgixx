@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classFile" kind="class" prot="public">
+    <compoundname>File</compoundname>
+    <includes refid="file_8h" local="no">file.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFile_1e039af5807fc385f41b60644725d15d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>File::File</definition>
+        <argsstring>()</argsstring>
+        <name>File</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/file.h" line="48" bodyfile="/home/neel/dev/c++/cgixx/cgi++/file.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classFile_1c704ebdf5f57d7a1c5ddf409d797fb69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>File::~File</definition>
+        <argsstring>()</argsstring>
+        <name>~File</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/file.h" line="49" bodyfile="/home/neel/dev/c++/cgixx/cgi++/file.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classFile_180141e65f2761fb4c5871abfb046619b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool File::isReadable</definition>
+        <argsstring>(const string &amp;fileName)</argsstring>
+        <name>isReadable</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/file.h" line="50" bodyfile="/home/neel/dev/c++/cgixx/cgi++/file.cpp" bodystart="34" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classFile_145b31575ed19b9816fbd2455a86c3912" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool File::exists</definition>
+        <argsstring>(const string &amp;fileName)</argsstring>
+        <name>exists</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/file.h" line="51" bodyfile="/home/neel/dev/c++/cgixx/cgi++/file.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classFile_164a151cc37ac28be36c1b621972f70c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool File::isWritable</definition>
+        <argsstring>(const string &amp;fileName)</argsstring>
+        <name>isWritable</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/file.h" line="52" bodyfile="/home/neel/dev/c++/cgixx/cgi++/file.cpp" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classFile_1c3ce9aefc7408f7d1d966385ef6153c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool File::createEmptyFile</definition>
+        <argsstring>(const string &amp;fileName)</argsstring>
+        <name>createEmptyFile</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/file.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/cgi++/file.cpp" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classFile_14145ceaeac066c1796854ff492c5147d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classStringList" kindref="compound">StringList</ref></type>
+        <definition>StringList File::splitLines</definition>
+        <argsstring>(const string &amp;fileName)</argsstring>
+        <name>splitLines</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/file.h" line="54" bodyfile="/home/neel/dev/c++/cgixx/cgi++/file.cpp" bodystart="74" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Basic <ref refid="classFile" kindref="compound">File</ref> handle Class. generalizes common operations</para><para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/file.h" line="46" bodyfile="/home/neel/dev/c++/cgixx/cgi++/file.h" bodystart="46" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classFile_1c3ce9aefc7408f7d1d966385ef6153c7" prot="public" virt="non-virtual"><scope>File</scope><name>createEmptyFile</name></member>
+      <member refid="classFile_145b31575ed19b9816fbd2455a86c3912" prot="public" virt="non-virtual"><scope>File</scope><name>exists</name></member>
+      <member refid="classFile_1e039af5807fc385f41b60644725d15d0" prot="public" virt="non-virtual"><scope>File</scope><name>File</name></member>
+      <member refid="classFile_180141e65f2761fb4c5871abfb046619b" prot="public" virt="non-virtual"><scope>File</scope><name>isReadable</name></member>
+      <member refid="classFile_164a151cc37ac28be36c1b621972f70c7" prot="public" virt="non-virtual"><scope>File</scope><name>isWritable</name></member>
+      <member refid="classFile_14145ceaeac066c1796854ff492c5147d" prot="public" virt="non-virtual"><scope>File</scope><name>splitLines</name></member>
+      <member refid="classFile_1c704ebdf5f57d7a1c5ddf409d797fb69" prot="public" virt="non-virtual"><scope>File</scope><name>~File</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

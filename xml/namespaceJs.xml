@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="namespaceJs" kind="namespace">
+    <compoundname>Js</compoundname>
+    <innerclass refid="classJs_1_1Array" prot="public">Js::Array</innerclass>
+    <innerclass refid="classJs_1_1Bool" prot="public">Js::Bool</innerclass>
+    <innerclass refid="classJs_1_1Function" prot="public">Js::Function</innerclass>
+    <innerclass refid="classJs_1_1JVar" prot="public">Js::JVar</innerclass>
+    <innerclass refid="classJs_1_1Number" prot="public">Js::Number</innerclass>
+    <innerclass refid="classJs_1_1Object" prot="public">Js::Object</innerclass>
+    <innerclass refid="classJs_1_1String" prot="public">Js::String</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/jsutil/array.cpp" line="22"/>
+  </compounddef>
+</doxygen>

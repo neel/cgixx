@@ -1,0 +1,812 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classMD5" kind="class" prot="public">
+    <compoundname>MD5</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classMD5_12e5b84a3d7db292f49873061214a0444" prot="private" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int MD5::uint4</definition>
+        <argsstring></argsstring>
+        <name>uint4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="66" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMD5_1938d18555b32c101d427b3158c6c6870" prot="private" static="no">
+        <type>unsigned short int</type>
+        <definition>typedef unsigned short int MD5::uint2</definition>
+        <argsstring></argsstring>
+        <name>uint2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="67" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMD5_13b1c4901139aef256ee49c4ab14d09f9" prot="private" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char MD5::uint1</definition>
+        <argsstring></argsstring>
+        <name>uint1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="68" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMD5_1ae3f861952f5b129463f550170836db0" prot="private" static="no" mutable="no">
+        <type>uint4</type>
+        <definition>uint4 MD5::state[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="94" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMD5_152a9ff26a3de9e831b17c1740aa5388a" prot="private" static="no" mutable="no">
+        <type>uint4</type>
+        <definition>uint4 MD5::count[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="95" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMD5_12da5cb0336064b6f96de5b69fd4d219d" prot="private" static="no" mutable="no">
+        <type>uint1</type>
+        <definition>uint1 MD5::buffer[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="96" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMD5_131058e1dca10bbf29818bb5177ff02ac" prot="private" static="no" mutable="no">
+        <type>uint1</type>
+        <definition>uint1 MD5::digest[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>digest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="97" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMD5_135a2d039cfb8e13a959201667911211d" prot="private" static="no" mutable="no">
+        <type>uint1</type>
+        <definition>uint1 MD5::finalized</definition>
+        <argsstring></argsstring>
+        <name>finalized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="98" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMD5_1fa6155ec36de415ab2dcf5e54b670d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MD5::MD5</definition>
+        <argsstring>()</argsstring>
+        <name>MD5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="72" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1fc87871b3030374c5246bb84f9917aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::update</definition>
+        <argsstring>(uint1 *input, uint4 input_length)</argsstring>
+        <name>update</name>
+        <param>
+          <type>uint1 *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>input_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="73" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="66" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1c1e228c5348da56a5fc47ea87b47f6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::update</definition>
+        <argsstring>(istream &amp;stream)</argsstring>
+        <name>update</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="74" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="138" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1870b8675bca4d33b858d2b1abce9981a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::update</definition>
+        <argsstring>(FILE *file)</argsstring>
+        <name>update</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="75" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="117" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_12b0e75c47f41e99830e2a00bbd2debf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::update</definition>
+        <argsstring>(ifstream &amp;stream)</argsstring>
+        <name>update</name>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="76" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="161" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1de6a48e72d63710ab567cf473a3af0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="77" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="185" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1352d1066f8d56ebede6d3dc5c4fd85c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MD5::MD5</definition>
+        <argsstring>(const string &amp;str)</argsstring>
+        <name>MD5</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="81" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="225" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1a43d7cb3b0858b55436103c18dc201ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MD5::MD5</definition>
+        <argsstring>(unsigned char *str)</argsstring>
+        <name>MD5</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="82" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="232" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_178e603b5b35ab0d832a493a157ed89dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MD5::MD5</definition>
+        <argsstring>(istream &amp;stream)</argsstring>
+        <name>MD5</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="83" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="250" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_142be31aa712ef5450fad065ff7697f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MD5::MD5</definition>
+        <argsstring>(FILE *file)</argsstring>
+        <name>MD5</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="84" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="239" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1355a8e72bbb682375610be728b3b93a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MD5::MD5</definition>
+        <argsstring>(ifstream &amp;stream)</argsstring>
+        <name>MD5</name>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="85" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="260" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1af526d077ce13986854ee6223adaad5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char * MD5::raw_digest</definition>
+        <argsstring>()</argsstring>
+        <name>raw_digest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="88" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="270" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_10d2767cc5ea3ce59c80e28ae64497d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * MD5::hex_digest</definition>
+        <argsstring>()</argsstring>
+        <name>hex_digest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="89" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="288" bodyend="307"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMD5_137bb1f259ab8bdfe589f3fc5f07a62d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;, MD5 context)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <defname>stream</defname>
+        </param>
+        <param>
+          <type>MD5</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="90" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="313" bodyend="318"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMD5_165ddaecdd0bd0b09043a2f3b2601bc2e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="101" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="327" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_19836a0c6f7f1a1ac38ac9a2a6a393758" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::transform</definition>
+        <argsstring>(uint1 block[64])</argsstring>
+        <name>transform</name>
+        <param>
+          <type>uint1</type>
+          <declname>block</declname>
+          <array>[64]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="102" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="369" bodyend="458"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMD5_1aa1d4425ffa51a6cef1b9d7036edcbfe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::encode</definition>
+        <argsstring>(uint1 *dest, uint4 *src, uint4 length)</argsstring>
+        <name>encode</name>
+        <param>
+          <type>uint1 *</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>uint4 *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="105" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="464" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1fa4554df37a1d9aa67be5566772026d1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::decode</definition>
+        <argsstring>(uint4 *dest, uint1 *src, uint4 length)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>uint4 *</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>uint1 *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="106" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="483" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1fbd51b185fdb0e0536b5a1b2da2773d3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::memcpy</definition>
+        <argsstring>(uint1 *dest, uint1 *src, uint4 length)</argsstring>
+        <name>memcpy</name>
+        <param>
+          <type>uint1 *</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>uint1 *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="107" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="498" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1e2affb1e7d58a204d9ae367ea7b51c36" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::memset</definition>
+        <argsstring>(uint1 *start, uint1 val, uint4 length)</argsstring>
+        <name>memset</name>
+        <param>
+          <type>uint1 *</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>uint1</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="108" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="510" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_164f84f0aef8679b0c77858e0c59822b9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint4</type>
+        <definition>unsigned int MD5::rotate_left</definition>
+        <argsstring>(uint4 x, uint4 n)</argsstring>
+        <name>rotate_left</name>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="110" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="523" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_12934208483fbd86327076a11ded14971" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint4</type>
+        <definition>unsigned int MD5::F</definition>
+        <argsstring>(uint4 x, uint4 y, uint4 z)</argsstring>
+        <name>F</name>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="111" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="533" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_19abb73967eb7219c23faf69a4e80eb71" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint4</type>
+        <definition>unsigned int MD5::G</definition>
+        <argsstring>(uint4 x, uint4 y, uint4 z)</argsstring>
+        <name>G</name>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="112" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="538" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1f0a3d0593a4a4fc964a8d5beb2348bbc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint4</type>
+        <definition>unsigned int MD5::H</definition>
+        <argsstring>(uint4 x, uint4 y, uint4 z)</argsstring>
+        <name>H</name>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="113" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="543" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1b363834e0160109ba1c7aaf53409e7c1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint4</type>
+        <definition>unsigned int MD5::I</definition>
+        <argsstring>(uint4 x, uint4 y, uint4 z)</argsstring>
+        <name>I</name>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="114" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="548" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_131479b157441ace2dbc2ae0edd0d2e38" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::FF</definition>
+        <argsstring>(uint4 &amp;a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)</argsstring>
+        <name>FF</name>
+        <param>
+          <type>uint4 &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>ac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="116" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="559" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_18ebdbe52608e522516d1759a31753212" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::GG</definition>
+        <argsstring>(uint4 &amp;a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)</argsstring>
+        <name>GG</name>
+        <param>
+          <type>uint4 &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>ac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="118" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="566" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_1aad039caf0b33abf1bf3f3589166543c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::HH</definition>
+        <argsstring>(uint4 &amp;a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)</argsstring>
+        <name>HH</name>
+        <param>
+          <type>uint4 &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>ac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="120" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="573" bodyend="578"/>
+      </memberdef>
+      <memberdef kind="function" id="classMD5_17af0184654644964ecdb57b1203e5ec7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MD5::II</definition>
+        <argsstring>(uint4 &amp;a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)</argsstring>
+        <name>II</name>
+        <param>
+          <type>uint4 &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>uint4</type>
+          <declname>ac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="122" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.cpp" bodystart="580" bodyend="585"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/md5.h" line="63" bodyfile="/home/neel/dev/c++/cgixx/cgi++/md5.h" bodystart="62" bodyend="123"/>
+    <listofallmembers>
+      <member refid="classMD5_12da5cb0336064b6f96de5b69fd4d219d" prot="private" virt="non-virtual"><scope>MD5</scope><name>buffer</name></member>
+      <member refid="classMD5_152a9ff26a3de9e831b17c1740aa5388a" prot="private" virt="non-virtual"><scope>MD5</scope><name>count</name></member>
+      <member refid="classMD5_1fa4554df37a1d9aa67be5566772026d1" prot="private" virt="non-virtual"><scope>MD5</scope><name>decode</name></member>
+      <member refid="classMD5_131058e1dca10bbf29818bb5177ff02ac" prot="private" virt="non-virtual"><scope>MD5</scope><name>digest</name></member>
+      <member refid="classMD5_1aa1d4425ffa51a6cef1b9d7036edcbfe" prot="private" virt="non-virtual"><scope>MD5</scope><name>encode</name></member>
+      <member refid="classMD5_12934208483fbd86327076a11ded14971" prot="private" virt="non-virtual"><scope>MD5</scope><name>F</name></member>
+      <member refid="classMD5_131479b157441ace2dbc2ae0edd0d2e38" prot="private" virt="non-virtual"><scope>MD5</scope><name>FF</name></member>
+      <member refid="classMD5_1de6a48e72d63710ab567cf473a3af0b0" prot="public" virt="non-virtual"><scope>MD5</scope><name>finalize</name></member>
+      <member refid="classMD5_135a2d039cfb8e13a959201667911211d" prot="private" virt="non-virtual"><scope>MD5</scope><name>finalized</name></member>
+      <member refid="classMD5_19abb73967eb7219c23faf69a4e80eb71" prot="private" virt="non-virtual"><scope>MD5</scope><name>G</name></member>
+      <member refid="classMD5_18ebdbe52608e522516d1759a31753212" prot="private" virt="non-virtual"><scope>MD5</scope><name>GG</name></member>
+      <member refid="classMD5_1f0a3d0593a4a4fc964a8d5beb2348bbc" prot="private" virt="non-virtual"><scope>MD5</scope><name>H</name></member>
+      <member refid="classMD5_10d2767cc5ea3ce59c80e28ae64497d7e" prot="public" virt="non-virtual"><scope>MD5</scope><name>hex_digest</name></member>
+      <member refid="classMD5_1aad039caf0b33abf1bf3f3589166543c" prot="private" virt="non-virtual"><scope>MD5</scope><name>HH</name></member>
+      <member refid="classMD5_1b363834e0160109ba1c7aaf53409e7c1" prot="private" virt="non-virtual"><scope>MD5</scope><name>I</name></member>
+      <member refid="classMD5_17af0184654644964ecdb57b1203e5ec7" prot="private" virt="non-virtual"><scope>MD5</scope><name>II</name></member>
+      <member refid="classMD5_165ddaecdd0bd0b09043a2f3b2601bc2e" prot="private" virt="non-virtual"><scope>MD5</scope><name>init</name></member>
+      <member refid="classMD5_1fa6155ec36de415ab2dcf5e54b670d13" prot="public" virt="non-virtual"><scope>MD5</scope><name>MD5</name></member>
+      <member refid="classMD5_1352d1066f8d56ebede6d3dc5c4fd85c6" prot="public" virt="non-virtual"><scope>MD5</scope><name>MD5</name></member>
+      <member refid="classMD5_1a43d7cb3b0858b55436103c18dc201ab" prot="public" virt="non-virtual"><scope>MD5</scope><name>MD5</name></member>
+      <member refid="classMD5_178e603b5b35ab0d832a493a157ed89dc" prot="public" virt="non-virtual"><scope>MD5</scope><name>MD5</name></member>
+      <member refid="classMD5_142be31aa712ef5450fad065ff7697f47" prot="public" virt="non-virtual"><scope>MD5</scope><name>MD5</name></member>
+      <member refid="classMD5_1355a8e72bbb682375610be728b3b93a2" prot="public" virt="non-virtual"><scope>MD5</scope><name>MD5</name></member>
+      <member refid="classMD5_1fbd51b185fdb0e0536b5a1b2da2773d3" prot="private" virt="non-virtual"><scope>MD5</scope><name>memcpy</name></member>
+      <member refid="classMD5_1e2affb1e7d58a204d9ae367ea7b51c36" prot="private" virt="non-virtual"><scope>MD5</scope><name>memset</name></member>
+      <member refid="classMD5_137bb1f259ab8bdfe589f3fc5f07a62d0" prot="public" virt="non-virtual"><scope>MD5</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classMD5_1af526d077ce13986854ee6223adaad5b" prot="public" virt="non-virtual"><scope>MD5</scope><name>raw_digest</name></member>
+      <member refid="classMD5_164f84f0aef8679b0c77858e0c59822b9" prot="private" virt="non-virtual"><scope>MD5</scope><name>rotate_left</name></member>
+      <member refid="classMD5_1ae3f861952f5b129463f550170836db0" prot="private" virt="non-virtual"><scope>MD5</scope><name>state</name></member>
+      <member refid="classMD5_19836a0c6f7f1a1ac38ac9a2a6a393758" prot="private" virt="non-virtual"><scope>MD5</scope><name>transform</name></member>
+      <member refid="classMD5_13b1c4901139aef256ee49c4ab14d09f9" prot="private" virt="non-virtual"><scope>MD5</scope><name>uint1</name></member>
+      <member refid="classMD5_1938d18555b32c101d427b3158c6c6870" prot="private" virt="non-virtual"><scope>MD5</scope><name>uint2</name></member>
+      <member refid="classMD5_12e5b84a3d7db292f49873061214a0444" prot="private" virt="non-virtual"><scope>MD5</scope><name>uint4</name></member>
+      <member refid="classMD5_1fc87871b3030374c5246bb84f9917aa2" prot="public" virt="non-virtual"><scope>MD5</scope><name>update</name></member>
+      <member refid="classMD5_1c1e228c5348da56a5fc47ea87b47f6c3" prot="public" virt="non-virtual"><scope>MD5</scope><name>update</name></member>
+      <member refid="classMD5_1870b8675bca4d33b858d2b1abce9981a" prot="public" virt="non-virtual"><scope>MD5</scope><name>update</name></member>
+      <member refid="classMD5_12b0e75c47f41e99830e2a00bbd2debf1" prot="public" virt="non-virtual"><scope>MD5</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+jdataadapter.o:  \
+ /home/neel/dev/c++/cgixx/src/../cgi++/jsutil/jdataadapter.cpp \
+  /home/neel/dev/c++/cgixx/src/../cgi++/jsutil/jdataadapter.h
+
+/home/neel/dev/c++/cgixx/src/../cgi++/jsutil/jdataadapter.h:

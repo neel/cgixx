@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="dir_e289bca861bb9a59ce9e4bdcc5fe9faa" kind="dir">
+    <compoundname>dev/c++/cgixx/cgi++/</compoundname>
+    <innerdir refid="dir_631f5d54aaf9fd2fa86240c9779b031d">dev/c++/cgixx/cgi++/jsutil/</innerdir>
+    <innerfile refid="apprequest_8cpp">apprequest.cpp</innerfile>
+    <innerfile refid="apprequest_8h">apprequest.h</innerfile>
+    <innerfile refid="base64_8cpp">base64.cpp</innerfile>
+    <innerfile refid="base64_8h">base64.h</innerfile>
+    <innerfile refid="cgiapp_8cpp">cgiapp.cpp</innerfile>
+    <innerfile refid="cgiapp_8h">cgiapp.h</innerfile>
+    <innerfile refid="cgiexception_8cpp">cgiexception.cpp</innerfile>
+    <innerfile refid="cgiexception_8h">cgiexception.h</innerfile>
+    <innerfile refid="cgilayout_8cpp">cgilayout.cpp</innerfile>
+    <innerfile refid="cgilayout_8h">cgilayout.h</innerfile>
+    <innerfile refid="commontags_8cpp">commontags.cpp</innerfile>
+    <innerfile refid="commontags_8h">commontags.h</innerfile>
+    <innerfile refid="cssbuilder_8cpp">cssbuilder.cpp</innerfile>
+    <innerfile refid="cssbuilder_8h">cssbuilder.h</innerfile>
+    <innerfile refid="file_8cpp">file.cpp</innerfile>
+    <innerfile refid="file_8h">file.h</innerfile>
+    <innerfile refid="globaldef_8h">globaldef.h</innerfile>
+    <innerfile refid="htmltag_8cpp">htmltag.cpp</innerfile>
+    <innerfile refid="htmltag_8h">htmltag.h</innerfile>
+    <innerfile refid="htmltagautocompleter_8cpp">htmltagautocompleter.cpp</innerfile>
+    <innerfile refid="htmltagautocompleter_8h">htmltagautocompleter.h</innerfile>
+    <innerfile refid="httpheader_8cpp">httpheader.cpp</innerfile>
+    <innerfile refid="httpheader_8h">httpheader.h</innerfile>
+    <innerfile refid="httputil_8cpp">httputil.cpp</innerfile>
+    <innerfile refid="httputil_8h">httputil.h</innerfile>
+    <innerfile refid="md5_8cpp">md5.cpp</innerfile>
+    <innerfile refid="md5_8h">md5.h</innerfile>
+    <innerfile refid="paramsmap_8cpp">paramsmap.cpp</innerfile>
+    <innerfile refid="paramsmap_8h">paramsmap.h</innerfile>
+    <innerfile refid="paramsmapcore_8h">paramsmapcore.h</innerfile>
+    <innerfile refid="paramsmapcore_8hpp">paramsmapcore.hpp</innerfile>
+    <innerfile refid="request_8cpp">request.cpp</innerfile>
+    <innerfile refid="request_8h">request.h</innerfile>
+    <innerfile refid="session_8cpp">session.cpp</innerfile>
+    <innerfile refid="session_8h">session.h</innerfile>
+    <innerfile refid="sessionconfig_8cpp">sessionconfig.cpp</innerfile>
+    <innerfile refid="sessionconfig_8h">sessionconfig.h</innerfile>
+    <innerfile refid="sessioncookieparams_8cpp">sessioncookieparams.cpp</innerfile>
+    <innerfile refid="sessioncookieparams_8h">sessioncookieparams.h</innerfile>
+    <innerfile refid="stringlist_8cpp">stringlist.cpp</innerfile>
+    <innerfile refid="stringlist_8h">stringlist.h</innerfile>
+    <innerfile refid="var_8cpp">var.cpp</innerfile>
+    <innerfile refid="var_8h">var.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/"/>
+  </compounddef>
+</doxygen>

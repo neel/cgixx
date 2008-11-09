@@ -1,0 +1,194 @@
+\section{Session Class Reference}
+\label{classSession}\index{Session@{Session}}
+{\tt \#include $<$session.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\textbf{Session} ({\bf Request} \&req)\label{classSession_bed10983b0d32a61bb7754eaff342e3d}
+
+\item 
+\textbf{Session} ({\bf Request} \&req, const string \&)\label{classSession_1d658492788217c7d199e2b636c57264}
+
+\item 
+void {\bf setRequestHandle} ({\bf Request} \&)
+\item 
+void {\bf start} ()
+\item 
+void {\bf commit} ()
+\item 
+const string \& \textbf{getSessPath} () const \label{classSession_835ab2b8c185a5ac93881581cb5cb360}
+
+\item 
+void \textbf{setSessPath} (const string \&path)\label{classSession_8760d388b1d90291be17dbd162e6eba3}
+
+\item 
+bool {\bf add} (const string \&, const {\bf Var} \&)
+\begin{CompactList}\small\item\em stores all sessions \item\end{CompactList}\item 
+bool {\bf exists} (const string \&)
+\item 
+bool {\bf remove} (const string \&)
+\item 
+bool {\bf modify} (const string \&, const {\bf Var} \&)
+\item 
+const {\bf Var} {\bf get} (const string \&) const 
+\item 
+bool \textbf{sessionIdProvided} () const \label{classSession_b24201b878b2af6592e80db577b43503}
+
+\item 
+{\bf Var} \textbf{getSessionId} () const \label{classSession_e5e6b48af87faa353c4b4b4cecf382f6}
+
+\item 
+bool \textbf{set} (const string \&key, const {\bf Var} \&val)\label{classSession_3f1e69909718368842652c060a67e6e7}
+
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+{\bf sessionCookieParams} {\bf cookieParams}\label{classSession_8c519734d64bd395fc5c47535a10e074}
+
+\begin{CompactList}\small\item\em Holds the session \doxyref{File}{p.}{classFile} Name. \item\end{CompactList}\item 
+{\bf ParamsMap} {\bf item}\label{classSession_2f67fe84547280234c0f2ceb3b3daa5f}
+
+\begin{CompactList}\small\item\em stores all cookie parameters with which the session ID cookie will be sent \item\end{CompactList}\end{CompactItemize}
+\subsection*{Private Member Functions}
+\begin{CompactItemize}
+\item 
+string {\bf createEmptySessionFile} () const 
+\item 
+string \textbf{fullSessionPath} (const string \&sessId) const \label{classSession_3a36a232a5ada8ef68b7aa272a980368}
+
+\item 
+{\bf ParamsMap} {\bf readSessionData} () const 
+\item 
+void {\bf dumpSessionData} ()
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+{\bf Request} \& \textbf{requestRef}\label{classSession_9cd3e99945f7d8f66dc1e3de62340a84}
+
+\item 
+string {\bf sessPath}\label{classSession_a8dcecd77995032fc6f62c07094792ec}
+
+\begin{CompactList}\small\item\em a reference to global request object \item\end{CompactList}\item 
+string {\bf id}\label{classSession_67959ca0be9ea178856377f310406598}
+
+\begin{CompactList}\small\item\em Path to the directory where all session file(s) are going to be stored. \item\end{CompactList}\item 
+string {\bf name}\label{classSession_a0f52e870f6919cae73a6dfa6b5c823b}
+
+\begin{CompactList}\small\item\em Holds the session ID. \item\end{CompactList}\item 
+string {\bf sessFileName}\label{classSession_38e2c04237ea64cb13d38be00915fc33}
+
+\begin{CompactList}\small\item\em name of the \doxyref{Session}{p.}{classSession} variable \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+Global \doxyref{Session}{p.}{classSession} Classes which should be accessed through the request Object. stores all sessions as \doxyref{ParamsMap}{p.}{classParamsMap} in item member variable holds a reference to global request object
+
+\begin{Desc}
+\item[Author:]Neel Basu $<$neel$>$ \end{Desc}
+
+
+\subsection{Member Function Documentation}
+\index{Session@{Session}!setRequestHandle@{setRequestHandle}}
+\index{setRequestHandle@{setRequestHandle}!Session@{Session}}
+\subsubsection[setRequestHandle]{\setlength{\rightskip}{0pt plus 5cm}void Session::setRequestHandle ({\bf Request} \& {\em req})}\label{classSession_6cd7e9f8b2c63b8638a367bf2c544382}
+
+
+set the reference to global request object to requestRef \index{Session@{Session}!start@{start}}
+\index{start@{start}!Session@{Session}}
+\subsubsection[start]{\setlength{\rightskip}{0pt plus 5cm}void Session::start ()}\label{classSession_47baf956cead0046fcbac45c572c70d3}
+
+
+start's the session. 
+
+References createEmptySessionFile(), item, name, readSessionData(), sessFileName, Request::setCookie(), and Var::toString().
+
+Referenced by CGIApp::start().\index{Session@{Session}!commit@{commit}}
+\index{commit@{commit}!Session@{Session}}
+\subsubsection[commit]{\setlength{\rightskip}{0pt plus 5cm}void Session::commit ()}\label{classSession_513ec9f06c9774e5095a0ceb0f20bd7a}
+
+
+Commit's the session. 
+
+References dumpSessionData().
+
+Referenced by CGIApp::stop().\index{Session@{Session}!createEmptySessionFile@{createEmptySessionFile}}
+\index{createEmptySessionFile@{createEmptySessionFile}!Session@{Session}}
+\subsubsection[createEmptySessionFile]{\setlength{\rightskip}{0pt plus 5cm}string Session::createEmptySessionFile () const\hspace{0.3cm}{\tt  [private]}}\label{classSession_624d15e7efa8808de91485ddd37bfe3e}
+
+
+create's an empty session file. returns the session ID of the newly created \doxyref{Session}{p.}{classSession} file. \doxyref{Session::start()}{p.}{classSession_47baf956cead0046fcbac45c572c70d3} 
+
+Referenced by start().\index{Session@{Session}!readSessionData@{readSessionData}}
+\index{readSessionData@{readSessionData}!Session@{Session}}
+\subsubsection[readSessionData]{\setlength{\rightskip}{0pt plus 5cm}{\bf ParamsMap} Session::readSessionData () const\hspace{0.3cm}{\tt  [private]}}\label{classSession_0558dc3e4bb546c7f61c16161480413e}
+
+
+Read's session Data from the session \doxyref{File}{p.}{classFile} and returns it into \doxyref{ParamsMap}{p.}{classParamsMap} format 
+
+References sessFileName.
+
+Referenced by start().\index{Session@{Session}!dumpSessionData@{dumpSessionData}}
+\index{dumpSessionData@{dumpSessionData}!Session@{Session}}
+\subsubsection[dumpSessionData]{\setlength{\rightskip}{0pt plus 5cm}void Session::dumpSessionData ()\hspace{0.3cm}{\tt  [private]}}\label{classSession_434b31f18e6c36b0b37e846d45378389}
+
+
+dump's session data in \doxyref{ParamsMap}{p.}{classParamsMap} format into item member variable from the provided session file. 
+
+References item, and sessFileName.
+
+Referenced by commit().\index{Session@{Session}!add@{add}}
+\index{add@{add}!Session@{Session}}
+\subsubsection[add]{\setlength{\rightskip}{0pt plus 5cm}bool Session::add (const string \& {\em key}, \/  const {\bf Var} \& {\em val})}\label{classSession_5fb598d46ffff4dd303230d5d4329fce}
+
+
+stores all sessions 
+
+Add's a session as string, \doxyref{Var}{p.}{classVar} key pair into item member variable 
+
+References item.\index{Session@{Session}!exists@{exists}}
+\index{exists@{exists}!Session@{Session}}
+\subsubsection[exists]{\setlength{\rightskip}{0pt plus 5cm}bool Session::exists (const string \& {\em key})}\label{classSession_c183a526410481bacc81ba48771eb6f2}
+
+
+checks wheather a session with the provided key exists or not 
+
+References item.
+
+Referenced by modify().\index{Session@{Session}!remove@{remove}}
+\index{remove@{remove}!Session@{Session}}
+\subsubsection[remove]{\setlength{\rightskip}{0pt plus 5cm}bool Session::remove (const string \& {\em key})}\label{classSession_e538023eb99c72dd6a86405d7627a05f}
+
+
+removes a session 
+
+References item.\index{Session@{Session}!modify@{modify}}
+\index{modify@{modify}!Session@{Session}}
+\subsubsection[modify]{\setlength{\rightskip}{0pt plus 5cm}bool Session::modify (const string \& {\em key}, \/  const {\bf Var} \& {\em val})}\label{classSession_656e0f7bae0d39166c80e578baa14935}
+
+
+modifies a session 
+
+References exists(), and item.\index{Session@{Session}!get@{get}}
+\index{get@{get}!Session@{Session}}
+\subsubsection[get]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Var} Session::get (const string \& {\em key}) const}\label{classSession_9cee8692bb3f22d4ab1d97f424bbbf28}
+
+
+get value of a \doxyref{Session}{p.}{classSession} 
+
+\{@ \begin{Desc}
+\item[{\bf Todo}]for Debug purpouse Only \end{Desc}
+
+
+\begin{Desc}
+\item[{\bf Todo}]for Debug purpouse Only \end{Desc}
+
+
+References item.
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+session.h\item 
+session.cpp\end{CompactItemize}

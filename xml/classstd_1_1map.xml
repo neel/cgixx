@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classstd_1_1map" kind="class" prot="public">
+    <compoundname>std::map</compoundname>
+    <derivedcompoundref refid="classParamsMapCore" prot="public" virt="non-virtual">ParamsMapCore&lt; string, Var &gt;</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="216">
+        <label>map</label>
+      </node>
+      <node id="218">
+        <label>ParamsMap</label>
+        <link refid="classParamsMap"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>ParamsMapCore&lt; string, Var &gt;</label>
+        <link refid="classParamsMapCore"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/paramsmapcore.h" line="33"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

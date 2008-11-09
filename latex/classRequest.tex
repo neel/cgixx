@@ -1,0 +1,129 @@
+\section{Request Class Reference}
+\label{classRequest}\index{Request@{Request}}
+{\tt \#include $<$apprequest.h$>$}
+
+Inheritance diagram for Request::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classRequest}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf Request} ({\bf HttpHeader} \&headerRefObj)
+\begin{CompactList}\small\item\em Path Info from parent Class. \item\end{CompactList}\item 
+bool \textbf{isGet} ()\label{classRequest_b3092df34b61f0cb2f5c171464fb152f}
+
+\item 
+bool \textbf{isPost} ()\label{classRequest_c5ad4e6746d7b63753a3b0cf242d2939}
+
+\item 
+void {\bf setCookie} (const string \&key, const {\bf Var} \&val, const string \&domain=\char`\"{}\char`\"{}, const string \&path=\char`\"{}/\char`\"{}, const time\_\-t \&exp=0x0)
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+{\bf ParamsMap} {\bf get}\label{classRequest_493e8a734c6ac6c8074a89374f9009ea}
+
+\begin{CompactList}\small\item\em Weekdays in 3character First Caps Case format. \item\end{CompactList}\item 
+{\bf ParamsMap} {\bf post}\label{classRequest_dcfec9fe88e053a1d550aa7df0d91e53}
+
+\begin{CompactList}\small\item\em Hold's GET request parameters key value pairs. \item\end{CompactList}\item 
+{\bf ParamsMap} {\bf cookie}\label{classRequest_8cff9a564cdba76ad265c796788317a8}
+
+\begin{CompactList}\small\item\em POST request parameters key value pairs. \item\end{CompactList}\item 
+{\bf StringList} {\bf pathInfo}\label{classRequest_2258f75b55fcea9dc1a0d5dc35e7131b}
+
+\begin{CompactList}\small\item\em cookie's key value pairs \item\end{CompactList}\end{CompactItemize}
+\subsection*{Static Public Attributes}
+\begin{CompactItemize}
+\item 
+static const std::string \textbf{weekDays} [7] = \{\char`\"{}Sun\char`\"{}, \char`\"{}Mon\char`\"{}, \char`\"{}Tue\char`\"{}, \char`\"{}Wed\char`\"{}, \char`\"{}Thu\char`\"{}, \char`\"{}Fri\char`\"{}, \char`\"{}Sat\char`\"{}\}\label{classRequest_4b1c07094632856edbb5c3d30b8e2486}
+
+\end{CompactItemize}
+\subsection*{Private Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf ParamsMap} \textbf{\_\-\_\-params} (const char $\ast$rawQuery, char sep='\&')\label{classRequest_9c8fea0e50e6be190992d025a75c9712}
+
+\item 
+{\bf ParamsMap} {\bf \_\-\_\-getParams} ()
+\item 
+{\bf ParamsMap} {\bf \_\-\_\-postParams} ()
+\item 
+{\bf ParamsMap} {\bf \_\-\_\-cookieParams} ()
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+{\bf HttpHeader} \& {\bf headerRef}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+The Global \doxyref{Request}{p.}{classRequest} Object. Handles GET/POST/COOKIE Requests Holds a non-const referencs to the global HTTPHeader Object in headerRef private member variable
+
+\begin{Desc}
+\item[Author:]Neel Basu $<$neel$>$ \end{Desc}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Request@{Request}!Request@{Request}}
+\index{Request@{Request}!Request@{Request}}
+\subsubsection[Request]{\setlength{\rightskip}{0pt plus 5cm}Request::Request ({\bf HttpHeader} \& {\em headerRefObj})}\label{classRequest_d02e928da3f50e3cc6d61150642d7692}
+
+
+Path Info from parent Class. 
+
+Initializes the HTTP Header Object initializes get, post, cookie member variables by invoking \doxyref{\_\-\_\-getParams()}{p.}{classRequest_74c904870bad1aced285f574eecc6a87}, \doxyref{\_\-\_\-postParams()}{p.}{classRequest_3fbcb87b57b4b2dba9ae8b9e4b41c5b0}, and \doxyref{\_\-\_\-cookieParams()}{p.}{classRequest_471dbd9037907b6292370caa2754cdb7} 
+
+References \_\-\_\-cookieParams(), \_\-\_\-getParams(), \_\-\_\-postParams(), cookie, pathInfo, and post.
+
+\subsection{Member Function Documentation}
+\index{Request@{Request}!\_\-\_\-getParams@{\_\-\_\-getParams}}
+\index{\_\-\_\-getParams@{\_\-\_\-getParams}!Request@{Request}}
+\subsubsection[\_\-\_\-getParams]{\setlength{\rightskip}{0pt plus 5cm}{\bf ParamsMap} Request::\_\-\_\-getParams ()\hspace{0.3cm}{\tt  [private]}}\label{classRequest_74c904870bad1aced285f574eecc6a87}
+
+
+Read's HTTP Request's GET directive and returns key Value pair's map. Its return value is stored into get member variable 
+
+Referenced by Request().\index{Request@{Request}!\_\-\_\-postParams@{\_\-\_\-postParams}}
+\index{\_\-\_\-postParams@{\_\-\_\-postParams}!Request@{Request}}
+\subsubsection[\_\-\_\-postParams]{\setlength{\rightskip}{0pt plus 5cm}{\bf ParamsMap} Request::\_\-\_\-postParams ()\hspace{0.3cm}{\tt  [private]}}\label{classRequest_3fbcb87b57b4b2dba9ae8b9e4b41c5b0}
+
+
+Read's HTTP Request's POST directive and returns key Value pair's map. Its return value is stored into post member variable 
+
+Referenced by Request().\index{Request@{Request}!\_\-\_\-cookieParams@{\_\-\_\-cookieParams}}
+\index{\_\-\_\-cookieParams@{\_\-\_\-cookieParams}!Request@{Request}}
+\subsubsection[\_\-\_\-cookieParams]{\setlength{\rightskip}{0pt plus 5cm}{\bf ParamsMap} Request::\_\-\_\-cookieParams ()\hspace{0.3cm}{\tt  [private]}}\label{classRequest_471dbd9037907b6292370caa2754cdb7}
+
+
+Read's HTTP Request's COOKIE directive and returns key Value pair's map. Its return value is stored into cookie member variable 
+
+Referenced by Request().\index{Request@{Request}!setCookie@{setCookie}}
+\index{setCookie@{setCookie}!Request@{Request}}
+\subsubsection[setCookie]{\setlength{\rightskip}{0pt plus 5cm}void Request::setCookie (const string \& {\em key}, \/  const {\bf Var} \& {\em val}, \/  const string \& {\em domain} = {\tt \char`\"{}\char`\"{}}, \/  const string \& {\em path} = {\tt \char`\"{}/\char`\"{}}, \/  const time\_\-t \& {\em exp} = {\tt 0x0})}\label{classRequest_4f58d62030fbe7a46d8251b9f2212820}
+
+
+Set a Cookie. Created the cookie string and appends it to the cookie \doxyref{ParamsMap}{p.}{classParamsMap} member variable 
+
+References HttpHeader::addHeader(), and headerRef.
+
+Referenced by Session::start().
+
+\subsection{Member Data Documentation}
+\index{Request@{Request}!headerRef@{headerRef}}
+\index{headerRef@{headerRef}!Request@{Request}}
+\subsubsection[headerRef]{\setlength{\rightskip}{0pt plus 5cm}{\bf HttpHeader}\& {\bf Request::headerRef}\hspace{0.3cm}{\tt  [private]}}\label{classRequest_6081c76174ca3233c917a1a62aa5dc80}
+
+
+a reference to global HTTP header Object initialized by Constructor. 
+
+Referenced by setCookie().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+apprequest.h\item 
+apprequest.cpp\end{CompactItemize}

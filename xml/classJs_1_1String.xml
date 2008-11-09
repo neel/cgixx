@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classJs_1_1String" kind="class" prot="public">
+    <compoundname>Js::String</compoundname>
+    <basecompoundref refid="classJs_1_1JVar" prot="public" virt="non-virtual">Js::JVar</basecompoundref>
+    <includes refid="string_8h" local="no">string.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classJs_1_1String_147842a696506184a8dcb054ac7c56d5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Js::String::String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/jsutil/string.h" line="35" bodyfile="/home/neel/dev/c++/cgixx/cgi++/jsutil/string.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classJs_1_1String_15ef58df7c7d569d12d7b571b92a5cb25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Js::String::~String</definition>
+        <argsstring>()</argsstring>
+        <name>~String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/jsutil/string.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/jsutil/string.cpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="350">
+        <label>Js::String</label>
+        <link refid="classJs_1_1String"/>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>Js::JVar</label>
+        <link refid="classJs_1_1JVar"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="352">
+        <label>Js::String</label>
+        <link refid="classJs_1_1String"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="353">
+        <label>Js::JVar</label>
+        <link refid="classJs_1_1JVar"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/jsutil/string.h" line="33" bodyfile="/home/neel/dev/c++/cgixx/cgi++/jsutil/string.h" bodystart="33" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classJs_1_1JVar_1d2bc695a45a004f6abb9e32b054673e2" prot="public" virt="non-virtual"><scope>Js::String</scope><name>JVar</name></member>
+      <member refid="classJs_1_1String_147842a696506184a8dcb054ac7c56d5a" prot="public" virt="non-virtual"><scope>Js::String</scope><name>String</name></member>
+      <member refid="classJs_1_1JVar_15c0e98a646d1506f7773d339b40d786f" prot="public" virt="virtual"><scope>Js::String</scope><name>~JVar</name></member>
+      <member refid="classJs_1_1String_15ef58df7c7d569d12d7b571b92a5cb25" prot="public" virt="non-virtual"><scope>Js::String</scope><name>~String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

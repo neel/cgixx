@@ -1,0 +1,1780 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="var_8cpp" kind="file">
+    <compoundname>var.cpp</compoundname>
+    <includes refid="var_8h" local="yes">var.h</includes>
+    <incdepgraph>
+      <node id="635">
+        <label>var.h</label>
+        <link refid="var_8h-source"/>
+        <childnode refid="636" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="640" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+        <childnode refid="642" relation="include">
+        </childnode>
+      </node>
+      <node id="645">
+        <label>paramsmap.h</label>
+        <link refid="paramsmap_8h-source"/>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="646" relation="include">
+        </childnode>
+      </node>
+      <node id="639">
+        <label>string</label>
+      </node>
+      <node id="643">
+        <label>map</label>
+      </node>
+      <node id="640">
+        <label>ostream</label>
+      </node>
+      <node id="646">
+        <label>paramsmapcore.h</label>
+        <link refid="paramsmapcore_8h-source"/>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="647" relation="include">
+        </childnode>
+      </node>
+      <node id="634">
+        <label>var.cpp</label>
+        <link refid="var.cpp"/>
+        <childnode refid="635" relation="include">
+        </childnode>
+      </node>
+      <node id="644">
+        <label>vector</label>
+      </node>
+      <node id="641">
+        <label>sstream</label>
+      </node>
+      <node id="647">
+        <label>paramsmapcore.hpp</label>
+        <link refid="paramsmapcore_8hpp-source"/>
+        <childnode refid="646" relation="include">
+        </childnode>
+      </node>
+      <node id="642">
+        <label>httputil.h</label>
+        <link refid="httputil_8h-source"/>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="644" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+        <childnode refid="645" relation="include">
+        </childnode>
+        <childnode refid="648" relation="include">
+        </childnode>
+      </node>
+      <node id="638">
+        <label>cstdlib</label>
+      </node>
+      <node id="636">
+        <label>iostream</label>
+      </node>
+      <node id="648">
+        <label>stringlist.h</label>
+        <link refid="stringlist_8h-source"/>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="644" relation="include">
+        </childnode>
+      </node>
+      <node id="637">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="var_8cpp_182df12b1a94c2bfad03f945470c56ffd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const int &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="100" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1fd1602a96ba16d51bbabfc1790d280cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const unsigned int &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="101" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_185aebdea490c1ebdc494a6b8a0ffc223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const short &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const short &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="102" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1eb6bc49cd9e1ace436ce0d0779ce9cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const unsigned short &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned short &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="103" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1b2b15879da0782d15c1527f38917e510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const long &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const long &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="104" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_128a32c2d210b53b168d3f1bc324d7299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const unsigned long &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned long &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="105" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1f2d950dec527d16635fce4814b9a73e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const float &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="106" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_185098fe1ba5b2bd119cf756cdd12ccd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const double &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="107" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1a703ec49a60910c50db9ddd8a08bc313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const char &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const char &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="108" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1ad144f600d9775dce7d57cb548f7f90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const char *r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="109" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1ef495115b59b28838c8e2f8aaa115989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const Var &amp;l, const string &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="110" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1014316817c3584b2c8e20cf49c3562d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const Var &amp;l, const int &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="111" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1dc359028d42f822b95554d880474e079" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const Var &amp;l, const unsigned int &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="112" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1cbf8cb6876af47be7857804b0c748a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const Var &amp;l, const short &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const short &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="113" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_117a72bb79f6fc6dc27c72bb08f6c806f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const Var &amp;l, const unsigned short &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned short &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="114" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_18f53055bdb54db533c03a8a7139da6ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const Var &amp;l, const long &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const long &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="115" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_18c4a0a31d2513724b615f2a67c445e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const Var &amp;l, const unsigned long &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned long &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="116" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1473cf3d5907e3245a797ecd354f6efe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const Var &amp;l, const float &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="117" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_128a679935c4b01783a4603034401d121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const Var &amp;l, const double &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="118" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_11f2f8765fcc1f9fcc979b64f03cdcb0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const Var &amp;l, const int &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="119" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_16a33b07248dcfe35f6b88fa2b163da72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const Var &amp;l, const unsigned int &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="120" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_15172e71ee7876218112934f63470327a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const Var &amp;l, const short &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const short &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="121" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_18c5360db352dd859748233765ed081a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const Var &amp;l, const unsigned short &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned short &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="122" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1fe9be5f677aff3819112e4faf3a8aed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const Var &amp;l, const long &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const long &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="123" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1f6ec1e49df9087313d16a1996a5b56b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const Var &amp;l, const unsigned long &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned long &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="124" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_176eddfbbcb6ce3b4e0c43c08ff8d62fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const Var &amp;l, const float &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="125" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_15c094b2208547b1b2bad13b6e976f7ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const Var &amp;l, const double &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="126" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1b11167b1c6a983a0b884d3819fce476a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const Var &amp;l, const int &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="127" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_15071f85d07aa0f20dcb136d493cf2128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const Var &amp;l, const unsigned int &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="128" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_100bfab22e5d267d23f08c3cd953d55d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const Var &amp;l, const short &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const short &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="129" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_13e47ad4fd49715cc8505d4094c9371bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const Var &amp;l, const unsigned short &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned short &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="130" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_19ac304983b488e99fa052b6a7bba392c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const Var &amp;l, const long &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const long &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="131" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1281fe6770293875d26c2d2c1d72449da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const Var &amp;l, const unsigned long &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const unsigned long &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="132" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_156f86bd37ce2de90187a5cba6c336b68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const Var &amp;l, const float &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="133" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_15eb45d18589af6e48bc42231b773171c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const Var &amp;l, const double &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="134" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_146e5fda32500be987e1289f9b76b278a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const int &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="135" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1fc411edd9a1a77eea7d62082ac2e3c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const unsigned int &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="136" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_162ca1b32353fa939f1c4368f8aa80a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const short &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const short &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="137" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_17b0b86aacc7d03ad7c032e62c9e0be0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const unsigned short &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const unsigned short &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="138" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1ae7664cf10202bf6cd0b8d83e64fa825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const long &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="139" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1eecfe7eb3700cee039f87f8a6549e055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const unsigned long &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const unsigned long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="140" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1d8877e6026e286a940e2bd1cfdc2c669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const float &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="141" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_170cc2c56b604013cb09a4b6f27217ce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const double &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="142" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="142" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_14e030811872ef1975afd95c6a224b9a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const char &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const char &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="143" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_146aa3d8c4ecd5cee2935bfcaf7f7c214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const char *l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const char *</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="144" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="144" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1e451950dbece221b6b64ebd7f0edff0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator+</definition>
+        <argsstring>(const string &amp;l, const Var &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="145" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1dde335d9e939cf1cd3973e4ecdace55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const int &amp;l, const Var &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="146" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_17c43f39734e8d41aa205d82be7cb5d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const unsigned int &amp;l, const Var &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="147" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_14f7449625789e17bc472af57fad227e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const short &amp;l, const Var &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const short &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="148" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1dc417ed717b1ac7561b106ec1e539303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const unsigned short &amp;l, const Var &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const unsigned short &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="149" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1005ebec81dea8e554cb4a08ebcdcded9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const long &amp;l, const Var &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="150" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1c76c5561bc9e5b78f2a518255dc5c208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const unsigned long &amp;l, const Var &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const unsigned long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="151" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_12f94ddcb80f049344aabbe51a321a1f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const float &amp;l, const Var &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="152" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1fe92b16eecbf17bf06ec78e89334ab5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator-</definition>
+        <argsstring>(const double &amp;l, const Var &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="153" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1314820b745358a8a8e8401295757cac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const int &amp;l, const Var &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="154" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="154" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1cac6b65e6ea4b5d054735ca44d0394a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const unsigned int &amp;l, const Var &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="155" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1b9dc1783c652da766d070f84d08d87c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const short &amp;l, const Var &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const short &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="156" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1de7c96670f5a85ae9c90ae7df1c4e814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const unsigned short &amp;l, const Var &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const unsigned short &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="157" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_110d23b0550458ef7ce050b104c0001c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const long &amp;l, const Var &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="158" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_17e468572d8e9c6786915d81e92fdc8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const unsigned long &amp;l, const Var &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const unsigned long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="159" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_159586cd5ae3c745baa9363083043c60d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const float &amp;l, const Var &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="160" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1d11cecbfd89ab58e9f75012c1d7070aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator*</definition>
+        <argsstring>(const double &amp;l, const Var &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="161" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1ad62a92437a4bfd0f2efa16702a26cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const int &amp;l, const Var &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="162" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_11214b9a70f230aa5f0f92e2fd4a1be45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const unsigned int &amp;l, const Var &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const unsigned int &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="163" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1101734bcd7f5a9c1a208e187dab792c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const short &amp;l, const Var &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const short &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="164" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1d97468551c1506c373f2afdb88f40cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const unsigned short &amp;l, const Var &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const unsigned short &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="165" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_14815e00071aae3e86ea109e556b74946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const long &amp;l, const Var &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="166" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1be9bd4aa91c5fda4e4bf8c857dc55e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const unsigned long &amp;l, const Var &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const unsigned long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="167" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_13e60892575af5103410d047ca898cbdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const float &amp;l, const Var &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="168" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1d89ff5777f14e0851a010dacfcaa6789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var operator/</definition>
+        <argsstring>(const double &amp;l, const Var &amp;r)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="169" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="var_8cpp_1f5e4bc3f90b9446e2c92deba0dbb2ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;o, const Var &amp;v)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp" line="170" bodyfile="/home/neel/dev/c++/cgixx/cgi++/var.cpp" bodystart="170" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2008<sp/>by<sp/>Neel<sp/>Basu<sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>neel@zigmoyd<sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;var.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">Var::Var():__data(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">){}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>src):__data(src.__data){}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>val):__data(val){}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">Var::Var(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>val):__data(::toString(val)){}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">Var::~Var(){}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Var::size()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__data.length();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>Var::data()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__data.c_str();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>Var::toString()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__data;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Var::toLong()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atol(__data.c_str());</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Var::toInt()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atoi(__data.c_str());</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Var::toFloat()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atof(__data.c_str());</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Var::toDouble()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atof(__data.c_str());</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>Var::toChar()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strlen(__data.c_str())<sp/>!=<sp/>1)</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0x0;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__data[0];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toFloat()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toDouble()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toString()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toString()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toString()+r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator-=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()-r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator-=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()-r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator-=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()-r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator-=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()-r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator-=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()-r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator-=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()-r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator-=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toFloat()-r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator-=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toDouble()-r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator*=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()*r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator*=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()*r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator*=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()*r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator*=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()*r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator*=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()*r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator*=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()*r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator*=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toFloat()*r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator*=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toDouble()*r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator/=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()/r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator/=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()/r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator/=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()/r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator/=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()/r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator/=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()/r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator/=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()/r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator/=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toFloat()/r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator/=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r){setData(<ref refid="classVar" kindref="compound">Var</ref>(toDouble()/r));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator++(){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()+1));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>Var::operator--(){setData(<ref refid="classVar" kindref="compound">Var</ref>(toInt()-1));</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+r);}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+r);}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+r);}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+r);}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+r);}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+r);}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1f3a89b2ce7659ee5c56d113ac07fb557" kindref="member">toFloat</ref>()+r);}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1594a4b4f28b4aa725f6bf780312e187c" kindref="member">toDouble</ref>()+r);}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_15ceac5f71482331f8d76135e94b7236b" kindref="member">toString</ref>()+r);}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_15ceac5f71482331f8d76135e94b7236b" kindref="member">toString</ref>()+r);}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_15ceac5f71482331f8d76135e94b7236b" kindref="member">toString</ref>()+r);}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-r);}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-r);}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-r);}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-r);}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-r);}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-r);}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1f3a89b2ce7659ee5c56d113ac07fb557" kindref="member">toFloat</ref>()-r);}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1594a4b4f28b4aa725f6bf780312e187c" kindref="member">toDouble</ref>()+r);}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*r);}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*r);}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*r);}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*r);}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*r);}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*r);}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1f3a89b2ce7659ee5c56d113ac07fb557" kindref="member">toFloat</ref>()*r);}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1594a4b4f28b4aa725f6bf780312e187c" kindref="member">toDouble</ref>()*r);}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/r);}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/r);}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/r);}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/r);}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/r);}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/r);}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1f3a89b2ce7659ee5c56d113ac07fb557" kindref="member">toFloat</ref>()/r);}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(l.<ref refid="classVar_1594a4b4f28b4aa725f6bf780312e187c" kindref="member">toDouble</ref>()/r);}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+l);}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+l);}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+l);}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+l);}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+l);}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()+l);}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1f3a89b2ce7659ee5c56d113ac07fb557" kindref="member">toFloat</ref>()+l);}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1594a4b4f28b4aa725f6bf780312e187c" kindref="member">toDouble</ref>()+l);}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>tmp<sp/>=<sp/>r.<ref refid="classVar_15ceac5f71482331f8d76135e94b7236b" kindref="member">toString</ref>();</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tmp.insert(0,<sp/>1,<sp/>l);}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>tmp<sp/>=<sp/>r.<ref refid="classVar_15ceac5f71482331f8d76135e94b7236b" kindref="member">toString</ref>();</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tmp.insert(0,<sp/>l);}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>tmp<sp/>=<sp/>r.<ref refid="classVar_15ceac5f71482331f8d76135e94b7236b" kindref="member">toString</ref>();</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tmp.insert(0,<sp/>l);}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-l);}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-l);}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-l);}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-l);}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-l);}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()-l);}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1f3a89b2ce7659ee5c56d113ac07fb557" kindref="member">toFloat</ref>()-l);}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator-(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1594a4b4f28b4aa725f6bf780312e187c" kindref="member">toDouble</ref>()+l);}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*l);}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*l);}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*l);}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*l);}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*l);}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()*l);}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1f3a89b2ce7659ee5c56d113ac07fb557" kindref="member">toFloat</ref>()*l);}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator*(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1594a4b4f28b4aa725f6bf780312e187c" kindref="member">toDouble</ref>()*l);}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/l);}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/l);}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/l);}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/l);}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/l);}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1a9f4bb634a37cea60419ffa813027eae" kindref="member">toInt</ref>()/l);}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1f3a89b2ce7659ee5c56d113ac07fb557" kindref="member">toFloat</ref>()/l);}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><ref refid="classVar" kindref="compound">Var</ref><sp/>operator/(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>r){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r.<ref refid="classVar_1594a4b4f28b4aa725f6bf780312e187c" kindref="member">toDouble</ref>()/l);}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">ostream&amp;<sp/>operator&lt;&lt;(ostream&amp;<sp/>o,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classVar" kindref="compound">Var</ref>&amp;<sp/>v){</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>o&lt;&lt;v.<ref refid="classVar_1155c960ed347bb236f5f91019d32bc25" kindref="member">__data</ref>.c_str();</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>o;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/var.cpp"/>
+  </compounddef>
+</doxygen>

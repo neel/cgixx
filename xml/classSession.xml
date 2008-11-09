@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classSession" kind="class" prot="public">
+    <compoundname>Session</compoundname>
+    <includes refid="session_8h" local="no">session.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSession_19cd3e99945f7d8f66dc1e3de62340a84" prot="private" static="no" mutable="no">
+        <type><ref refid="classRequest" kindref="compound">Request</ref> &amp;</type>
+        <definition>Request&amp; Session::requestRef</definition>
+        <argsstring></argsstring>
+        <name>requestRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="73" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSession_1a8dcecd77995032fc6f62c07094792ec" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Session::sessPath</definition>
+        <argsstring></argsstring>
+        <name>sessPath</name>
+        <briefdescription>
+<para>a reference to global request object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="74" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSession_167959ca0be9ea178856377f310406598" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Session::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>Path to the directory where all session file(s) are going to be stored. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="75" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSession_1a0f52e870f6919cae73a6dfa6b5c823b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Session::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>Holds the session ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="76" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.h" bodystart="76" bodyend="-1"/>
+        <referencedby refid="classSession_147baf956cead0046fcbac45c572c70d3" compoundref="session_8cpp" startline="84" endline="94">start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSession_138e2c04237ea64cb13d38be00915fc33" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Session::sessFileName</definition>
+        <argsstring></argsstring>
+        <name>sessFileName</name>
+        <briefdescription>
+<para>name of the <ref refid="classSession" kindref="compound">Session</ref> variable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="77" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.h" bodystart="77" bodyend="-1"/>
+        <referencedby refid="classSession_1434b31f18e6c36b0b37e846d45378389" compoundref="session_8cpp" startline="227" endline="247">dumpSessionData</referencedby>
+        <referencedby refid="classSession_10558dc3e4bb546c7f61c16161480413e" compoundref="session_8cpp" startline="208" endline="222">readSessionData</referencedby>
+        <referencedby refid="classSession_147baf956cead0046fcbac45c572c70d3" compoundref="session_8cpp" startline="84" endline="94">start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSession_18c519734d64bd395fc5c47535a10e074" prot="public" static="no" mutable="no">
+        <type><ref refid="classsessionCookieParams" kindref="compound">sessionCookieParams</ref></type>
+        <definition>sessionCookieParams Session::cookieParams</definition>
+        <argsstring></argsstring>
+        <name>cookieParams</name>
+        <briefdescription>
+<para>Holds the session <ref refid="classFile" kindref="compound">File</ref> Name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="79" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSession_12f67fe84547280234c0f2ceb3b3daa5f" prot="public" static="no" mutable="no">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Session::item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+<para>stores all cookie parameters with which the session ID cookie will be sent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="80" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classSession_15fb598d46ffff4dd303230d5d4329fce" compoundref="session_8cpp" startline="122" endline="127">add</referencedby>
+        <referencedby refid="classSession_1434b31f18e6c36b0b37e846d45378389" compoundref="session_8cpp" startline="227" endline="247">dumpSessionData</referencedby>
+        <referencedby refid="classSession_1c183a526410481bacc81ba48771eb6f2" compoundref="session_8cpp" startline="132" endline="135">exists</referencedby>
+        <referencedby refid="classSession_19cee8692bb3f22d4ab1d97f424bbbf28" compoundref="session_8cpp" startline="171" endline="184">get</referencedby>
+        <referencedby refid="classSession_1656e0f7bae0d39166c80e578baa14935" compoundref="session_8cpp" startline="152" endline="158">modify</referencedby>
+        <referencedby refid="classSession_1e538023eb99c72dd6a86405d7627a05f" compoundref="session_8cpp" startline="140" endline="147">remove</referencedby>
+        <referencedby refid="classSession_147baf956cead0046fcbac45c572c70d3" compoundref="session_8cpp" startline="84" endline="94">start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSession_1bed10983b0d32a61bb7754eaff342e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Session::Session</definition>
+        <argsstring>(Request &amp;req)</argsstring>
+        <name>Session</name>
+        <param>
+          <type><ref refid="classRequest" kindref="compound">Request</ref> &amp;</type>
+          <declname>req</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="59" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_11d658492788217c7d199e2b636c57264" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Session::Session</definition>
+        <argsstring>(Request &amp;req, const string &amp;)</argsstring>
+        <name>Session</name>
+        <param>
+          <type><ref refid="classRequest" kindref="compound">Request</ref> &amp;</type>
+          <declname>req</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <defname>path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="60" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_18753bb9dee966b7d39abc9b7237cd665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Session::~Session</definition>
+        <argsstring>()</argsstring>
+        <name>~Session</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="61" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_16cd7e9f8b2c63b8638a367bf2c544382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::setRequestHandle</definition>
+        <argsstring>(Request &amp;)</argsstring>
+        <name>setRequestHandle</name>
+        <param>
+          <type><ref refid="classRequest" kindref="compound">Request</ref> &amp;</type>
+          <defname>req</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the reference to global request object to requestRef </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="62" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_147baf956cead0046fcbac45c572c70d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start&apos;s the session. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="63" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="84" bodyend="94"/>
+        <references refid="classSession_1624d15e7efa8808de91485ddd37bfe3e" compoundref="session_8cpp" startline="191" endline="203">createEmptySessionFile</references>
+        <references refid="classSession_12f67fe84547280234c0f2ceb3b3daa5f" compoundref="session_8h" startline="80">item</references>
+        <references refid="classSession_1a0f52e870f6919cae73a6dfa6b5c823b" compoundref="session_8h" startline="76">name</references>
+        <references refid="classSession_10558dc3e4bb546c7f61c16161480413e" compoundref="session_8cpp" startline="208" endline="222">readSessionData</references>
+        <references refid="classSession_138e2c04237ea64cb13d38be00915fc33" compoundref="session_8h" startline="77">sessFileName</references>
+        <references refid="classRequest_14f58d62030fbe7a46d8251b9f2212820" compoundref="apprequest_8cpp" startline="115" endline="127">Request::setCookie</references>
+        <references refid="classVar_15ceac5f71482331f8d76135e94b7236b" compoundref="var_8cpp" startline="44" endline="46">Var::toString</references>
+        <referencedby refid="classCGIApp_1d94e9010ba20af8e820783749e8f7cc8" compoundref="cgiapp_8cpp" startline="51" endline="54">CGIApp::start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSession_1513ec9f06c9774e5095a0ceb0f20bd7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::commit</definition>
+        <argsstring>()</argsstring>
+        <name>commit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Commit&apos;s the session. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="64" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="107" bodyend="109"/>
+        <references refid="classSession_1434b31f18e6c36b0b37e846d45378389" compoundref="session_8cpp" startline="227" endline="247">dumpSessionData</references>
+        <referencedby refid="classCGIApp_19d7d937724bafb58dfb455411c8b5e86" compoundref="cgiapp_8cpp" startline="64" endline="66">CGIApp::stop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSession_1835ab2b8c185a5ac93881581cb5cb360" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const string &amp;</type>
+        <definition>const string &amp; Session::getSessPath</definition>
+        <argsstring>() const </argsstring>
+        <name>getSessPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="65" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="111" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_18760d388b1d90291be17dbd162e6eba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::setSessPath</definition>
+        <argsstring>(const string &amp;path)</argsstring>
+        <name>setSessPath</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="66" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_15fb598d46ffff4dd303230d5d4329fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Session::add</definition>
+        <argsstring>(const string &amp;, const Var &amp;)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const string &amp;</type>
+          <defname>key</defname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <defname>val</defname>
+        </param>
+        <briefdescription>
+<para>stores all sessions </para>        </briefdescription>
+        <detaileddescription>
+<para>Add&apos;s a session as string, <ref refid="classVar" kindref="compound">Var</ref> key pair into item member variable </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="82" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="122" bodyend="127"/>
+        <references refid="classSession_12f67fe84547280234c0f2ceb3b3daa5f" compoundref="session_8h" startline="80">item</references>
+      </memberdef>
+      <memberdef kind="function" id="classSession_1c183a526410481bacc81ba48771eb6f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Session::exists</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>exists</name>
+        <param>
+          <type>const string &amp;</type>
+          <defname>key</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks wheather a session with the provided key exists or not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="83" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="132" bodyend="135"/>
+        <references refid="classSession_12f67fe84547280234c0f2ceb3b3daa5f" compoundref="session_8h" startline="80">item</references>
+        <referencedby refid="classSession_1656e0f7bae0d39166c80e578baa14935" compoundref="session_8cpp" startline="152" endline="158">modify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSession_1e538023eb99c72dd6a86405d7627a05f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Session::remove</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const string &amp;</type>
+          <defname>key</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removes a session </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="84" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="140" bodyend="147"/>
+        <references refid="classSession_12f67fe84547280234c0f2ceb3b3daa5f" compoundref="session_8h" startline="80">item</references>
+      </memberdef>
+      <memberdef kind="function" id="classSession_1656e0f7bae0d39166c80e578baa14935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Session::modify</definition>
+        <argsstring>(const string &amp;, const Var &amp;)</argsstring>
+        <name>modify</name>
+        <param>
+          <type>const string &amp;</type>
+          <defname>key</defname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <defname>val</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>modifies a session </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="85" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="152" bodyend="158"/>
+        <references refid="classSession_1c183a526410481bacc81ba48771eb6f2" compoundref="session_8cpp" startline="132" endline="135">exists</references>
+        <references refid="classSession_12f67fe84547280234c0f2ceb3b3daa5f" compoundref="session_8h" startline="80">item</references>
+      </memberdef>
+      <memberdef kind="function" id="classSession_19cee8692bb3f22d4ab1d97f424bbbf28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>const Var Session::get</definition>
+        <argsstring>(const string &amp;) const </argsstring>
+        <name>get</name>
+        <param>
+          <type>const string &amp;</type>
+          <defname>key</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get value of a <ref refid="classSession" kindref="compound">Session</ref> </para>        </detaileddescription>
+        <inbodydescription>
+<para>{@ <xrefsect id="todo_1_todo000004"><xreftitle>Todo</xreftitle><xrefdescription><para>for Debug purpouse Only </para></xrefdescription></xrefsect></para><para><xrefsect id="todo_1_todo000004"><xreftitle>Todo</xreftitle><xrefdescription><para>for Debug purpouse Only </para></xrefdescription></xrefsect></para>        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="86" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="171" bodyend="184"/>
+        <references refid="classSession_12f67fe84547280234c0f2ceb3b3daa5f" compoundref="session_8h" startline="80">item</references>
+      </memberdef>
+      <memberdef kind="function" id="classSession_1b24201b878b2af6592e80db577b43503" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Session::sessionIdProvided</definition>
+        <argsstring>() const </argsstring>
+        <name>sessionIdProvided</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="87" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_1e5e6b48af87faa353c4b4b4cecf382f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classVar" kindref="compound">Var</ref></type>
+        <definition>Var Session::getSessionId</definition>
+        <argsstring>() const </argsstring>
+        <name>getSessionId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="88" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_13f1e69909718368842652c060a67e6e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Session::set</definition>
+        <argsstring>(const string &amp;key, const Var &amp;val)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classVar" kindref="compound">Var</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="89" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="160" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSession_1624d15e7efa8808de91485ddd37bfe3e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Session::createEmptySessionFile</definition>
+        <argsstring>() const </argsstring>
+        <name>createEmptySessionFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create&apos;s an empty session file. returns the session ID of the newly created <ref refid="classSession" kindref="compound">Session</ref> file. <ref refid="classSession_147baf956cead0046fcbac45c572c70d3" kindref="member">Session::start()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="68" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="191" bodyend="203"/>
+        <referencedby refid="classSession_147baf956cead0046fcbac45c572c70d3" compoundref="session_8cpp" startline="84" endline="94">start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSession_13a36a232a5ada8ef68b7aa272a980368" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Session::fullSessionPath</definition>
+        <argsstring>(const string &amp;sessId) const </argsstring>
+        <name>fullSessionPath</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>sessId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="69" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="249" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classSession_10558dc3e4bb546c7f61c16161480413e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classParamsMap" kindref="compound">ParamsMap</ref></type>
+        <definition>ParamsMap Session::readSessionData</definition>
+        <argsstring>() const </argsstring>
+        <name>readSessionData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read&apos;s session Data from the session <ref refid="classFile" kindref="compound">File</ref> and returns it into <ref refid="classParamsMap" kindref="compound">ParamsMap</ref> format </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="70" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="208" bodyend="222"/>
+        <references refid="classSession_138e2c04237ea64cb13d38be00915fc33" compoundref="session_8h" startline="77">sessFileName</references>
+        <referencedby refid="classSession_147baf956cead0046fcbac45c572c70d3" compoundref="session_8cpp" startline="84" endline="94">start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSession_1434b31f18e6c36b0b37e846d45378389" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Session::dumpSessionData</definition>
+        <argsstring>()</argsstring>
+        <name>dumpSessionData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dump&apos;s session data in <ref refid="classParamsMap" kindref="compound">ParamsMap</ref> format into item member variable from the provided session file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="71" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.cpp" bodystart="227" bodyend="247"/>
+        <references refid="classSession_12f67fe84547280234c0f2ceb3b3daa5f" compoundref="session_8h" startline="80">item</references>
+        <references refid="classSession_138e2c04237ea64cb13d38be00915fc33" compoundref="session_8h" startline="77">sessFileName</references>
+        <referencedby refid="classSession_1513ec9f06c9774e5095a0ceb0f20bd7a" compoundref="session_8cpp" startline="107" endline="109">commit</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Global <ref refid="classSession" kindref="compound">Session</ref> Classes which should be accessed through the request Object. stores all sessions as <ref refid="classParamsMap" kindref="compound">ParamsMap</ref> in item member variable holds a reference to global request object</para><para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="292">
+        <label>string</label>
+      </node>
+      <node id="300">
+        <label>std::vector&lt; string &gt;</label>
+      </node>
+      <node id="298">
+        <label>HttpHeader</label>
+        <link refid="classHttpHeader"/>
+        <childnode refid="299" relation="usage">
+          <edgelabel>headersList</edgelabel>
+        </childnode>
+      </node>
+      <node id="299">
+        <label>StringList</label>
+        <link refid="classStringList"/>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>ParamsMap</label>
+        <link refid="classParamsMap"/>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="294">
+        <label>ParamsMapCore&lt; string, Var &gt;</label>
+        <link refid="classParamsMapCore"/>
+        <childnode refid="295" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="291">
+        <label>sessionCookieParams</label>
+        <link refid="classsessionCookieParams"/>
+        <childnode refid="292" relation="usage">
+          <edgelabel>domain
+path</edgelabel>
+        </childnode>
+      </node>
+      <node id="296">
+        <label>Request</label>
+        <link refid="classRequest"/>
+        <childnode refid="297" relation="public-inheritance">
+        </childnode>
+        <childnode refid="293" relation="usage">
+          <edgelabel>post
+cookie
+get</edgelabel>
+        </childnode>
+        <childnode refid="298" relation="usage">
+          <edgelabel>headerRef</edgelabel>
+        </childnode>
+        <childnode refid="299" relation="usage">
+          <edgelabel>pathInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="297">
+        <label>RawRequest</label>
+        <link refid="classRawRequest"/>
+      </node>
+      <node id="290">
+        <label>Session</label>
+        <link refid="classSession"/>
+        <childnode refid="291" relation="usage">
+          <edgelabel>cookieParams</edgelabel>
+        </childnode>
+        <childnode refid="293" relation="usage">
+          <edgelabel>item</edgelabel>
+        </childnode>
+        <childnode refid="292" relation="usage">
+          <edgelabel>sessPath
+id
+name
+sessFileName</edgelabel>
+        </childnode>
+        <childnode refid="296" relation="usage">
+          <edgelabel>requestRef</edgelabel>
+        </childnode>
+      </node>
+      <node id="295">
+        <label>std::map&lt;string , Var &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/session.h" line="57" bodyfile="/home/neel/dev/c++/cgixx/cgi++/session.h" bodystart="57" bodyend="90"/>
+    <listofallmembers>
+      <member refid="classSession_15fb598d46ffff4dd303230d5d4329fce" prot="public" virt="non-virtual"><scope>Session</scope><name>add</name></member>
+      <member refid="classSession_1513ec9f06c9774e5095a0ceb0f20bd7a" prot="public" virt="non-virtual"><scope>Session</scope><name>commit</name></member>
+      <member refid="classSession_18c519734d64bd395fc5c47535a10e074" prot="public" virt="non-virtual"><scope>Session</scope><name>cookieParams</name></member>
+      <member refid="classSession_1624d15e7efa8808de91485ddd37bfe3e" prot="private" virt="non-virtual"><scope>Session</scope><name>createEmptySessionFile</name></member>
+      <member refid="classSession_1434b31f18e6c36b0b37e846d45378389" prot="private" virt="non-virtual"><scope>Session</scope><name>dumpSessionData</name></member>
+      <member refid="classSession_1c183a526410481bacc81ba48771eb6f2" prot="public" virt="non-virtual"><scope>Session</scope><name>exists</name></member>
+      <member refid="classSession_13a36a232a5ada8ef68b7aa272a980368" prot="private" virt="non-virtual"><scope>Session</scope><name>fullSessionPath</name></member>
+      <member refid="classSession_19cee8692bb3f22d4ab1d97f424bbbf28" prot="public" virt="non-virtual"><scope>Session</scope><name>get</name></member>
+      <member refid="classSession_1e5e6b48af87faa353c4b4b4cecf382f6" prot="public" virt="non-virtual"><scope>Session</scope><name>getSessionId</name></member>
+      <member refid="classSession_1835ab2b8c185a5ac93881581cb5cb360" prot="public" virt="non-virtual"><scope>Session</scope><name>getSessPath</name></member>
+      <member refid="classSession_167959ca0be9ea178856377f310406598" prot="private" virt="non-virtual"><scope>Session</scope><name>id</name></member>
+      <member refid="classSession_12f67fe84547280234c0f2ceb3b3daa5f" prot="public" virt="non-virtual"><scope>Session</scope><name>item</name></member>
+      <member refid="classSession_1656e0f7bae0d39166c80e578baa14935" prot="public" virt="non-virtual"><scope>Session</scope><name>modify</name></member>
+      <member refid="classSession_1a0f52e870f6919cae73a6dfa6b5c823b" prot="private" virt="non-virtual"><scope>Session</scope><name>name</name></member>
+      <member refid="classSession_10558dc3e4bb546c7f61c16161480413e" prot="private" virt="non-virtual"><scope>Session</scope><name>readSessionData</name></member>
+      <member refid="classSession_1e538023eb99c72dd6a86405d7627a05f" prot="public" virt="non-virtual"><scope>Session</scope><name>remove</name></member>
+      <member refid="classSession_19cd3e99945f7d8f66dc1e3de62340a84" prot="private" virt="non-virtual"><scope>Session</scope><name>requestRef</name></member>
+      <member refid="classSession_138e2c04237ea64cb13d38be00915fc33" prot="private" virt="non-virtual"><scope>Session</scope><name>sessFileName</name></member>
+      <member refid="classSession_1bed10983b0d32a61bb7754eaff342e3d" prot="public" virt="non-virtual"><scope>Session</scope><name>Session</name></member>
+      <member refid="classSession_11d658492788217c7d199e2b636c57264" prot="public" virt="non-virtual"><scope>Session</scope><name>Session</name></member>
+      <member refid="classSession_1b24201b878b2af6592e80db577b43503" prot="public" virt="non-virtual"><scope>Session</scope><name>sessionIdProvided</name></member>
+      <member refid="classSession_1a8dcecd77995032fc6f62c07094792ec" prot="private" virt="non-virtual"><scope>Session</scope><name>sessPath</name></member>
+      <member refid="classSession_13f1e69909718368842652c060a67e6e7" prot="public" virt="non-virtual"><scope>Session</scope><name>set</name></member>
+      <member refid="classSession_16cd7e9f8b2c63b8638a367bf2c544382" prot="public" virt="non-virtual"><scope>Session</scope><name>setRequestHandle</name></member>
+      <member refid="classSession_18760d388b1d90291be17dbd162e6eba3" prot="public" virt="non-virtual"><scope>Session</scope><name>setSessPath</name></member>
+      <member refid="classSession_147baf956cead0046fcbac45c572c70d3" prot="public" virt="non-virtual"><scope>Session</scope><name>start</name></member>
+      <member refid="classSession_18753bb9dee966b7d39abc9b7237cd665" prot="public" virt="non-virtual"><scope>Session</scope><name>~Session</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

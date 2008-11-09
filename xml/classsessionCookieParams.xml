@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classsessionCookieParams" kind="class" prot="public">
+    <compoundname>sessionCookieParams</compoundname>
+    <includes refid="sessioncookieparams_8h" local="no">sessioncookieparams.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classsessionCookieParams_125ce9671455b3907acb39326f3a2443c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool sessionCookieParams::secure</definition>
+        <argsstring></argsstring>
+        <name>secure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" line="41" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsessionCookieParams_19820667431b4c94b8911a9c30ecf879d" prot="protected" static="no" mutable="no">
+        <type>const string &amp;</type>
+        <definition>const string&amp; sessionCookieParams::domain</definition>
+        <argsstring></argsstring>
+        <name>domain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" line="42" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsessionCookieParams_1955bf23ca54051996c3c21f0be2834a1" prot="protected" static="no" mutable="no">
+        <type>const string &amp;</type>
+        <definition>const string&amp; sessionCookieParams::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" line="43" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsessionCookieParams_1c335ebb63e71856e6f9b7fe01f9f8cf4" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool sessionCookieParams::httpOnly</definition>
+        <argsstring></argsstring>
+        <name>httpOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" line="44" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsessionCookieParams_142013d729a3325abde406f2e05342417" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long sessionCookieParams::lifeTime</definition>
+        <argsstring></argsstring>
+        <name>lifeTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" line="45" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsessionCookieParams_1e6a671144c79127aa5131ba02e91446b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sessionCookieParams::sessionCookieParams</definition>
+        <argsstring>()</argsstring>
+        <name>sessionCookieParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" line="38" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classsessionCookieParams_111c082f93cd3598d4e3ce2ee8f2ad24e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sessionCookieParams::~sessionCookieParams</definition>
+        <argsstring>()</argsstring>
+        <name>~sessionCookieParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" line="39" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Holds the <ref refid="classSession" kindref="compound">Session</ref> Cookie parameters Should be accessed through request.session.cookieParams Object Chain</para><para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="306">
+        <label>string</label>
+      </node>
+      <node id="305">
+        <label>sessionCookieParams</label>
+        <link refid="classsessionCookieParams"/>
+        <childnode refid="306" relation="usage">
+          <edgelabel>domain
+path</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessioncookieparams.h" bodystart="36" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classsessionCookieParams_19820667431b4c94b8911a9c30ecf879d" prot="protected" virt="non-virtual"><scope>sessionCookieParams</scope><name>domain</name></member>
+      <member refid="classsessionCookieParams_1c335ebb63e71856e6f9b7fe01f9f8cf4" prot="protected" virt="non-virtual"><scope>sessionCookieParams</scope><name>httpOnly</name></member>
+      <member refid="classsessionCookieParams_142013d729a3325abde406f2e05342417" prot="protected" virt="non-virtual"><scope>sessionCookieParams</scope><name>lifeTime</name></member>
+      <member refid="classsessionCookieParams_1955bf23ca54051996c3c21f0be2834a1" prot="protected" virt="non-virtual"><scope>sessionCookieParams</scope><name>path</name></member>
+      <member refid="classsessionCookieParams_125ce9671455b3907acb39326f3a2443c" prot="protected" virt="non-virtual"><scope>sessionCookieParams</scope><name>secure</name></member>
+      <member refid="classsessionCookieParams_1e6a671144c79127aa5131ba02e91446b" prot="public" virt="non-virtual"><scope>sessionCookieParams</scope><name>sessionCookieParams</name></member>
+      <member refid="classsessionCookieParams_111c082f93cd3598d4e3ce2ee8f2ad24e" prot="public" virt="non-virtual"><scope>sessionCookieParams</scope><name>~sessionCookieParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

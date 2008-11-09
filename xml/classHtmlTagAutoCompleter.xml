@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classHtmlTagAutoCompleter" kind="class" prot="public">
+    <compoundname>HtmlTagAutoCompleter</compoundname>
+    <includes refid="htmltagautocompleter_8h" local="no">htmltagautocompleter.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classHtmlTagAutoCompleter_1ea0c02eb0d947e4baf9880566e79f958" prot="private" static="yes" mutable="no">
+        <type>stack&lt; string &gt;</type>
+        <definition>stack&lt; string &gt; HtmlTagAutoCompleter::tstk</definition>
+        <argsstring></argsstring>
+        <name>tstk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/htmltagautocompleter.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/htmltagautocompleter.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classHtmlTagAutoCompleter_1d31605fa8bf1d1bb3163a17d121d3ee9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HtmlTagAutoCompleter::detectStatus</definition>
+        <argsstring>(const string &amp;tagName)</argsstring>
+        <name>detectStatus</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>tagName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/htmltagautocompleter.h" line="38" bodyfile="/home/neel/dev/c++/cgixx/cgi++/htmltagautocompleter.cpp" bodystart="27" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="170">
+        <label>HtmlTagAutoCompleter</label>
+        <link refid="classHtmlTagAutoCompleter"/>
+        <childnode refid="171" relation="usage">
+          <edgelabel>tstk</edgelabel>
+        </childnode>
+      </node>
+      <node id="171">
+        <label>stack&lt; string &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/htmltagautocompleter.h" line="34" bodyfile="/home/neel/dev/c++/cgixx/cgi++/htmltagautocompleter.h" bodystart="34" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classHtmlTagAutoCompleter_1d31605fa8bf1d1bb3163a17d121d3ee9" prot="public" virt="non-virtual"><scope>HtmlTagAutoCompleter</scope><name>detectStatus</name></member>
+      <member refid="classHtmlTagAutoCompleter_1ea0c02eb0d947e4baf9880566e79f958" prot="private" virt="non-virtual"><scope>HtmlTagAutoCompleter</scope><name>tstk</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

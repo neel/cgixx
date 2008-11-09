@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classSessionFileNotWritable" kind="class" prot="public">
+    <compoundname>SessionFileNotWritable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FileNotWritableException</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSessionFileNotWritable_1a19dbeb8ab47d1d1e989f8c6546f23b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SessionFileNotWritable::SessionFileNotWritable</definition>
+        <argsstring>(const string &amp;file)</argsstring>
+        <name>SessionFileNotWritable</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiexception.h" line="75" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiexception.cpp" bodystart="95" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="335">
+        <label>SessionFileNotWritable</label>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="336">
+        <label>FileNotWritableException</label>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="337">
+        <label>CGIException</label>
+        <link refid="classCGIException"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="341">
+        <label>string</label>
+      </node>
+      <node id="338">
+        <label>SessionFileNotWritable</label>
+        <childnode refid="339" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="339">
+        <label>FileNotWritableException</label>
+        <childnode refid="340" relation="public-inheritance">
+        </childnode>
+        <childnode refid="341" relation="usage">
+          <edgelabel>fileName</edgelabel>
+        </childnode>
+      </node>
+      <node id="340">
+        <label>CGIException</label>
+        <link refid="classCGIException"/>
+        <childnode refid="341" relation="usage">
+          <edgelabel>mErrMsg</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/cgiexception.h" line="73" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiexception.h" bodystart="73" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classCGIException_1f53d72a8212748d248149d52e0bdce37" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>CGIException</name></member>
+      <member refid="classCGIException_1cb06b9baf52d90d4af08ebe9f45a89eb" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>CGIException</name></member>
+      <member refid="classFileNotWritableException_1680f163c35577f9af112df4b1e583509" prot="protected" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>fileName</name></member>
+      <member refid="classFileNotWritableException_14994fba4df44d52d801d39a0f9eee0c2" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>FileNotWritableException</name></member>
+      <member refid="classFileNotWritableException_1ed0f8bdf3ef7a6ec9b842c53c88fdfc5" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>FileNotWritableException</name></member>
+      <member refid="classFileNotWritableException_16f38263b2e8d767007e353cb3be5a95d" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>FileNotWritableException</name></member>
+      <member refid="classFileNotWritableException_1f919b7abfa93a939f6a65236854906f0" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>getFileName</name></member>
+      <member refid="classCGIException_1a23e3d6c37bdb51e61ef3a0a9f37a96f" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>getMsg</name></member>
+      <member refid="classCGIException_183dbc37442acdd6c18caa70a82be95e1" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classSessionFileNotWritable_1a19dbeb8ab47d1d1e989f8c6546f23b1" prot="public" virt="non-virtual"><scope>SessionFileNotWritable</scope><name>SessionFileNotWritable</name></member>
+      <member refid="classCGIException_1f2f625887edec66ef4cca015e331d98c" prot="public" virt="virtual"><scope>SessionFileNotWritable</scope><name>~CGIException</name></member>
+      <member refid="classFileNotWritableException_18f15572723fcbcc190c8763935f6501a" prot="public" virt="virtual"><scope>SessionFileNotWritable</scope><name>~FileNotWritableException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

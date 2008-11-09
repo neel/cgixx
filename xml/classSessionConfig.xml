@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classSessionConfig" kind="class" prot="public">
+    <compoundname>SessionConfig</compoundname>
+    <includes refid="sessionconfig_8h" local="no">sessionconfig.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classSessionConfig_17229f84e99aba263477936360200f353" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string SessionConfig::sessPath</definition>
+        <argsstring></argsstring>
+        <name>sessPath</name>
+        <initializer> DEFAULT_SESS_PATH</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="39" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSessionConfig_15309d680dc0211446f0cbb8c671217e5" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string SessionConfig::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer> &quot;/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="40" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSessionConfig_16f05cf6c84d4d31b6e424ab5991876b5" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string SessionConfig::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <initializer> &quot;CGIPPSESSID&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="41" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSessionConfig_19db25c20a5cd170c169d8e201594e797" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool SessionConfig::secure</definition>
+        <argsstring></argsstring>
+        <name>secure</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="42" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSessionConfig_1ccad530c93a443aa951da00116ea6133" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool SessionConfig::httpOnly</definition>
+        <argsstring></argsstring>
+        <name>httpOnly</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="43" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSessionConfig_13e34ea9368441fc1f356b1f91373adb7" prot="public" static="yes" mutable="no">
+        <type>long</type>
+        <definition>long SessionConfig::lifeTime</definition>
+        <argsstring></argsstring>
+        <name>lifeTime</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="44" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSessionConfig_15f3a5e04dd36008eac09928befec6efa" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string SessionConfig::domain</definition>
+        <argsstring></argsstring>
+        <name>domain</name>
+        <initializer> &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="45" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSessionConfig_1657604c0ca85eb000a55ea34b70138cf" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool SessionConfig::autoStart</definition>
+        <argsstring></argsstring>
+        <name>autoStart</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="46" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSessionConfig_13a964cae8d6403f5442ad506555e47ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SessionConfig::SessionConfig</definition>
+        <argsstring>()</argsstring>
+        <name>SessionConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="36" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1127a5aa9b518bd0c1abdf2c72ccb04cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SessionConfig::~SessionConfig</definition>
+        <argsstring>()</argsstring>
+        <name>~SessionConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="37" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classSessionConfig_179cc3d0597e57923990c3052d292cf9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SessionConfig::isHttpOnly</definition>
+        <argsstring>()</argsstring>
+        <name>isHttpOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="48" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1ab079957299649b61a68d78d7038329c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SessionConfig::isSecure</definition>
+        <argsstring>()</argsstring>
+        <name>isSecure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="49" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_182216f8f91f34bbc4971ff00239bdfe7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SessionConfig::isAutoStarted</definition>
+        <argsstring>()</argsstring>
+        <name>isAutoStarted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="50" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1860565999c16255c14e5296fc990f2d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const long &amp;</type>
+        <definition>static const long&amp; SessionConfig::getLifetime</definition>
+        <argsstring>()</argsstring>
+        <name>getLifetime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="51" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1aba17c677d505fbeb6a2a55989594d00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const string &amp;</type>
+        <definition>static const string&amp; SessionConfig::getDomain</definition>
+        <argsstring>()</argsstring>
+        <name>getDomain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="52" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1ba3102f1deaff5195348e57dc48bcddc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const string &amp;</type>
+        <definition>static const string&amp; SessionConfig::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1d18b9f143ef99813571990391e12dec5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const string &amp;</type>
+        <definition>static const string&amp; SessionConfig::getPath</definition>
+        <argsstring>()</argsstring>
+        <name>getPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="54" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_12183b42392b2255a23c11491bb029339" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const string &amp;</type>
+        <definition>static const string&amp; SessionConfig::getSessPath</definition>
+        <argsstring>()</argsstring>
+        <name>getSessPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="55" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1452c41d342c1b53acbab4131bcb686a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SessionConfig::setSessPath</definition>
+        <argsstring>(const string &amp;path)</argsstring>
+        <name>setSessPath</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="56" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_10ec857be3dcd6de8fb4ae7a82f5d6a1b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SessionConfig::setPath</definition>
+        <argsstring>(const string &amp;p)</argsstring>
+        <name>setPath</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="57" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_117db64d863fa4389aaec1a5121c7d89a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SessionConfig::setName</definition>
+        <argsstring>(const string &amp;n)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="58" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_10ea2a6b4362105d74e9d765cd8b4457c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SessionConfig::setDomain</definition>
+        <argsstring>(const string &amp;d)</argsstring>
+        <name>setDomain</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="59" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_154650fdb372ecb1323a5d430ce70a8c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SessionConfig::setLifeTime</definition>
+        <argsstring>(const long &amp;l)</argsstring>
+        <name>setLifeTime</name>
+        <param>
+          <type>const long &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="60" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1aff72285225a93d99bca28637e515273" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SessionConfig::setSecure</definition>
+        <argsstring>(bool secureStatus)</argsstring>
+        <name>setSecure</name>
+        <param>
+          <type>bool</type>
+          <declname>secureStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="61" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_15eaaef483af61f2ea9c3ad29a10add08" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SessionConfig::setHttpOnly</definition>
+        <argsstring>(bool httpOnlyStatus)</argsstring>
+        <name>setHttpOnly</name>
+        <param>
+          <type>bool</type>
+          <declname>httpOnlyStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="62" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classSessionConfig_1515931a690e079dee7cbd9fa89562c04" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SessionConfig::setAutoStart</definition>
+        <argsstring>(bool autoStartStatus)</argsstring>
+        <name>setAutoStart</name>
+        <param>
+          <type>bool</type>
+          <declname>autoStartStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="63" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classSession" kindref="compound">Session</ref> Configuration Static Class</para><para><simplesect kind="author"><para>Neel Basu &lt;neel&gt; </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="303">
+        <label>string</label>
+      </node>
+      <node id="302">
+        <label>SessionConfig</label>
+        <link refid="classSessionConfig"/>
+        <childnode refid="303" relation="usage">
+          <edgelabel>domain
+path
+sessPath
+name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" line="34" bodyfile="/home/neel/dev/c++/cgixx/cgi++/sessionconfig.h" bodystart="34" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classSessionConfig_1657604c0ca85eb000a55ea34b70138cf" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>autoStart</name></member>
+      <member refid="classSessionConfig_15f3a5e04dd36008eac09928befec6efa" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>domain</name></member>
+      <member refid="classSessionConfig_1aba17c677d505fbeb6a2a55989594d00" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>getDomain</name></member>
+      <member refid="classSessionConfig_1860565999c16255c14e5296fc990f2d1" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>getLifetime</name></member>
+      <member refid="classSessionConfig_1ba3102f1deaff5195348e57dc48bcddc" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>getName</name></member>
+      <member refid="classSessionConfig_1d18b9f143ef99813571990391e12dec5" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>getPath</name></member>
+      <member refid="classSessionConfig_12183b42392b2255a23c11491bb029339" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>getSessPath</name></member>
+      <member refid="classSessionConfig_1ccad530c93a443aa951da00116ea6133" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>httpOnly</name></member>
+      <member refid="classSessionConfig_182216f8f91f34bbc4971ff00239bdfe7" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>isAutoStarted</name></member>
+      <member refid="classSessionConfig_179cc3d0597e57923990c3052d292cf9d" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>isHttpOnly</name></member>
+      <member refid="classSessionConfig_1ab079957299649b61a68d78d7038329c" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>isSecure</name></member>
+      <member refid="classSessionConfig_13e34ea9368441fc1f356b1f91373adb7" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>lifeTime</name></member>
+      <member refid="classSessionConfig_16f05cf6c84d4d31b6e424ab5991876b5" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>name</name></member>
+      <member refid="classSessionConfig_15309d680dc0211446f0cbb8c671217e5" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>path</name></member>
+      <member refid="classSessionConfig_19db25c20a5cd170c169d8e201594e797" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>secure</name></member>
+      <member refid="classSessionConfig_13a964cae8d6403f5442ad506555e47ec" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>SessionConfig</name></member>
+      <member refid="classSessionConfig_17229f84e99aba263477936360200f353" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>sessPath</name></member>
+      <member refid="classSessionConfig_1515931a690e079dee7cbd9fa89562c04" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>setAutoStart</name></member>
+      <member refid="classSessionConfig_10ea2a6b4362105d74e9d765cd8b4457c" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>setDomain</name></member>
+      <member refid="classSessionConfig_15eaaef483af61f2ea9c3ad29a10add08" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>setHttpOnly</name></member>
+      <member refid="classSessionConfig_154650fdb372ecb1323a5d430ce70a8c5" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>setLifeTime</name></member>
+      <member refid="classSessionConfig_117db64d863fa4389aaec1a5121c7d89a" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>setName</name></member>
+      <member refid="classSessionConfig_10ec857be3dcd6de8fb4ae7a82f5d6a1b" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>setPath</name></member>
+      <member refid="classSessionConfig_1aff72285225a93d99bca28637e515273" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>setSecure</name></member>
+      <member refid="classSessionConfig_1452c41d342c1b53acbab4131bcb686a0" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>setSessPath</name></member>
+      <member refid="classSessionConfig_1127a5aa9b518bd0c1abdf2c72ccb04cc" prot="public" virt="non-virtual"><scope>SessionConfig</scope><name>~SessionConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classhr" kind="class" prot="public">
+    <compoundname>hr</compoundname>
+    <basecompoundref refid="classHtmlTag" prot="public" virt="non-virtual">HtmlTag</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhr_1dc4173eaf345e6cfc2dcd7b16dac52bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hr::hr</definition>
+        <argsstring>()</argsstring>
+        <name>hr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/commontags.h" line="55" bodyfile="/home/neel/dev/c++/cgixx/cgi++/commontags.cpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="135">
+        <label>HtmlTag</label>
+        <link refid="classHtmlTag"/>
+      </node>
+      <node id="134">
+        <label>hr</label>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="141">
+        <label>string</label>
+      </node>
+      <node id="137">
+        <label>HtmlTag</label>
+        <link refid="classHtmlTag"/>
+        <childnode refid="138" relation="usage">
+          <edgelabel>mAttr</edgelabel>
+        </childnode>
+        <childnode refid="141" relation="usage">
+          <edgelabel>mTagName</edgelabel>
+        </childnode>
+      </node>
+      <node id="138">
+        <label>ParamsMap</label>
+        <link refid="classParamsMap"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>ParamsMapCore&lt; string, Var &gt;</label>
+        <link refid="classParamsMapCore"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>hr</label>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>std::map&lt;string , Var &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/commontags.h" line="53" bodyfile="/home/neel/dev/c++/cgixx/cgi++/commontags.h" bodystart="53" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classHtmlTag_1de0a8b993d7dae6ed9b394c2307cf817" prot="public" virt="non-virtual"><scope>hr</scope><name>autoComplete</name></member>
+      <member refid="classHtmlTag_139c5f9b8f582fb4e3e502c3556ef63e5" prot="public" virt="virtual"><scope>hr</scope><name>close</name></member>
+      <member refid="classHtmlTag_1ab12ea73f5395b06873fc0d65b008a9f" prot="public" virt="virtual"><scope>hr</scope><name>getAttr</name></member>
+      <member refid="classHtmlTag_16852dbba1ff504500796eb22f67d25b2" prot="public" virt="virtual"><scope>hr</scope><name>getClass</name></member>
+      <member refid="classHtmlTag_11698a6303bda5226627b0291c1da7b27" prot="public" virt="virtual"><scope>hr</scope><name>getId</name></member>
+      <member refid="classHtmlTag_1c1d2797c8240cfed348d942bb5928a28" prot="public" virt="virtual"><scope>hr</scope><name>getName</name></member>
+      <member refid="classHtmlTag_146a1b30ccc0ee7e2a2942dd0d42b5a46" prot="public" virt="non-virtual"><scope>hr</scope><name>getTagName</name></member>
+      <member refid="classhr_1dc4173eaf345e6cfc2dcd7b16dac52bd" prot="public" virt="non-virtual"><scope>hr</scope><name>hr</name></member>
+      <member refid="classHtmlTag_162eb3105ee2592c4564cba840bf5dffb" prot="public" virt="non-virtual"><scope>hr</scope><name>HtmlTag</name></member>
+      <member refid="classHtmlTag_10076758379d841b014185a0baf664ba2" prot="public" virt="non-virtual"><scope>hr</scope><name>HtmlTag</name></member>
+      <member refid="classHtmlTag_10e2c807c620d5036e1075271a0b8c440" prot="protected" virt="virtual"><scope>hr</scope><name>makeAttr</name></member>
+      <member refid="classHtmlTag_1c259f32d68385a8fe05b45211ac22a9e" prot="public" virt="virtual"><scope>hr</scope><name>open</name></member>
+      <member refid="classHtmlTag_1378170d98d050945592ea3afc7adb9f0" prot="public" virt="non-virtual"><scope>hr</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classHtmlTag_1997be48566824cbb7dfe293c684406e6" prot="public" virt="non-virtual"><scope>hr</scope><name>quoteType</name></member>
+      <member refid="classHtmlTag_1dbb6d35fc0e7ea11a8e9b850884a4fa7" prot="public" virt="virtual"><scope>hr</scope><name>removeAttr</name></member>
+      <member refid="classHtmlTag_16a1edcd9d1b0e3c3fab774f6874feb50" prot="public" virt="virtual"><scope>hr</scope><name>setAttr</name></member>
+      <member refid="classHtmlTag_17a6a5a4479f7e67f0796e3bc7c67b4d9" prot="public" virt="virtual"><scope>hr</scope><name>setClass</name></member>
+      <member refid="classHtmlTag_13fadb90a3435758cebad17dd6c4e2d7a" prot="public" virt="virtual"><scope>hr</scope><name>setId</name></member>
+      <member refid="classHtmlTag_143f09e229a49a26bb54425d84339c5c9" prot="public" virt="virtual"><scope>hr</scope><name>setName</name></member>
+      <member refid="classHtmlTag_1b175e70bde14ba15d160c7361fc08cde" prot="public" virt="non-virtual"><scope>hr</scope><name>setTagName</name></member>
+      <member refid="classHtmlTag_19e3e0162155cb85d1298202a504e6d2a" prot="public" virt="non-virtual"><scope>hr</scope><name>~HtmlTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

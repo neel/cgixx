@@ -1,0 +1,217 @@
+\section{CGIApp Class Reference}
+\label{classCGIApp}\index{CGIApp@{CGIApp}}
+{\tt \#include $<$cgiapp.h$>$}
+
+\subsection*{Public Types}
+\begin{CompactItemize}
+\item 
+typedef void(CGIApp::$\ast$ \textbf{callback} )(void)\label{classCGIApp_415ef96deba764d9353ae05548f0163d}
+
+\end{CompactItemize}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+int {\bf getSegmentCount} () const 
+\item 
+void \textbf{setRoute} (const string \&urlpath, callback fn)\label{classCGIApp_cade0baf4a1463d6c162d782211fca57}
+
+\item 
+bool {\bf routeExists} (const string \&urlPath) const 
+\item 
+bool \textbf{removeRoute} (const string \&urlPath)\label{classCGIApp_302c39463ab050d38816e084b18c2e1b}
+
+\item 
+{\bf Var} {\bf segment} (unsigned int n, bool concat=false, bool fromRoot=false) const 
+\item 
+\textbf{CGIApp} ({\bf CGILayout} $\ast$l)\label{classCGIApp_6cbff2dc921e226e7bae002e0e9bbf7d}
+
+\item 
+void {\bf start} ()
+\item 
+virtual void {\bf init} ()
+\item 
+virtual void \textbf{subMain} ()=0\label{classCGIApp_cf296ca22725ff695c3dfea628fa3803}
+
+\item 
+virtual void {\bf destroy} ()
+\item 
+void {\bf stop} ()
+\item 
+int {\bf exec} ()
+\item 
+void \textbf{setLayout} ({\bf CGILayout} $\ast$l)\label{classCGIApp_df70bb53c6547674c1cf5f137bac33b1}
+
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+{\bf Session} \textbf{session}\label{classCGIApp_a0557786630070e8d5f6e52a41eb8c3d}
+
+\item 
+{\bf Request} \textbf{request}\label{classCGIApp_9236be29e3ee77ce8e3abe1099bc1b08}
+
+\item 
+{\bf HttpHeader} \textbf{header}\label{classCGIApp_9967505c639f07b5f122a3831a7a8c0d}
+
+\item 
+auto\_\-ptr$<$ {\bf CGILayout} $>$ \textbf{layout}\label{classCGIApp_af939e485f16fb76dc6afda69c0219c9}
+
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+stringstream \textbf{res}\label{classCGIApp_4a8d9bb9b6b1fb94d023b29b2ac869ca}
+
+\end{CompactItemize}
+\subsection*{Private Types}
+\begin{CompactItemize}
+\item 
+typedef map$<$ std::string, callback $>$ \textbf{callbackMap}\label{classCGIApp_ea9874942a00dad0159a4ace1b06e37f}
+
+\end{CompactItemize}
+\subsection*{Private Member Functions}
+\begin{CompactItemize}
+\item 
+bool \textbf{callRoute} (const string \&urlPath)\label{classCGIApp_c55aa3b6261d78713936889d6ac0b1d5}
+
+\item 
+string {\bf detectRoute} () const 
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+string \textbf{mSegment}\label{classCGIApp_9c25b08bb6ee94f975242bc4acf1ae5d}
+
+\item 
+int \textbf{segmentCount}\label{classCGIApp_49d029886ad20e0793aa04d5806115c5}
+
+\item 
+callbackMap \textbf{clbk}\label{classCGIApp_f7ff7224f4b7571b1e2370e3ec3db849}
+
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{Desc}
+\item[Author:]Neel Basu $<$neel$>$ \end{Desc}
+
+
+\subsection{Member Function Documentation}
+\index{CGIApp@{CGIApp}!detectRoute@{detectRoute}}
+\index{detectRoute@{detectRoute}!CGIApp@{CGIApp}}
+\subsubsection[detectRoute]{\setlength{\rightskip}{0pt plus 5cm}string CGIApp::detectRoute () const\hspace{0.3cm}{\tt  [private]}}\label{classCGIApp_793863dd291caad8ad02001434a9b0ff}
+
+
+Reads the url entered by the user and returns appropiate segment key which is callbck map's key. 
+
+References getSegmentCount(), routeExists(), segment(), and Var::toString().
+
+Referenced by exec().\index{CGIApp@{CGIApp}!getSegmentCount@{getSegmentCount}}
+\index{getSegmentCount@{getSegmentCount}!CGIApp@{CGIApp}}
+\subsubsection[getSegmentCount]{\setlength{\rightskip}{0pt plus 5cm}int CGIApp::getSegmentCount () const}\label{classCGIApp_997ed3bd9e2be736e1ba16e24f48e5f5}
+
+
+returns the total number of segments. 
+
+Referenced by detectRoute().\index{CGIApp@{CGIApp}!routeExists@{routeExists}}
+\index{routeExists@{routeExists}!CGIApp@{CGIApp}}
+\subsubsection[routeExists]{\setlength{\rightskip}{0pt plus 5cm}bool CGIApp::routeExists (const string \& {\em urlPath}) const}\label{classCGIApp_da3364dd58834ffe4a1cb431c692ab22}
+
+
+
+
+\begin{Desc}
+\item[{\bf Todo}]testing \end{Desc}
+
+
+Referenced by detectRoute().\index{CGIApp@{CGIApp}!segment@{segment}}
+\index{segment@{segment}!CGIApp@{CGIApp}}
+\subsubsection[segment]{\setlength{\rightskip}{0pt plus 5cm}{\bf Var} CGIApp::segment (unsigned int {\em n}, \/  bool {\em concat} = {\tt false}, \/  bool {\em fromRoot} = {\tt false}) const}\label{classCGIApp_d42378733ebb1e1d95bcce3ff69b8a1c}
+
+
+returns an url segment. e.g. if my url is {\tt {\tt http://localhost/bin/myapp.bin/x/y/z/m/n/o/p}} the following code will produce. 
+
+\begin{Code}\begin{verbatim}        for(int j=0;j<getSegmentCount()+1;j++){
+                res<<j<<" | "<<segment(j)<<" | "<<segment(j, true)<<" | "<<segment(j, true, true)<<" | "<<segment(j, false, true)<<endl<<"<br />";
+        }
+\end{verbatim}
+\end{Code}
+
+ the following Output 
+
+\begin{Code}\begin{verbatim}                0 | z | /z | /x/y/z | /x/y/z
+                1 | m | /z/m | /x/y/z/m | /x/y/z/m
+                2 | n | /z/m/n | /x/y/z/m/n | /x/y/z/m/n
+                3 | o | /z/m/n/o | /x/y/z/m/n/o | /x/y/z/m/n/o
+                4 | p | /z/m/n/o/p | /x/y/z/m/n/o/p | /x/y/z/m/n/o/p
+                5 |   | /z/m/n/o/p | /x/y/z/m/n/o/p | /x/y/z/m/n/o/p
+                6 |   | /z/m/n/o/p | /x/y/z/m/n/o/p | /x/y/z/m/n/o/p
+                7 |   | /z/m/n/o/p | /x/y/z/m/n/o/p | /x/y/z/m/n/o/p
+\end{verbatim}
+\end{Code}
+
+ \begin{Desc}
+\item[Attention:]when you use segment(j, false, true) its automatically converted to segment(j, true, true) cause segment(j, false, true) has no sense \end{Desc}
+
+
+References Request::pathInfo.
+
+Referenced by detectRoute().\index{CGIApp@{CGIApp}!start@{start}}
+\index{start@{start}!CGIApp@{CGIApp}}
+\subsubsection[start]{\setlength{\rightskip}{0pt plus 5cm}void CGIApp::start ()}\label{classCGIApp_d94e9010ba20af8e820783749e8f7cc8}
+
+
+start method. System's own initialization method.You can't override \doxyref{start()}{p.}{classCGIApp_d94e9010ba20af8e820783749e8f7cc8} method. it will get automatically called to initialize \doxyref{CGIApp}{p.}{classCGIApp} System. e.g. make request, header, session member variable(s). 
+
+References HttpHeader::addHeader(), and Session::start().
+
+Referenced by exec().\index{CGIApp@{CGIApp}!init@{init}}
+\index{init@{init}!CGIApp@{CGIApp}}
+\subsubsection[init]{\setlength{\rightskip}{0pt plus 5cm}void CGIApp::init ()\hspace{0.3cm}{\tt  [virtual]}}\label{classCGIApp_b795cf55e9a7cfc91a53343f776da218}
+
+
+Option Initialization method. If you have this method on your own sub Class init method of that one will be invoked. The default \doxyref{init()}{p.}{classCGIApp_b795cf55e9a7cfc91a53343f776da218} method provided by base class \doxyref{CGIApp::init()}{p.}{classCGIApp_b795cf55e9a7cfc91a53343f776da218} does nothing. 
+
+Referenced by exec().\index{CGIApp@{CGIApp}!destroy@{destroy}}
+\index{destroy@{destroy}!CGIApp@{CGIApp}}
+\subsubsection[destroy]{\setlength{\rightskip}{0pt plus 5cm}void CGIApp::destroy ()\hspace{0.3cm}{\tt  [virtual]}}\label{classCGIApp_55dde1c3f93ad6654a4c236e0d3129b7}
+
+
+Optional onDestroy Method. If you have a \doxyref{destroy()}{p.}{classCGIApp_55dde1c3f93ad6654a4c236e0d3129b7} method on your own sub class that method will be invoked. the default \doxyref{destroy()}{p.}{classCGIApp_55dde1c3f93ad6654a4c236e0d3129b7} method \doxyref{CGIApp::destroy()}{p.}{classCGIApp_55dde1c3f93ad6654a4c236e0d3129b7} does nothing. 
+
+Referenced by exec().\index{CGIApp@{CGIApp}!stop@{stop}}
+\index{stop@{stop}!CGIApp@{CGIApp}}
+\subsubsection[stop]{\setlength{\rightskip}{0pt plus 5cm}void CGIApp::stop ()}\label{classCGIApp_9d7d937724bafb58dfb455411c8b5e86}
+
+
+stop method. System's own stop method.You can't override \doxyref{stop()}{p.}{classCGIApp_9d7d937724bafb58dfb455411c8b5e86} method. it will get automatically called to when your subMain() finishes. it Commits all session Data. 
+
+References Session::commit().
+
+Referenced by exec().\index{CGIApp@{CGIApp}!exec@{exec}}
+\index{exec@{exec}!CGIApp@{CGIApp}}
+\subsubsection[exec]{\setlength{\rightskip}{0pt plus 5cm}int CGIApp::exec ()}\label{classCGIApp_5cfe98f6c3cb3534b96f7fd5159a05d1}
+
+
+meant to be called from Main. 
+
+\begin{Code}\begin{verbatim}        class myApp: public CGIApp{
+                public:
+                        void subMain();
+        }
+        ......
+        int main(int argc, char** argv){
+                myApp app(argc, argv);
+                return app.exec();
+        }
+\end{verbatim}
+\end{Code}
+
+ 
+
+References HttpHeader::commit(), destroy(), detectRoute(), init(), HttpHeader::isCommited(), start(), and stop().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+cgiapp.h\item 
+cgiapp.cpp\end{CompactItemize}

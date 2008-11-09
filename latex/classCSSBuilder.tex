@@ -1,0 +1,87 @@
+\section{CSSBuilder Class Reference}
+\label{classCSSBuilder}\index{CSSBuilder@{CSSBuilder}}
+{\tt \#include $<$cssbuilder.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\textbf{CSSBuilder} (stringstream \&cssStream)\label{classCSSBuilder_2cae5b583d2836b807c99a14162a6e0e}
+
+\item 
+void \textbf{commit} () const \label{classCSSBuilder_41e4f53240e3228d9a92624b741c7e80}
+
+\item 
+bool \textbf{isCommited} () const \label{classCSSBuilder_8eead6b9f540489779551e58c4fc7cfb}
+
+\item 
+{\bf CSSBuilder} \& \textbf{makeSelector} (const string \&selectorName)\label{classCSSBuilder_e69c7317c5e156c0f7f24a16aa245c94}
+
+\item 
+{\bf CSSBuilder} \& \textbf{copyFromSelector} (const string \&selectorName)\label{classCSSBuilder_fffd03b91b94967051e3e32c65acfa9e}
+
+\item 
+{\bf CSSBuilder} \& \textbf{addToSelector} (const string \&selectorName)\label{classCSSBuilder_35c3c052df6a056548b68a18a640d6f9}
+
+\item 
+{\bf CSSBuilder} \& \textbf{getSelector} (const string \&selectorName)\label{classCSSBuilder_f071ef4291e8904e54dfa275030bceb2}
+
+\item 
+bool \textbf{selectorExists} (const string \&selectorName) const \label{classCSSBuilder_715935f04ef19c2c4052cba8d3f1ad40}
+
+\item 
+{\bf CSSBuilder} \& \textbf{removeSelector} (const string \&selectorName)\label{classCSSBuilder_767d82eea0738eb529235b4ff3c9fd1e}
+
+\item 
+{\bf CSSBuilder} \& \textbf{addRule} (const string \&key, const string \&val)\label{classCSSBuilder_0e4ab0b778724c554fa85d367c74e720}
+
+\item 
+string \textbf{getRule} (const string \&key) const \label{classCSSBuilder_9958d563db840d93dff2669b55b364c0}
+
+\item 
+bool \textbf{ruleExists} (const string \&key) const \label{classCSSBuilder_a37966d8b5e4cb2c7312792dabd468b3}
+
+\item 
+{\bf CSSBuilder} \& \textbf{removeRule} (const string \&key)\label{classCSSBuilder_b06a8ce4966ea4d43971753cf3a5e9dd}
+
+\item 
+void \textbf{end} ()\label{classCSSBuilder_54ba3e8cde28bd83cd826bb264501b87}
+
+\item 
+void \textbf{operator++} (int)\label{classCSSBuilder_cdd12d3ce197adf9354c52e0dfaae4d3}
+
+\end{CompactItemize}
+\subsection*{Private Types}
+\begin{CompactItemize}
+\item 
+typedef map$<$ string, string $>$ \textbf{RuleSet}\label{classCSSBuilder_4ae6d912f49b0b2d89a83f6574d69a57}
+
+\item 
+typedef map$<$ string, RuleSet $>$ \textbf{CSSStruct}\label{classCSSBuilder_b89735abdf268ad33ca0200289093b50}
+
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+RuleSet \textbf{ruleSetHolder}\label{classCSSBuilder_6605aac415cdde64fdb9e5a31e461c41}
+
+\item 
+CSSStruct \textbf{cssStruct}\label{classCSSBuilder_2ef417273221c02d7da1809c9f23d35d}
+
+\item 
+stringstream \& \textbf{css}\label{classCSSBuilder_dd9e1d740af527878f61460c81df0a6e}
+
+\item 
+bool \textbf{commited}\label{classCSSBuilder_e1fc8d817ebaad1fcfbf9f386fd305c9}
+
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{Desc}
+\item[Author:]Neel Basu $<$neel$>$ \end{Desc}
+
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+cssbuilder.h\item 
+cssbuilder.cpp\end{CompactItemize}

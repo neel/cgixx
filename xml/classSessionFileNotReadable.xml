@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.6">
+  <compounddef id="classSessionFileNotReadable" kind="class" prot="public">
+    <compoundname>SessionFileNotReadable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FileNotReadableException</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSessionFileNotReadable_1815149284461742c8df64fa50316757a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SessionFileNotReadable::SessionFileNotReadable</definition>
+        <argsstring>(const string &amp;file)</argsstring>
+        <name>SessionFileNotReadable</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/neel/dev/c++/cgixx/cgi++/cgiexception.h" line="70" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiexception.cpp" bodystart="88" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="328">
+        <label>SessionFileNotReadable</label>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>CGIException</label>
+        <link refid="classCGIException"/>
+      </node>
+      <node id="329">
+        <label>FileNotReadableException</label>
+        <childnode refid="330" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="334">
+        <label>string</label>
+      </node>
+      <node id="331">
+        <label>SessionFileNotReadable</label>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>CGIException</label>
+        <link refid="classCGIException"/>
+        <childnode refid="334" relation="usage">
+          <edgelabel>mErrMsg</edgelabel>
+        </childnode>
+      </node>
+      <node id="332">
+        <label>FileNotReadableException</label>
+        <childnode refid="333" relation="public-inheritance">
+        </childnode>
+        <childnode refid="334" relation="usage">
+          <edgelabel>fileName</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/neel/dev/c++/cgixx/cgi++/cgiexception.h" line="68" bodyfile="/home/neel/dev/c++/cgixx/cgi++/cgiexception.h" bodystart="68" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classCGIException_1f53d72a8212748d248149d52e0bdce37" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>CGIException</name></member>
+      <member refid="classCGIException_1cb06b9baf52d90d4af08ebe9f45a89eb" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>CGIException</name></member>
+      <member refid="classFileNotReadableException_18eb1020e79a128b69330e3b274cc4a7b" prot="protected" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>fileName</name></member>
+      <member refid="classFileNotReadableException_1c6c321c9d0fabac80a0ce5138c8186ce" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>FileNotReadableException</name></member>
+      <member refid="classFileNotReadableException_1766d447795228df677fa96228e225a42" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>FileNotReadableException</name></member>
+      <member refid="classFileNotReadableException_111e891b8c766beaf2057a4981f4e7e9b" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>FileNotReadableException</name></member>
+      <member refid="classFileNotReadableException_13851c244443c875632869c05daa99975" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>getFileName</name></member>
+      <member refid="classCGIException_1a23e3d6c37bdb51e61ef3a0a9f37a96f" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>getMsg</name></member>
+      <member refid="classCGIException_183dbc37442acdd6c18caa70a82be95e1" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classSessionFileNotReadable_1815149284461742c8df64fa50316757a" prot="public" virt="non-virtual"><scope>SessionFileNotReadable</scope><name>SessionFileNotReadable</name></member>
+      <member refid="classCGIException_1f2f625887edec66ef4cca015e331d98c" prot="public" virt="virtual"><scope>SessionFileNotReadable</scope><name>~CGIException</name></member>
+      <member refid="classFileNotReadableException_18ce2b2290998a671d87d9673290e14e2" prot="public" virt="virtual"><scope>SessionFileNotReadable</scope><name>~FileNotReadableException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
